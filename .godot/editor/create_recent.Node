@@ -1,0 +1,4 @@
+CollisionShape3D
+StaticBody3D
+CollisionPolygon3D
+NavigationRegion3D
