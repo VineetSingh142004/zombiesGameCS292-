@@ -1,0 +1,38 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://crg7fo1cfd7aj"
+path.s3tc="res://.godot/imported/multiWall_Poliigon_BrickWallReclaimed_8320_BaseColor.jpg-5ad78a7c9c89afe1dc42dc44e761bc46.s3tc.ctex"
+metadata={
+"imported_formats": ["s3tc_bptc"],
+"vram_texture": true
+}
+generator_parameters={
+"md5": "77462c80b8469b9e0d3a84c1c71934e8"
+}
+
+[deps]
+
+source_file="res://UsingAsset/boundaries/multiWall_Poliigon_BrickWallReclaimed_8320_BaseColor.jpg"
+dest_files=["res://.godot/imported/multiWall_Poliigon_BrickWallReclaimed_8320_BaseColor.jpg-5ad78a7c9c89afe1dc42dc44e761bc46.s3tc.ctex"]
+
+[params]
+
+compress/mode=2
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/hdr_compression=1
+compress/normal_map=0
+compress/channel_pack=0
+mipmaps/generate=true
+mipmaps/limit=-1
+roughness/mode=0
+roughness/src_normal=""
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/normal_map_invert_y=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=0

@@ -1,9 +1,11 @@
-[gd_scene load_steps=12 format=3 uid="uid://db2h3t17k37pe"]
+[gd_scene load_steps=14 format=3 uid="uid://db2h3t17k37pe"]
 
-[ext_resource type="Script" path="res://Scripts/World.gd" id="1_yrgup"]
+[ext_resource type="Script" uid="uid://cp8ddmcbhue8d" path="res://Scripts/World.gd" id="1_yrgup"]
 [ext_resource type="PackedScene" uid="uid://clwvialu5iyb2" path="res://Assets/map/new city.glb" id="2_gjpho"]
 [ext_resource type="PackedScene" uid="uid://bir6o1slvvhkr" path="res://UsingAsset/free city/freeCity.glb" id="2_p70al"]
 [ext_resource type="Texture2D" uid="uid://bo6sns01ykkyg" path="res://Assets/AllSky/Screenshots/_0003_AllSkyFree_Screen_06.jpg" id="3_qdyvj"]
+[ext_resource type="PackedScene" uid="uid://bvcr6ltkg3aiw" path="res://UsingAsset/cars/army-truck/source/ads.fbx" id="7_q2d71"]
+[ext_resource type="PackedScene" uid="uid://crgofpjfiqni7" path="res://Models/Old Main/Old_Main.glb" id="7_y7y61"]
 [ext_resource type="PackedScene" uid="uid://5iurrb07epis" path="res://Scenes/Player.tscn" id="31_jumwc"]
 
 [sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_6lu03"]
@@ -52,13 +54,16 @@ environment = SubResource("Environment_rlw24")
 navigation_mesh = SubResource("NavigationMesh_o2f1v")
 
 [node name="Player" parent="Map/NavigationRegion3D" instance=ExtResource("31_jumwc")]
-transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 38.4412, 2.29769, -22.8007)
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, -86.5896, 2.29769, 11.9504)
 
 [node name="StaticBody3D" type="StaticBody3D" parent="Map/NavigationRegion3D"]
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Map/NavigationRegion3D/StaticBody3D"]
 transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, 0.800186, -4.7037, -1.22216)
 shape = SubResource("BoxShape3D_5nsto")
+
+[node name="Old_Main" parent="Map" instance=ExtResource("7_y7y61")]
+transform = Transform3D(-2.18557e-06, 0, 50, 0, 50, 0, -50, 0, -2.18557e-06, -128.63, 28.1793, -19.0102)
 
 [node name="Moon" type="CSGSphere3D" parent="Map"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 937, 717, -683)
@@ -188,6 +193,9 @@ color = Color(0.803922, 0.0313726, 0.117647, 0.266667)
 
 [node name="ZombieSpawnTimer" type="Timer" parent="."]
 autostart = true
+
+[node name="ads" parent="." instance=ExtResource("7_q2d71")]
+transform = Transform3D(3, 0, 0, 0, 3, 0, 0, 0, 3, -33.6029, 0.2963, 53.3682)
 
 [connection signal="player_hit" from="Map/NavigationRegion3D/Player" to="." method="_on_player_player_hit"]
 [connection signal="timeout" from="ZombieSpawnTimer" to="." method="_on_zombie_spawn_timer_timeout"]

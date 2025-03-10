@@ -1,5 +1,4 @@
 res://Scenes/World.tscn
-res://Scenes/smg.tscn
-res://Scenes/Player.tscn
 res://Scenes/Zombie.tscn
+res://Scenes/Player.tscn
 res://Scripts/Player.gd
