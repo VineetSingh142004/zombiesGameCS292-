@@ -22,7 +22,7 @@ region_min_size = 80.0
 filter_ledge_spans = true
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_5nsto"]
-size = Vector3(50.3559, 1, 50.5248)
+size = Vector3(50.4445, 1, 50.4049)
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_yfips"]
 albedo_color = Color(1, 0.419608, 0.262745, 1)
@@ -57,7 +57,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 38.4412, 1.68806, -22.8007)
 [node name="StaticBody3D" type="StaticBody3D" parent="Map/NavigationRegion3D"]
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Map/NavigationRegion3D/StaticBody3D"]
-transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, 32.621, -3.1876, -2.71239)
+transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, 0.800186, -4.7037, -1.22216)
 shape = SubResource("BoxShape3D_5nsto")
 
 [node name="Moon" type="CSGSphere3D" parent="Map"]
