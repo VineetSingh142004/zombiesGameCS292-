@@ -201,24 +201,24 @@ pine_not_crooked.tscn::PackedScene/PackedScene::8428715966715993223::1741524347:
 trunk.glb::PackedScene/PackedScene::8116298219549801846::1687448255::1741599609::1::::<><><>0<>0<>d81fe40a8083e1a04da2e1b6418822d0<>res://.godot/imported/trunk.glb-90f361b999b5943c3c6d6a40d13c3f27.scn::
 trunk.tscn::PackedScene/PackedScene::7996010804449768619::1741524347::0::1::::<><><>0<>0<><>::uid://dqrf6gnqcac0k::::res://Models/Trees/brown_1.tres
 trunkLong.glb::PackedScene/PackedScene::4174627315026845850::1687448255::1741599609::1::::<><><>0<>0<>ec60cb16ad86597c18b3be217f305f6a<>res://.godot/imported/trunkLong.glb-eef65b2d5afb920b3e08e6d8e9953d90.scn::
-::res://Models/Zombie/::1741600367
-Zombie.glb::PackedScene/PackedScene::4224351982401422665::1687448255::1741600389::1::::<><><>0<>0<>639094271eb87444141aaa38e7865907<>res://.godot/imported/Zombie.glb-29367b4bc57ed82e6f811384a46b3f22.scn::uid://bsqn2q8kfv756::::res://Models/Zombie/Zombie_mremireh_body__diffuse.png<>uid://blujn6l5bhfas::::res://Models/Zombie/Zombie_mremireh_body_normal.png<>uid://bp1i2ub0lqf0h::::res://Models/Zombie/Zombie_mremireh_shoe_diffuse.png<>uid://1tgbaswfvh2b::::res://Models/Zombie/Zombie_mremireh_shoe_normal.png
-Zombie_mremireh_body_normal.png::CompressedTexture2D/CompressedTexture2D::3200356833629697646::1687448255::1741600389::1::::<><><>0<>0<>4e610869bb852a033b91a43595c77b00<>res://.godot/imported/Zombie_mremireh_body_normal.png-45098dff2c1c86b5886ef2289d46f22e.s3tc.ctex::
-Zombie_mremireh_body__diffuse.png::CompressedTexture2D/CompressedTexture2D::3683688342398083987::1687448255::1741600389::1::::<><><>0<>0<>4255e0bd67dd93488088b5ef78831cd2<>res://.godot/imported/Zombie_mremireh_body__diffuse.png-cfea3161b0b6ce454a2de03700d44985.s3tc.ctex::
-Zombie_mremireh_shoe_diffuse.png::CompressedTexture2D/CompressedTexture2D::3493462165409732989::1687448255::1741600389::1::::<><><>0<>0<>924ff2c856ed6df1f5e823f21ec52841<>res://.godot/imported/Zombie_mremireh_shoe_diffuse.png-cd0b0295f4f660a8939d2e2c75826d53.s3tc.ctex::
-Zombie_mremireh_shoe_normal.png::CompressedTexture2D/CompressedTexture2D::1864499228480056299::1687448255::1741600389::1::::<><><>0<>0<>96d1c4a442523a4c3a61a7f9948857d4<>res://.godot/imported/Zombie_mremireh_shoe_normal.png-a792c9e78d9e852233f94d4f51501a34.s3tc.ctex::
-::res://Scenes/::1741600367
+::res://Models/Zombie/::1741603119
+Zombie.glb::PackedScene/PackedScene::4224351982401422665::1687448255::1741603196::1::::<><><>0<>0<>8f9200074412e26f957e3c73506d4254<>res://.godot/imported/Zombie.glb-29367b4bc57ed82e6f811384a46b3f22.scn::uid://bsqn2q8kfv756::::res://Models/Zombie/Zombie_mremireh_body__diffuse.png<>uid://blujn6l5bhfas::::res://Models/Zombie/Zombie_mremireh_body_normal.png<>uid://bp1i2ub0lqf0h::::res://Models/Zombie/Zombie_mremireh_shoe_diffuse.png<>uid://1tgbaswfvh2b::::res://Models/Zombie/Zombie_mremireh_shoe_normal.png
+Zombie_mremireh_body_normal.png::CompressedTexture2D/CompressedTexture2D::3200356833629697646::1687448255::1741603195::1::::<><><>0<>0<>4e610869bb852a033b91a43595c77b00<>res://.godot/imported/Zombie_mremireh_body_normal.png-45098dff2c1c86b5886ef2289d46f22e.s3tc.ctex::
+Zombie_mremireh_body__diffuse.png::CompressedTexture2D/CompressedTexture2D::3683688342398083987::1687448255::1741603195::1::::<><><>0<>0<>4255e0bd67dd93488088b5ef78831cd2<>res://.godot/imported/Zombie_mremireh_body__diffuse.png-cfea3161b0b6ce454a2de03700d44985.s3tc.ctex::
+Zombie_mremireh_shoe_diffuse.png::CompressedTexture2D/CompressedTexture2D::3493462165409732989::1687448255::1741603195::1::::<><><>0<>0<>924ff2c856ed6df1f5e823f21ec52841<>res://.godot/imported/Zombie_mremireh_shoe_diffuse.png-cd0b0295f4f660a8939d2e2c75826d53.s3tc.ctex::
+Zombie_mremireh_shoe_normal.png::CompressedTexture2D/CompressedTexture2D::1864499228480056299::1687448255::1741603195::1::::<><><>0<>0<>96d1c4a442523a4c3a61a7f9948857d4<>res://.godot/imported/Zombie_mremireh_shoe_normal.png-a792c9e78d9e852233f94d4f51501a34.s3tc.ctex::
+::res://Scenes/::1741603143
 assault_rifle.tscn::PackedScene::4276699499913814463::1741600056::0::1::::<><><>0<>0<><>::uid://csp5hvoxnojjd::::res://Assets/ScifiWeaponsPack/Models/AssaultRifle.fbx<>uid://ctpsf1wqilasj::::res://Assets/ScifiWeaponsPack/Palette/palette.png
 Bullet.tscn::PackedScene/PackedScene::1713175935116128549::1741600056::0::1::::<><><>0<>0<><>::uid://dlokq2m5ecxti::::res://Scripts/Bullet.gd
 Player.tscn::PackedScene/PackedScene::2123425925145742302::1741600056::0::1::::<><><>0<>0<><>::uid://bcqf5kc1yej5r::::res://Scripts/Player.gd<>uid://bqpwh2qhltcpn::::res://Scenes/Rifle.tscn
 Rifle.tscn::PackedScene::3541757565791534139::1741600056::0::1::::<><><>0<>0<><>::uid://beylmx8mc8h0i::::res://Models/SteampunkGun/Steampunk Rifle.glb<>uid://b16wu7arncanf::::res://Scenes/assault_rifle.tscn<>uid://c2jtlmyi8tqq6::::res://Scenes/smg.tscn
 smg.tscn::PackedScene::6687693479758987175::1741600056::0::1::::<><><>0<>0<><>::uid://cahe0l5agg46p::::res://Assets/stylized-smg-rd07/source/Render_triangulated.fbx<>uid://xk5358nogxxo::::res://Assets/stylized-smg-rd07/textures/Texture_Body_Roughness.png<>uid://b3chsak64oebj::::res://Assets/stylized-smg-rd07/textures/Texture_Body_BaseColor.png<>uid://1q154b4i33rr::::res://Assets/stylized-smg-rd07/textures/Texture_Body_Metallic.png<>uid://c2e0ldpsf6rhx::::res://Assets/stylized-smg-rd07/textures/Texture_Glass_BaseColor.png
-World.tscn::PackedScene::7285665154832654338::1741600367::0::1::::<><><>0<>0<><>::uid://cp8ddmcbhue8d::::res://Scripts/World.gd<>uid://bk0ey7rsic7b2::::res://Models/Ground/city.glb<>uid://bo6sns01ykkyg::::res://Assets/AllSky/Screenshots/_0003_AllSkyFree_Screen_06.jpg<>uid://5iurrb07epis::::res://Scenes/Player.tscn
-Zombie.tscn::PackedScene::574934555032607808::1741600367::0::1::::<><><>0<>0<><>::uid://cgdbgwbr2lq71::::res://Models/NEW Zombie/zombie.glb
-::res://Scripts/::1741600367
+World.tscn::PackedScene::7285665154832654338::1741603119::0::1::::<><><>0<>0<><>::uid://cp8ddmcbhue8d::::res://Scripts/World.gd<>uid://bk0ey7rsic7b2::::res://Models/Ground/city.glb<>uid://bo6sns01ykkyg::::res://Assets/AllSky/Screenshots/_0003_AllSkyFree_Screen_06.jpg<>uid://5iurrb07epis::::res://Scenes/Player.tscn
+Zombie.tscn::PackedScene::574934555032607808::1741603143::0::1::::<><><>0<>0<><>::uid://cgdbgwbr2lq71::::res://Models/NEW Zombie/zombie.glb
+::res://Scripts/::1741603119
 BodyPart.gd::GDScript/GDScript::8817889504927442405::1687448255::0::1::::<>Area3D<><>0<>0<><>::
 Bullet.gd::GDScript/GDScript::7960877800321260026::1687448255::0::1::::<>Node3D<><>0<>0<><>::
-Player.gd::GDScript::2560186103351773457::1741600367::0::1::::<>CharacterBody3D<><>0<>0<><>::
+Player.gd::GDScript::2560186103351773457::1741603119::0::1::::<>CharacterBody3D<><>0<>0<><>::
 World.gd::GDScript::5893986629626066725::1741581007::0::1::::<>Node3D<><>0<>0<><>::
 Zombie.gd::GDScript/GDScript::7843512658525629285::1687448255::0::1::::<>CharacterBody3D<><>0<>0<><>::
 ::res://Textures/::1741524330
