@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://1m12wquwe1e7"
-path.s3tc="res://.godot/imported/Bottle.png-7c77b603fa9d5b0cbbb938eb0ffbafc5.s3tc.ctex"
+path.s3tc="res://.godot/imported/Bottle.png-c50dacfb09b9d21f59a1b8fea98377fe.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Assets/map/gass station/textures/Bottle.png"
-dest_files=["res://.godot/imported/Bottle.png-7c77b603fa9d5b0cbbb938eb0ffbafc5.s3tc.ctex"]
+source_file="res://Assets/map/gass station/Textures/Bottle.png"
+dest_files=["res://.godot/imported/Bottle.png-c50dacfb09b9d21f59a1b8fea98377fe.s3tc.ctex"]
 
 [params]
 

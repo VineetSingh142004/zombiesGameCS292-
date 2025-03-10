@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b0mxxbubv606g"
-path.s3tc="res://.godot/imported/Background.png-f4b14f125252affc1b93f3fb188021ef.s3tc.ctex"
+path.s3tc="res://.godot/imported/Background.png-ceabed852ea2a557d6b8607c5bd19ddf.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Assets/map/gass station/textures/Background.png"
-dest_files=["res://.godot/imported/Background.png-f4b14f125252affc1b93f3fb188021ef.s3tc.ctex"]
+source_file="res://Assets/map/gass station/Textures/Background.png"
+dest_files=["res://.godot/imported/Background.png-ceabed852ea2a557d6b8607c5bd19ddf.s3tc.ctex"]
 
 [params]
 

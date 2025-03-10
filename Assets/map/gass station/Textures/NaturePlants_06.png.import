@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cgml5tw0w6ft3"
-path.s3tc="res://.godot/imported/NaturePlants_06.png-d68c93418a1bce2e67c681aa72b26378.s3tc.ctex"
+path.s3tc="res://.godot/imported/NaturePlants_06.png-7d2e460e2d294ee7d7160e1c8d5ca4ab.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Assets/map/gass station/textures/NaturePlants_06.png"
-dest_files=["res://.godot/imported/NaturePlants_06.png-d68c93418a1bce2e67c681aa72b26378.s3tc.ctex"]
+source_file="res://Assets/map/gass station/Textures/NaturePlants_06.png"
+dest_files=["res://.godot/imported/NaturePlants_06.png-7d2e460e2d294ee7d7160e1c8d5ca4ab.s3tc.ctex"]
 
 [params]
 

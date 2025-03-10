@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c31ulwjnlcmi1"
-path.s3tc="res://.godot/imported/ConcreteBare.jpg-f74c15e58d3353a41279c3f8b86740a9.s3tc.ctex"
+path.s3tc="res://.godot/imported/ConcreteBare.jpg-bcaa7cca141ac6eeb1db94656d757eb8.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Assets/map/gass station/textures/ConcreteBare.jpg"
-dest_files=["res://.godot/imported/ConcreteBare.jpg-f74c15e58d3353a41279c3f8b86740a9.s3tc.ctex"]
+source_file="res://Assets/map/gass station/Textures/ConcreteBare.jpg"
+dest_files=["res://.godot/imported/ConcreteBare.jpg-bcaa7cca141ac6eeb1db94656d757eb8.s3tc.ctex"]
 
 [params]
 

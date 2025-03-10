@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://t8i0oos4x7ek"
-path.s3tc="res://.godot/imported/plants_flowers.png-dd71fa8177fa042396a5ec2f0b83cf3f.s3tc.ctex"
+path.s3tc="res://.godot/imported/plants_flowers.png-e8b0ec9295464ad93cd06fd5327d4ae5.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Assets/map/gass station/textures/plants_flowers.png"
-dest_files=["res://.godot/imported/plants_flowers.png-dd71fa8177fa042396a5ec2f0b83cf3f.s3tc.ctex"]
+source_file="res://Assets/map/gass station/Textures/plants_flowers.png"
+dest_files=["res://.godot/imported/plants_flowers.png-e8b0ec9295464ad93cd06fd5327d4ae5.s3tc.ctex"]
 
 [params]
 

@@ -1,6 +1,6 @@
 [gd_scene load_steps=12 format=3 uid="uid://db2h3t17k37pe"]
 
-[ext_resource type="Script" uid="uid://cp8ddmcbhue8d" path="res://Scripts/World.gd" id="1_yrgup"]
+[ext_resource type="Script" path="res://Scripts/World.gd" id="1_yrgup"]
 [ext_resource type="PackedScene" uid="uid://clwvialu5iyb2" path="res://Assets/map/new city.glb" id="2_gjpho"]
 [ext_resource type="PackedScene" uid="uid://bir6o1slvvhkr" path="res://UsingAsset/free city/freeCity.glb" id="2_p70al"]
 [ext_resource type="Texture2D" uid="uid://bo6sns01ykkyg" path="res://Assets/AllSky/Screenshots/_0003_AllSkyFree_Screen_06.jpg" id="3_qdyvj"]
@@ -52,7 +52,7 @@ environment = SubResource("Environment_rlw24")
 navigation_mesh = SubResource("NavigationMesh_o2f1v")
 
 [node name="Player" parent="Map/NavigationRegion3D" instance=ExtResource("31_jumwc")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 38.4412, 1.68806, -22.8007)
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 38.4412, 2.29769, -22.8007)
 
 [node name="StaticBody3D" type="StaticBody3D" parent="Map/NavigationRegion3D"]
 

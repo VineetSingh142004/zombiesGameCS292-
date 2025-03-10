@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://0if6yh0ytn4a"
-path.s3tc="res://.godot/imported/Meat.png-b928e0e62dfeca6e77a3afd789d9603e.s3tc.ctex"
+path.s3tc="res://.godot/imported/Meat.png-6e15b6e44902e42f12cb0d92f4969fff.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Assets/map/gass station/textures/Meat.png"
-dest_files=["res://.godot/imported/Meat.png-b928e0e62dfeca6e77a3afd789d9603e.s3tc.ctex"]
+source_file="res://Assets/map/gass station/Textures/Meat.png"
+dest_files=["res://.godot/imported/Meat.png-6e15b6e44902e42f12cb0d92f4969fff.s3tc.ctex"]
 
 [params]
 

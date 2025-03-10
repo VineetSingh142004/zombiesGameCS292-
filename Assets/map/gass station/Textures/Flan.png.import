@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bo4k2232ut1a4"
-path.s3tc="res://.godot/imported/Flan.png-9f968e8a140c1175c8372430fcc69656.s3tc.ctex"
+path.s3tc="res://.godot/imported/Flan.png-aebccf7cdde9dda688f0b26a71f4d008.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Assets/map/gass station/textures/Flan.png"
-dest_files=["res://.godot/imported/Flan.png-9f968e8a140c1175c8372430fcc69656.s3tc.ctex"]
+source_file="res://Assets/map/gass station/Textures/Flan.png"
+dest_files=["res://.godot/imported/Flan.png-aebccf7cdde9dda688f0b26a71f4d008.s3tc.ctex"]
 
 [params]
 

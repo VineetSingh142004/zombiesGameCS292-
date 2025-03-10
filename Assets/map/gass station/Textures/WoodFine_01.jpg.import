@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://gptqhrwdtxeo"
-path.s3tc="res://.godot/imported/WoodFine_01.jpg-a99c27f3e2d6ed1ff786d541e9c7ef70.s3tc.ctex"
+path.s3tc="res://.godot/imported/WoodFine_01.jpg-42735e37c647a8780651c2aece60e70b.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Assets/map/gass station/textures/WoodFine_01.jpg"
-dest_files=["res://.godot/imported/WoodFine_01.jpg-a99c27f3e2d6ed1ff786d541e9c7ef70.s3tc.ctex"]
+source_file="res://Assets/map/gass station/Textures/WoodFine_01.jpg"
+dest_files=["res://.godot/imported/WoodFine_01.jpg-42735e37c647a8780651c2aece60e70b.s3tc.ctex"]
 
 [params]
 

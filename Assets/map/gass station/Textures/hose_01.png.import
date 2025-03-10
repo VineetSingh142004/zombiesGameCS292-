@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b3vhkir8ycwrg"
-path.s3tc="res://.godot/imported/hose_01.png-8e3adcb7c9355f7aa093ff9c09d38944.s3tc.ctex"
+path.s3tc="res://.godot/imported/hose_01.png-224697b3cac5a2e6493a2b772b74c4c4.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Assets/map/gass station/textures/hose_01.png"
-dest_files=["res://.godot/imported/hose_01.png-8e3adcb7c9355f7aa093ff9c09d38944.s3tc.ctex"]
+source_file="res://Assets/map/gass station/Textures/hose_01.png"
+dest_files=["res://.godot/imported/hose_01.png-224697b3cac5a2e6493a2b772b74c4c4.s3tc.ctex"]
 
 [params]
 

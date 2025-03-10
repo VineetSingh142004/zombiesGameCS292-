@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://df2l6dswpbxxa"
-path.s3tc="res://.godot/imported/Fence.png-6c3a215a3f184b505f9bbb9dd1616d24.s3tc.ctex"
+path.s3tc="res://.godot/imported/Fence.png-711585d0419f99d05380c3efb82f4300.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Assets/map/gass station/textures/Fence.png"
-dest_files=["res://.godot/imported/Fence.png-6c3a215a3f184b505f9bbb9dd1616d24.s3tc.ctex"]
+source_file="res://Assets/map/gass station/Textures/Fence.png"
+dest_files=["res://.godot/imported/Fence.png-711585d0419f99d05380c3efb82f4300.s3tc.ctex"]
 
 [params]
 

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ul33tr77xfnt"
-path.s3tc="res://.godot/imported/Lights_01_Emissor.png-ff644333b5b7ea01b61c60873b486fb9.s3tc.ctex"
+path.s3tc="res://.godot/imported/Lights_01_Emissor.png-e1666f5ad1a0bdc18bf9d2fb3b026d46.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Assets/map/gass station/textures/Lights_01_Emissor.png"
-dest_files=["res://.godot/imported/Lights_01_Emissor.png-ff644333b5b7ea01b61c60873b486fb9.s3tc.ctex"]
+source_file="res://Assets/map/gass station/Textures/Lights_01_Emissor.png"
+dest_files=["res://.godot/imported/Lights_01_Emissor.png-e1666f5ad1a0bdc18bf9d2fb3b026d46.s3tc.ctex"]
 
 [params]
 

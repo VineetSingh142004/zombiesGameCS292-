@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c1ulvwv0n1cjp"
-path.s3tc="res://.godot/imported/Can.png-776fcc5723c9affa24f83b209270cc1f.s3tc.ctex"
+path.s3tc="res://.godot/imported/Can.png-bcc9d430149e41088cbfbcdd935059db.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Assets/map/gass station/textures/Can.png"
-dest_files=["res://.godot/imported/Can.png-776fcc5723c9affa24f83b209270cc1f.s3tc.ctex"]
+source_file="res://Assets/map/gass station/Textures/Can.png"
+dest_files=["res://.godot/imported/Can.png-bcc9d430149e41088cbfbcdd935059db.s3tc.ctex"]
 
 [params]
 

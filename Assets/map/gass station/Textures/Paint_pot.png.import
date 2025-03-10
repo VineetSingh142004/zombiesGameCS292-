@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dkrfd7v61ebei"
-path.s3tc="res://.godot/imported/Paint_pot.png-5fa0570e58e41aa9bb8df7e92f5c4bc6.s3tc.ctex"
+path.s3tc="res://.godot/imported/Paint_pot.png-8d721706e824b3715116cb9ac71c959c.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Assets/map/gass station/textures/Paint_pot.png"
-dest_files=["res://.godot/imported/Paint_pot.png-5fa0570e58e41aa9bb8df7e92f5c4bc6.s3tc.ctex"]
+source_file="res://Assets/map/gass station/Textures/Paint_pot.png"
+dest_files=["res://.godot/imported/Paint_pot.png-8d721706e824b3715116cb9ac71c959c.s3tc.ctex"]
 
 [params]
 

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dwn2ssn1udm53"
-path.s3tc="res://.godot/imported/Broom_01.png-e665074c2153c160b5b0181c8e484ad1.s3tc.ctex"
+path.s3tc="res://.godot/imported/Broom_01.png-5f52904239d023500dd47bea5c64025e.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Assets/map/gass station/textures/Broom_01.png"
-dest_files=["res://.godot/imported/Broom_01.png-e665074c2153c160b5b0181c8e484ad1.s3tc.ctex"]
+source_file="res://Assets/map/gass station/Textures/Broom_01.png"
+dest_files=["res://.godot/imported/Broom_01.png-5f52904239d023500dd47bea5c64025e.s3tc.ctex"]
 
 [params]
 

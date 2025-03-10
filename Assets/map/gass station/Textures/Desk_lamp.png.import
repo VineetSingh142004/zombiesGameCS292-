@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://0hx7gnqt5err"
-path.s3tc="res://.godot/imported/Desk_lamp.png-422f2bc850f41f5a3ee1f22714a02ab2.s3tc.ctex"
+path.s3tc="res://.godot/imported/Desk_lamp.png-789ba791bc595b14de4fe294feb983fd.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Assets/map/gass station/textures/Desk_lamp.png"
-dest_files=["res://.godot/imported/Desk_lamp.png-422f2bc850f41f5a3ee1f22714a02ab2.s3tc.ctex"]
+source_file="res://Assets/map/gass station/Textures/Desk_lamp.png"
+dest_files=["res://.godot/imported/Desk_lamp.png-789ba791bc595b14de4fe294feb983fd.s3tc.ctex"]
 
 [params]
 

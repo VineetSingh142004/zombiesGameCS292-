@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://duvtty7h2qbks"
-path.s3tc="res://.godot/imported/Plastic_Boat.png-40c3beee954cb075f50a23df41c630c8.s3tc.ctex"
+path.s3tc="res://.godot/imported/Plastic_Boat.png-acbbd69d31862f61e96f67b7013197ef.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Assets/map/gass station/textures/Plastic_Boat.png"
-dest_files=["res://.godot/imported/Plastic_Boat.png-40c3beee954cb075f50a23df41c630c8.s3tc.ctex"]
+source_file="res://Assets/map/gass station/Textures/Plastic_Boat.png"
+dest_files=["res://.godot/imported/Plastic_Boat.png-acbbd69d31862f61e96f67b7013197ef.s3tc.ctex"]
 
 [params]
 

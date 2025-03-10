@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://besmmjyacvvhl"
-path.s3tc="res://.godot/imported/Toolbox.png-d8f9f99dcbea78559d033be0bedc0070.s3tc.ctex"
+path.s3tc="res://.godot/imported/Toolbox.png-8384abf5b0be3765f8a8fa64cd1e4ed1.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Assets/map/gass station/textures/Toolbox.png"
-dest_files=["res://.godot/imported/Toolbox.png-d8f9f99dcbea78559d033be0bedc0070.s3tc.ctex"]
+source_file="res://Assets/map/gass station/Textures/Toolbox.png"
+dest_files=["res://.godot/imported/Toolbox.png-8384abf5b0be3765f8a8fa64cd1e4ed1.s3tc.ctex"]
 
 [params]
 

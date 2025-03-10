@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://wr2hnhtuakbg"
-path.s3tc="res://.godot/imported/TilesSmall_01.jpg-5ecb4cbf4ce0522aab966c3cf31dee3b.s3tc.ctex"
+path.s3tc="res://.godot/imported/TilesSmall_01.jpg-43813405327caa14a46a6e20fb447c38.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Assets/map/gass station/textures/TilesSmall_01.jpg"
-dest_files=["res://.godot/imported/TilesSmall_01.jpg-5ecb4cbf4ce0522aab966c3cf31dee3b.s3tc.ctex"]
+source_file="res://Assets/map/gass station/Textures/TilesSmall_01.jpg"
+dest_files=["res://.godot/imported/TilesSmall_01.jpg-43813405327caa14a46a6e20fb447c38.s3tc.ctex"]
 
 [params]
 

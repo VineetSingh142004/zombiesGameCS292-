@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cqx6lwn2tcy3j"
-path.s3tc="res://.godot/imported/Entertainment.png-d2dcf17cc7986c0370457858a41e878c.s3tc.ctex"
+path.s3tc="res://.godot/imported/Entertainment.png-150d26a845ab92cccf55c9ed6ef3c4f4.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Assets/map/gass station/textures/Entertainment.png"
-dest_files=["res://.godot/imported/Entertainment.png-d2dcf17cc7986c0370457858a41e878c.s3tc.ctex"]
+source_file="res://Assets/map/gass station/Textures/Entertainment.png"
+dest_files=["res://.godot/imported/Entertainment.png-150d26a845ab92cccf55c9ed6ef3c4f4.s3tc.ctex"]
 
 [params]
 

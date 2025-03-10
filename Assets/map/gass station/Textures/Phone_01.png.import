@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bdnylwv858vdo"
-path.s3tc="res://.godot/imported/Phone_01.png-d7e74954683c5551ba52139a742be263.s3tc.ctex"
+path.s3tc="res://.godot/imported/Phone_01.png-7e3e4879cb124afab255300853b9f250.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Assets/map/gass station/textures/Phone_01.png"
-dest_files=["res://.godot/imported/Phone_01.png-d7e74954683c5551ba52139a742be263.s3tc.ctex"]
+source_file="res://Assets/map/gass station/Textures/Phone_01.png"
+dest_files=["res://.godot/imported/Phone_01.png-7e3e4879cb124afab255300853b9f250.s3tc.ctex"]
 
 [params]
 

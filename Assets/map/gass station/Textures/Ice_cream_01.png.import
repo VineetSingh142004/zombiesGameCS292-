@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dxrxhgmetvq8r"
-path.s3tc="res://.godot/imported/Ice_cream_01.png-46fc3566a1e3f3b147af6ccc4d8f6e51.s3tc.ctex"
+path.s3tc="res://.godot/imported/Ice_cream_01.png-f23981b37ade020eaaa9a427577ff2ee.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Assets/map/gass station/textures/Ice_cream_01.png"
-dest_files=["res://.godot/imported/Ice_cream_01.png-46fc3566a1e3f3b147af6ccc4d8f6e51.s3tc.ctex"]
+source_file="res://Assets/map/gass station/Textures/Ice_cream_01.png"
+dest_files=["res://.godot/imported/Ice_cream_01.png-f23981b37ade020eaaa9a427577ff2ee.s3tc.ctex"]
 
 [params]
 

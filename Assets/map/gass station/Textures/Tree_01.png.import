@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c4s7lnjoewras"
-path.s3tc="res://.godot/imported/Tree_01.png-f96883adeafcf4a73126cfdfe0655fff.s3tc.ctex"
+path.s3tc="res://.godot/imported/Tree_01.png-2c39f0f22cfc57b93807ce8bb3dd42d8.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Assets/map/gass station/textures/Tree_01.png"
-dest_files=["res://.godot/imported/Tree_01.png-f96883adeafcf4a73126cfdfe0655fff.s3tc.ctex"]
+source_file="res://Assets/map/gass station/Textures/Tree_01.png"
+dest_files=["res://.godot/imported/Tree_01.png-2c39f0f22cfc57b93807ce8bb3dd42d8.s3tc.ctex"]
 
 [params]
 

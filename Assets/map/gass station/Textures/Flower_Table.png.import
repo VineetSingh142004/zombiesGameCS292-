@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dj7mowcll5fst"
-path.s3tc="res://.godot/imported/Flower_Table.png-1fa7b0ef7f2c0b837c18b88c83b6b9d9.s3tc.ctex"
+path.s3tc="res://.godot/imported/Flower_Table.png-d050adb66a56e52f7579b807a090d7de.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Assets/map/gass station/textures/Flower_Table.png"
-dest_files=["res://.godot/imported/Flower_Table.png-1fa7b0ef7f2c0b837c18b88c83b6b9d9.s3tc.ctex"]
+source_file="res://Assets/map/gass station/Textures/Flower_Table.png"
+dest_files=["res://.godot/imported/Flower_Table.png-d050adb66a56e52f7579b807a090d7de.s3tc.ctex"]
 
 [params]
 

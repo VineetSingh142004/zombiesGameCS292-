@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bks7twbsg1ojh"
-path.s3tc="res://.godot/imported/Focus_01.png-5e8bd3545d3cb711d15eeb327b022493.s3tc.ctex"
+path.s3tc="res://.godot/imported/Focus_01.png-8d6e6e5bfbb01ac66ac67442d4d2c111.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Assets/map/gass station/textures/Focus_01.png"
-dest_files=["res://.godot/imported/Focus_01.png-5e8bd3545d3cb711d15eeb327b022493.s3tc.ctex"]
+source_file="res://Assets/map/gass station/Textures/Focus_01.png"
+dest_files=["res://.godot/imported/Focus_01.png-8d6e6e5bfbb01ac66ac67442d4d2c111.s3tc.ctex"]
 
 [params]
 

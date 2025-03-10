@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://csvo0inwqbnvd"
-path.s3tc="res://.godot/imported/Box_Pizza.png-b0d78125fec124b879bae7f3160b2653.s3tc.ctex"
+path.s3tc="res://.godot/imported/Box_Pizza.png-ea1027da7cafff75cce05db0a9cfe104.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Assets/map/gass station/textures/Box_Pizza.png"
-dest_files=["res://.godot/imported/Box_Pizza.png-b0d78125fec124b879bae7f3160b2653.s3tc.ctex"]
+source_file="res://Assets/map/gass station/Textures/Box_Pizza.png"
+dest_files=["res://.godot/imported/Box_Pizza.png-ea1027da7cafff75cce05db0a9cfe104.s3tc.ctex"]
 
 [params]
 

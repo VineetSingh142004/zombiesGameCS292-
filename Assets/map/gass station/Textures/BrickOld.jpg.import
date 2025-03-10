@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bon8j0tdiyh7b"
-path.s3tc="res://.godot/imported/BrickOld.jpg-e454ce4d9488fbc338cf7651b6c23287.s3tc.ctex"
+path.s3tc="res://.godot/imported/BrickOld.jpg-04fda3bb169e5531dcbfb4b10facc3d4.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Assets/map/gass station/textures/BrickOld.jpg"
-dest_files=["res://.godot/imported/BrickOld.jpg-e454ce4d9488fbc338cf7651b6c23287.s3tc.ctex"]
+source_file="res://Assets/map/gass station/Textures/BrickOld.jpg"
+dest_files=["res://.godot/imported/BrickOld.jpg-04fda3bb169e5531dcbfb4b10facc3d4.s3tc.ctex"]
 
 [params]
 

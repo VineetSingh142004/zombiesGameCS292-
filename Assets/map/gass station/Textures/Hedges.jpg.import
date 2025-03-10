@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b6snh6grbba15"
-path.s3tc="res://.godot/imported/Hedges.jpg-ff987e822397789583e05436c354a7d0.s3tc.ctex"
+path.s3tc="res://.godot/imported/Hedges.jpg-2b13e78cdd53a116a61edf8f9c865098.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Assets/map/gass station/textures/Hedges.jpg"
-dest_files=["res://.godot/imported/Hedges.jpg-ff987e822397789583e05436c354a7d0.s3tc.ctex"]
+source_file="res://Assets/map/gass station/Textures/Hedges.jpg"
+dest_files=["res://.godot/imported/Hedges.jpg-2b13e78cdd53a116a61edf8f9c865098.s3tc.ctex"]
 
 [params]
 

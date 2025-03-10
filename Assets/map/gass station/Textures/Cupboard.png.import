@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bimwptyv3kbcm"
-path.s3tc="res://.godot/imported/Cupboard.png-ed0d242449dbd7365286456467e794dd.s3tc.ctex"
+path.s3tc="res://.godot/imported/Cupboard.png-7ead8be455b79cab10abf42e94fa8b57.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Assets/map/gass station/textures/Cupboard.png"
-dest_files=["res://.godot/imported/Cupboard.png-ed0d242449dbd7365286456467e794dd.s3tc.ctex"]
+source_file="res://Assets/map/gass station/Textures/Cupboard.png"
+dest_files=["res://.godot/imported/Cupboard.png-7ead8be455b79cab10abf42e94fa8b57.s3tc.ctex"]
 
 [params]
 
