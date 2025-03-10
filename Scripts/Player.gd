@@ -32,6 +32,7 @@ var instance
 @onready var gun_barrel = $Head/Camera3D/Rifle/RayCast3D
 @onready var gun_anim2 = $Head/Camera3D/Rifle2/AnimationPlayer
 @onready var gun_barrel2 = $Head/Camera3D/Rifle2/RayCast3D
+@onready var gunshot = $gunshot
 
 
 
@@ -92,6 +93,7 @@ func _physics_process(delta):
 			instance.position = gun_barrel.global_position
 			instance.transform.basis = gun_barrel.global_transform.basis
 			get_parent().add_child(instance)
+			gunshot.play()
 		if !gun_anim2.is_playing():
 			gun_anim2.play("Shoot")
 			instance = bullet.instantiate()

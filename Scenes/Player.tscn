@@ -1,7 +1,8 @@
-[gd_scene load_steps=5 format=3 uid="uid://5iurrb07epis"]
+[gd_scene load_steps=6 format=3 uid="uid://5iurrb07epis"]
 
-[ext_resource type="Script" uid="uid://bcqf5kc1yej5r" path="res://Scripts/Player.gd" id="1_ueh2c"]
+[ext_resource type="Script" path="res://Scripts/Player.gd" id="1_ueh2c"]
 [ext_resource type="PackedScene" uid="uid://bqpwh2qhltcpn" path="res://Scenes/Rifle.tscn" id="2_kpw2n"]
+[ext_resource type="AudioStream" uid="uid://blo8djf74mmc" path="res://Assets/shoot_sound.mp3" id="3_cpmew"]
 
 [sub_resource type="CapsuleMesh" id="CapsuleMesh_xc2g5"]
 
@@ -33,3 +34,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.270765, -0.266362, -0.54277
 
 [node name="Rifle2" parent="Head/Camera3D" instance=ExtResource("2_kpw2n")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.271, -0.266, -0.543)
+
+[node name="gunshot" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_cpmew")
+volume_db = -24.623

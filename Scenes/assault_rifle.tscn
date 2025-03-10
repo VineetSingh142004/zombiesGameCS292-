@@ -1,0 +1,12 @@
+[gd_scene load_steps=4 format=3 uid="uid://b16wu7arncanf"]
+
+[ext_resource type="PackedScene" uid="uid://csp5hvoxnojjd" path="res://Assets/ScifiWeaponsPack/Models/AssaultRifle.fbx" id="1_gmoo8"]
+[ext_resource type="Texture2D" uid="uid://ctpsf1wqilasj" path="res://Assets/ScifiWeaponsPack/Palette/palette.png" id="2_5kt5a"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_vpxpg"]
+albedo_texture = ExtResource("2_5kt5a")
+
+[node name="AssaultRifle" instance=ExtResource("1_gmoo8")]
+
+[node name="Cube_016" parent="." index="0"]
+surface_material_override/0 = SubResource("StandardMaterial3D_vpxpg")
