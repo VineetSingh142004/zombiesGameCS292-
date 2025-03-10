@@ -1,0 +1,61 @@
+[gd_scene load_steps=4 format=3 uid="uid://tu41flq26n5l"]
+
+[ext_resource type="PackedScene" uid="uid://bk0ey7rsic7b2" path="res://Models/Ground/city.glb" id="1_ul3mp"]
+[ext_resource type="PackedScene" uid="uid://crgofpjfiqni7" path="res://Models/Old Main/Old_Main.glb" id="2_fa6np"]
+[ext_resource type="PackedScene" uid="uid://cicx741dlo7ib" path="res://Models/make_a_3_floor_studen_0202232129_texture.blend" id="3_ywe2l"]
+
+[node name="city" instance=ExtResource("1_ul3mp")]
+
+[node name="Object_60" parent="Sketchfab_model/root/GLTF_SceneRootNode/Roads_1/Cube 205_28" index="0"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.51174, 1.50095, 55.1055)
+
+[node name="Object_124" parent="Sketchfab_model/root/GLTF_SceneRootNode/Roads_1/Cube 234_60" index="0"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.10971, 0, 0)
+
+[node name="Object_62" parent="Sketchfab_model/root/GLTF_SceneRootNode/Roads_1/Cube 235_29" index="0"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.09402, 38.047, 55.0903)
+
+[node name="Object_140" parent="Sketchfab_model/root/GLTF_SceneRootNode/Roads_1/Cube 239_68" index="0"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 42.8042, 0)
+
+[node name="Object_164" parent="Sketchfab_model/root/GLTF_SceneRootNode/Roads_1/Cube 244_80" index="0"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 39.9793, 0)
+
+[node name="Object_168" parent="Sketchfab_model/root/GLTF_SceneRootNode/Roads_1/Cube 247_82" index="0"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 12.7588, 0)
+
+[node name="Object_172" parent="Sketchfab_model/root/GLTF_SceneRootNode/Roads_1/Cube 252_84" index="0"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 45.6089, 0)
+
+[node name="Object_100" parent="Sketchfab_model/root/GLTF_SceneRootNode/Roads_1/Cube 255_48" index="0"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 50.1541, 0)
+
+[node name="Object_92" parent="Sketchfab_model/root/GLTF_SceneRootNode/Roads_1/Cube 256_44" index="0"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 30.9451, 0)
+
+[node name="Object_34" parent="Sketchfab_model/root/GLTF_SceneRootNode/Roads_1/Cube 262_15" index="0"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 48.0162, 0)
+
+[node name="Object_38" parent="Sketchfab_model/root/GLTF_SceneRootNode/Roads_1/Cube 263_17" index="0"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 28.3017, 0)
+
+[node name="Object_46" parent="Sketchfab_model/root/GLTF_SceneRootNode/Roads_1/Cube 265_21" index="0"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 53.491, 0)
+
+[node name="Object_112" parent="Sketchfab_model/root/GLTF_SceneRootNode/Roads_1/Cube 268_54" index="0"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 47.2059, 0)
+
+[node name="Object_96" parent="Sketchfab_model/root/GLTF_SceneRootNode/Roads_1/Cube 270_46" index="0"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 59.0834, 0)
+
+[node name="Object_692" parent="Sketchfab_model/root/GLTF_SceneRootNode/Roads_1/Plane 46_346" index="0"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -23.7226, -0.850517)
+
+[node name="Old_Main" parent="." index="1" instance=ExtResource("2_fa6np")]
+transform = Transform3D(-1.74846e-06, 0, -40, 0, 40, 0, 40, 0, -1.74846e-06, 94.0088, 22.2807, -18.591)
+
+[node name="make_a_3_floor_studen_0202232129_texture" parent="." index="2" instance=ExtResource("3_ywe2l")]
+transform = Transform3D(-1.31134e-06, 0, 30, 0, 30, 0, -30, 0, -1.31134e-06, -126.041, 18.434, -55.2053)
+
+[node name="make_a_3_floor_studen_0202232129_texture2" parent="." index="3" instance=ExtResource("3_ywe2l")]
+transform = Transform3D(-1.31134e-06, 0, 30, 0, 30, 0, -30, 0, -1.31134e-06, -126.041, 18.434, -114.934)

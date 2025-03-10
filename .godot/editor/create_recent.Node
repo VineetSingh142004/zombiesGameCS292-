@@ -1,7 +1,8 @@
+CollisionShape3D
+StaticBody3D
+NavigationAgent3D
 AudioStreamPlayer
 MeshInstance3D
-CollisionShape3D
 CharacterBody3D
-StaticBody3D
 CollisionPolygon3D
 NavigationRegion3D

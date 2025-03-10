@@ -1,7 +1,10 @@
+res://addons/simplegrasstextured/about.tscn
+res://addons/simplegrasstextured/toolbar.tscn
 res://Scenes/assault_rifle.tscn
+res://Scenes/Bullet.tscn
+res://Scenes/Player.tscn
 res://Scenes/Rifle.tscn
 res://Scenes/smg.tscn
-res://Scripts/Player.gd
 res://Scenes/World.tscn
 res://Scenes/Zombie.tscn
-res://Scenes/Player.tscn
+res://Assets/map/city.tscn
