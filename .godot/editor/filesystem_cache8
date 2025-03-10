@@ -1,6 +1,7 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1741573483
+::res://::1741582469
 icon.svg::CompressedTexture2D::8788810445164620394::1741572844::1741572915::1::::<><>::
+newgun.fbx::PackedScene::89096813418006475::1741580442::1741580672::1::::<><>::
 README.md::TextFile::-1::1741572844::0::1::::<><>::
 ::res://addons/::1741572844
 ::res://addons/simplegrasstextured/::1741572916
@@ -29,7 +30,7 @@ grassbushcc008.png::CompressedTexture2D::6821074585685753060::1741572844::174157
 AllSkyFreeGodotScreenshot.png::CompressedTexture2D::7720241755756579183::1584617892::1741573492::1::::<><>::
 AllSkyGodotCover.png::CompressedTexture2D::6356850323522783460::1584617892::1741573492::1::::<><>::
 README.md::TextFile::-1::1584617892::0::1::::<><>::
-::res://Assets/AllSky/Screenshots/::1741573517
+::res://Assets/AllSky/Screenshots/::1741573541
 _0000_AllSkyFree_Screen_09.jpg::CompressedTexture2D::6738473002092851898::1584617892::1741573492::1::::<><>::
 _0001_AllSkyFree_Screen_08.jpg::CompressedTexture2D::2206573920019511908::1584617892::1741573492::1::::<><>::
 _0002_AllSkyFree_Screen_07.jpg::CompressedTexture2D::4751129699436795824::1584617892::1741573517::1::::<><>::
@@ -46,7 +47,7 @@ Blue.tres::StandardMaterial3D::1109378511400077276::1741572844::0::1::::<><>::
 Green.tres::StandardMaterial3D::4460615660192160260::1741572844::0::1::::<><>::uid://difglsmbfmw81::::res://Textures/terrain.jpg
 Pink.tres::StandardMaterial3D::3002083277062480744::1741572844::0::1::::<><>::
 Red.tres::StandardMaterial3D::4268741505349743764::1741572844::0::1::::<><>::
-::res://Models/::1741572925
+::res://Models/::1741581122
 make_a_3_floor_studen_0202232129_texture.blend::PackedScene::5339936071730828561::1741572851::1741572925::1::::<><>::uid://doa81s0bqen4x::::res://Models/textures/Image_0.jpg
 sky.jpg::CompressedTexture2D::4682410736456674799::1741572851::1741572915::1::::<><>::
 ::res://Models/BrickWall/::1741572918
@@ -145,6 +146,11 @@ lightpostSingle.glb::PackedScene::8966965788148652665::1741572844::1741572927::1
 Game Menu.png::CompressedTexture2D::2852295602760609104::1741572851::1741572916::1::::<><>::
 ::res://Models/music/::1741572915
 videoplayback (mp3cut.net).mp3::AudioStreamMP3::5747172920622747590::1741572851::1741572915::1::::<><>::
+::res://Models/NEW Zombie/::1741582443
+zombie.glb::PackedScene::5200240152100214402::1741581122::1741582471::1::::<><>::uid://bwhr0sou462sq::::res://Models/NEW Zombie/zombie_whiteclown_diffuse.png<>uid://clfxpadf7aveg::::res://Models/NEW Zombie/zombie_whiteclown_normal.png
+zombie_whiteclown_diffuse.png::CompressedTexture2D::3946103689729161128::1741581129::1741582471::1::::<><>::
+zombie_whiteclown_normal.png::CompressedTexture2D::5556663818821436866::1741581127::1741582471::1::::<><>::
+zombie_whiteclown_specular.png::CompressedTexture2D::3860694410547194369::1741581126::1741581127::1::::<><>::
 ::res://Models/Old Main/::1741572928
 Old_Main.blend::PackedScene::3591966291668378064::1741572851::1741572928::1::::<><>::uid://ml33qljcf4xg::::res://Models/Old Main/textures/Image_0.jpg
 ::res://Models/Old Main/textures/::1741572916
@@ -182,16 +188,16 @@ Zombie_mremireh_body_normal.png::CompressedTexture2D::3200356833629697646::17415
 Zombie_mremireh_body__diffuse.png::CompressedTexture2D::3683688342398083987::1741572844::1741572916::1::::<><>::
 Zombie_mremireh_shoe_diffuse.png::CompressedTexture2D::3493462165409732989::1741572844::1741572915::1::::<><>::
 Zombie_mremireh_shoe_normal.png::CompressedTexture2D::1864499228480056299::1741572844::1741572915::1::::<><>::
-::res://Scenes/::1741573519
+::res://Scenes/::1741581243
 Bullet.tscn::PackedScene::1713175935116128549::1741572844::0::1::::<><>::uid://dlokq2m5ecxti::::res://Scripts/Bullet.gd
 Player.tscn::PackedScene::2123425925145742302::1741572844::0::1::::<><>::uid://bcqf5kc1yej5r::::res://Scripts/Player.gd<>uid://bqpwh2qhltcpn::::res://Scenes/Rifle.tscn
-Rifle.tscn::PackedScene::3541757565791534139::1741572844::0::1::::<><>::uid://beylmx8mc8h0i::::res://Models/SteampunkGun/Steampunk Rifle.glb<>uid://bds863cq6gruq::::res://Models/SteampunkGun/Metal.tres<>uid://dsbxaujpenxuh::::res://Models/SteampunkGun/Metal3.tres<>uid://bi0jeon1tbvt0::::res://Models/SteampunkGun/Wood.tres<>uid://c5ekpv1qstkft::::res://Models/SteampunkGun/Metal2.tres<>uid://dulfbj71v4s8a::::res://Models/SteampunkGun/Gem.tres<>uid://borfcqmqsctyn::::res://Models/SteampunkGun/Copper2.tres<>uid://cn1p8sjrg3vfy::::res://Models/SteampunkGun/Copper.tres
-World.tscn::PackedScene::7285665154832654338::1741573519::0::1::::<><>::res://Scripts/World.gd<>uid://bk0ey7rsic7b2::::res://Models/Ground/city.glb<>uid://b8xqoajj0te2c::::res://Assets/AllSky/Screenshots/_0002_AllSkyFree_Screen_07.jpg<>uid://5iurrb07epis::::res://Scenes/Player.tscn
-Zombie.tscn::PackedScene::574934555032607808::1741572844::0::1::::<><>::uid://bsqn2q8kfv756::::res://Models/Zombie/Zombie_mremireh_body__diffuse.png<>uid://dj0priyeptq2h::::res://Scripts/Zombie.gd<>uid://blujn6l5bhfas::::res://Models/Zombie/Zombie_mremireh_body_normal.png<>uid://bp1i2ub0lqf0h::::res://Models/Zombie/Zombie_mremireh_shoe_diffuse.png<>uid://1tgbaswfvh2b::::res://Models/Zombie/Zombie_mremireh_shoe_normal.png<>uid://dxvpl7ytu4774::::res://Scripts/BodyPart.gd
-::res://Scripts/::1741572851
+Rifle.tscn::PackedScene::3541757565791534139::1741581243::0::1::::<><>::uid://beylmx8mc8h0i::::res://Models/SteampunkGun/Steampunk Rifle.glb<>uid://bds863cq6gruq::::res://Models/SteampunkGun/Metal.tres<>uid://dsbxaujpenxuh::::res://Models/SteampunkGun/Metal3.tres<>uid://bi0jeon1tbvt0::::res://Models/SteampunkGun/Wood.tres<>uid://c5ekpv1qstkft::::res://Models/SteampunkGun/Metal2.tres<>uid://dulfbj71v4s8a::::res://Models/SteampunkGun/Gem.tres<>uid://borfcqmqsctyn::::res://Models/SteampunkGun/Copper2.tres<>uid://cn1p8sjrg3vfy::::res://Models/SteampunkGun/Copper.tres
+World.tscn::PackedScene::7285665154832654338::1741581242::0::1::::<><>::res://Scripts/World.gd<>uid://bk0ey7rsic7b2::::res://Models/Ground/city.glb<>uid://bo6sns01ykkyg::::res://Assets/AllSky/Screenshots/_0003_AllSkyFree_Screen_06.jpg<>uid://5iurrb07epis::::res://Scenes/Player.tscn
+Zombie.tscn::PackedScene::574934555032607808::1741581243::0::1::::<><>::uid://bsqn2q8kfv756::::res://Models/Zombie/Zombie_mremireh_body__diffuse.png<>res://Scripts/Zombie.gd<>uid://blujn6l5bhfas::::res://Models/Zombie/Zombie_mremireh_body_normal.png<>uid://bp1i2ub0lqf0h::::res://Models/Zombie/Zombie_mremireh_shoe_diffuse.png<>uid://1tgbaswfvh2b::::res://Models/Zombie/Zombie_mremireh_shoe_normal.png<>res://Scripts/BodyPart.gd
+::res://Scripts/::1741581122
 BodyPart.gd::GDScript::-1::1741572844::0::1::::<>Area3D<>::
 Bullet.gd::GDScript::-1::1741572844::0::1::::<>Node3D<>::
-Player.gd::GDScript::-1::1741572844::0::1::::<>CharacterBody3D<>::
+Player.gd::GDScript::-1::1741581122::0::1::::<>CharacterBody3D<>::
 World.gd::GDScript::-1::1741572851::0::1::::<>Node3D<>::
 Zombie.gd::GDScript::-1::1741572844::0::1::::<>CharacterBody3D<>::
 ::res://Textures/::1741572915
