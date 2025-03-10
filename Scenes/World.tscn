@@ -1,10 +1,9 @@
-[gd_scene load_steps=14 format=3 uid="uid://db2h3t17k37pe"]
+[gd_scene load_steps=13 format=3 uid="uid://db2h3t17k37pe"]
 
 [ext_resource type="Script" uid="uid://cp8ddmcbhue8d" path="res://Scripts/World.gd" id="1_yrgup"]
 [ext_resource type="PackedScene" uid="uid://clwvialu5iyb2" path="res://Assets/map/new city.glb" id="2_gjpho"]
 [ext_resource type="PackedScene" uid="uid://bir6o1slvvhkr" path="res://UsingAsset/free city/freeCity.glb" id="2_p70al"]
 [ext_resource type="Texture2D" uid="uid://bo6sns01ykkyg" path="res://Assets/AllSky/Screenshots/_0003_AllSkyFree_Screen_06.jpg" id="3_qdyvj"]
-[ext_resource type="PackedScene" uid="uid://bvcr6ltkg3aiw" path="res://UsingAsset/cars/army-truck/source/ads.fbx" id="7_q2d71"]
 [ext_resource type="PackedScene" uid="uid://crgofpjfiqni7" path="res://Models/Old Main/Old_Main.glb" id="7_y7y61"]
 [ext_resource type="PackedScene" uid="uid://5iurrb07epis" path="res://Scenes/Player.tscn" id="31_jumwc"]
 
@@ -193,9 +192,6 @@ color = Color(0.803922, 0.0313726, 0.117647, 0.266667)
 
 [node name="ZombieSpawnTimer" type="Timer" parent="."]
 autostart = true
-
-[node name="ads" parent="." instance=ExtResource("7_q2d71")]
-transform = Transform3D(3, 0, 0, 0, 3, 0, 0, 0, 3, -33.6029, 0.2963, 53.3682)
 
 [connection signal="player_hit" from="Map/NavigationRegion3D/Player" to="." method="_on_player_player_hit"]
 [connection signal="timeout" from="ZombieSpawnTimer" to="." method="_on_zombie_spawn_timer_timeout"]
