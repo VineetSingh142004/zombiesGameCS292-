@@ -1,8 +1,8 @@
 extends CharacterBody3D
 
 var speed
-const WALK_SPEED = 8.0
-const SPRINT_SPEED = 8.0
+const WALK_SPEED = 12.0
+const SPRINT_SPEED = 17.0
 const JUMP_VELOCITY = 4.5
 const SENSITIVITY = 0.004
 const HIT_STAGGER = 8.0
@@ -113,5 +113,3 @@ func _headbob(time) -> Vector3:
 func hit(dir):
 	emit_signal("player_hit")
 	velocity += dir * HIT_STAGGER
-
-
