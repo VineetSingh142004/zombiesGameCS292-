@@ -25,11 +25,14 @@ func _on_player_player_hit():
 
 
 func _get_random_child(parent_node):
+	if parent_node.get_child_count() == 0:
+		return null  # Prevents errors if there are no children
 	var random_id = randi() % parent_node.get_child_count()
 	return parent_node.get_child(random_id)
 
 func _on_zombie_spawn_timer_timeout():
-	var spawn_point = _get_random_child(spawns).global_position
-	instance = zombie.instantiate()
-	instance.position = spawn_point
-	navigation_region.add_child(instance)
+	var spawn_point = _get_random_child(spawns)
+	if spawn_point:  # Ensure spawn_point is valid before using it
+		instance = zombie.instantiate()
+		instance.position = spawn_point.global_position
+		navigation_region.add_child(instance)
