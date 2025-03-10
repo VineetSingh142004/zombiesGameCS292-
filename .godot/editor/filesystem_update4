@@ -8,3 +8,4 @@ res://Scenes/smg.tscn
 res://Scenes/World.tscn
 res://Scenes/Zombie.tscn
 res://Assets/map/city.tscn
+res://Scripts/World.gd
