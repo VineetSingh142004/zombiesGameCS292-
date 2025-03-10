@@ -1,7 +1,5 @@
-res://Scenes/World.tscn
-res://Scenes/Zombie.tscn
-res://Scenes/Rifle.tscn
-res://Scenes/assault_rifle.tscn
-res://Scenes/smg.tscn
-res://Scenes/Player.tscn
 res://Scripts/Player.gd
+res://Scripts/World.gd
+res://Scenes/Rifle.tscn
+res://Scenes/Zombie.tscn
+res://Scenes/World.tscn

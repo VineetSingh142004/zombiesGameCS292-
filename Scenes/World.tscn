@@ -1,6 +1,6 @@
 [gd_scene load_steps=11 format=3 uid="uid://db2h3t17k37pe"]
 
-[ext_resource type="Script" path="res://Scripts/World.gd" id="1_yrgup"]
+[ext_resource type="Script" uid="uid://cp8ddmcbhue8d" path="res://Scripts/World.gd" id="1_yrgup"]
 [ext_resource type="PackedScene" uid="uid://bk0ey7rsic7b2" path="res://Models/Ground/city.glb" id="2_gjpho"]
 [ext_resource type="Texture2D" uid="uid://bo6sns01ykkyg" path="res://Assets/AllSky/Screenshots/_0003_AllSkyFree_Screen_06.jpg" id="3_qdyvj"]
 [ext_resource type="PackedScene" uid="uid://5iurrb07epis" path="res://Scenes/Player.tscn" id="31_jumwc"]
