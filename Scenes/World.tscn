@@ -28,7 +28,6 @@ sky = SubResource("Sky_3auab")
 fog_light_color = Color(0, 0.63747, 0.572864, 1)
 fog_light_energy = 0.06
 fog_sun_scatter = 0.03
-volumetric_fog_enabled = true
 volumetric_fog_density = 0.0574
 volumetric_fog_albedo = Color(1, 0.0666667, 0.0941176, 1)
 volumetric_fog_emission = Color(0.345098, 0.2, 0.2, 1)
