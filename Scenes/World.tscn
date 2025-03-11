@@ -53,7 +53,7 @@ script = ExtResource("1_yrgup")
 [node name="Map" parent="." instance=ExtResource("2_p70al")]
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="Map"]
-transform = Transform3D(-0.603208, -0.409592, 0.684379, 0, 0.858065, 0.513541, -0.797584, 0.309772, -0.517592, 0, 0, 0)
+transform = Transform3D(-0.603208, -0.409592, 0.684379, 0, 0.858065, 0.513541, -0.797584, 0.309772, -0.517592, 0, 274.037, 0)
 light_color = Color(0.756863, 0.796078, 1, 1)
 light_energy = 0.6
 light_indirect_energy = 0.8
