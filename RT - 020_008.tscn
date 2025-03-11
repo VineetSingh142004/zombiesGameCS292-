@@ -1,0 +1,52 @@
+[gd_scene load_steps=5 format=4 uid="uid://dimi8idahoj7x"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_mbgel"]
+resource_name = "Paint - Titanium White"
+cull_mode = 2
+metallic = 1.0
+roughness = 0.968377
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_ou8qc"]
+_surfaces = [{
+"aabb": AABB(9968.28, 1088.12, -6607.67, 1156.11, 159.896, 1284.96),
+"format": 34896613377,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAQABAABAAYAAAAHAAEABAAGAAIAAAAEAAIAAQADAAYAAQAHAAMAAwACAAYABwAAAAUABwAFAAMAAAACAAUAAwAFAAIA"),
+"lods": [7.89019, PackedByteArray("AAABAAQAAAADAAEABAABAAIAAAAEAAIAAwACAAEAAAACAAUAAwAFAAIAAwAAAAUA"), 7.89033, PackedByteArray("AAABAAIAAwACAAEAAwAAAAIAAAADAAEA")],
+"name": "Paint - Titanium White",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("AAD//7FCAAD//+oOTb0AAAycFPH//wAA8mMAAAAAAAAMnP////8AAAAAFPGxQgAA//8AAE29AADyY+oOAAAAAA==")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_i4t8d"]
+resource_name = "untitled_RT - 020_008"
+_surfaces = [{
+"aabb": AABB(9968.28, 1088.12, -6607.67, 1156.11, 159.896, 1284.96),
+"format": 34896613383,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAQABAABAAYAAAAHAAEABAAGAAIAAAAEAAIAAQADAAYAAQAHAAMAAwACAAYABwAAAAUABwAFAAMAAAACAAUAAwAFAAIA"),
+"lods": [7.89019, PackedByteArray("AAABAAQAAAADAAEABAABAAIAAAAEAAIAAwACAAEAAAACAAUAAwAFAAIAAwAAAAUA"), 7.89033, PackedByteArray("AAABAAIAAwACAAEAAwAAAAIAAAADAAEA")],
+"material": SubResource("StandardMaterial3D_mbgel"),
+"name": "Paint - Titanium White",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("AAD//7FC5tz//+oOTb0j/gycFPH//7vJ8mMAAAAA7fIMnP////+S1AAAFPGxQhfO//8AAE29xfbyY+oOAABT7WN1kMbeGjosxWWcb50+i9c7kNOf16pe/Q2gulndwL80")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_ou8qc")
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_pk4sr"]
+data = PackedVector3Array(9968.28, 1248.02, -6272.92, 11124.4, 1097.44, -5657.48, 10673, 1248.02, -5322.71, 10673, 1248.02, -5322.71, 11124.4, 1097.44, -5657.48, 11124.4, 1088.12, -5657.48, 9968.28, 1248.02, -6272.92, 10419.6, 1097.44, -6607.67, 11124.4, 1097.44, -5657.48, 10673, 1248.02, -5322.71, 11124.4, 1088.12, -5657.48, 10673, 1238.7, -5322.71, 9968.28, 1248.02, -6272.92, 10673, 1248.02, -5322.71, 10673, 1238.7, -5322.71, 11124.4, 1097.44, -5657.48, 10419.6, 1088.12, -6607.67, 11124.4, 1088.12, -5657.48, 11124.4, 1097.44, -5657.48, 10419.6, 1097.44, -6607.67, 10419.6, 1088.12, -6607.67, 10419.6, 1088.12, -6607.67, 10673, 1238.7, -5322.71, 11124.4, 1088.12, -5657.48, 10419.6, 1097.44, -6607.67, 9968.28, 1248.02, -6272.92, 9968.28, 1238.7, -6272.92, 10419.6, 1097.44, -6607.67, 9968.28, 1238.7, -6272.92, 10419.6, 1088.12, -6607.67, 9968.28, 1248.02, -6272.92, 10673, 1238.7, -5322.71, 9968.28, 1238.7, -6272.92, 10419.6, 1088.12, -6607.67, 9968.28, 1238.7, -6272.92, 10673, 1238.7, -5322.71)
+
+[node name="RT - 020_008" type="MeshInstance3D"]
+mesh = SubResource("ArrayMesh_i4t8d")
+skeleton = NodePath("")
+
+[node name="RT - 020_008_col" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RT - 020_008_col"]
+shape = SubResource("ConcavePolygonShape3D_pk4sr")

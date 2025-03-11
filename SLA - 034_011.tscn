@@ -1,0 +1,86 @@
+[gd_scene load_steps=8 format=4 uid="uid://dj58ik7dk27td"]
+
+[ext_resource type="Texture2D" uid="uid://by5f7dfahl6yy" path="res://UsingAsset/new models/group buildings/untitled_87857e3efbf480ee46a8ece74bf4731d.png" id="1_vkv6f"]
+[ext_resource type="Texture2D" uid="uid://c0xnviy4hce0f" path="res://UsingAsset/new models/group buildings/untitled_0d4b83a5a0633acec964fab6f6490c64.png" id="2_bi7hw"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ihw4t"]
+resource_name = "Wood - Pine Grained Horizontal"
+transparency = 4
+cull_mode = 2
+albedo_texture = ExtResource("1_vkv6f")
+metallic = 1.0
+roughness = 0.956411
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_uoyh5"]
+resource_name = "Stone - Marble Black"
+transparency = 4
+cull_mode = 2
+albedo_texture = ExtResource("2_bi7hw")
+metallic = 1.0
+roughness = 0.956411
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_1ljkr"]
+_surfaces = [{
+"aabb": AABB(10902.5, 572, -6484.52, 401.662, 79.9957, 369.503),
+"format": 34896613377,
+"index_count": 66,
+"index_data": PackedByteArray("AAABAAIAAgABAAMAAAAEAAEAAgADAAUAAgAFAAAABQADAAYABQAGAAcAAAAFAAcABwAGAAgABwAIAAkAAAAHAAkACQAIAAoACwAEAAAAAAAJAAsACwAMAAQACQAKAA0ADQAKAA4ACQAPAAsADQAPAAkADwAMAAsADQAOAA8ADwAOAAwA"),
+"name": "Wood - Pine Grained Horizontal",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 16,
+"vertex_data": PackedByteArray("6l4AAP//AAD/////IH4AAP//AAAgfgAAUef///VZAADqXv////8AAFHnAAD1WQAAgmf//wDBAACCZwAAAMEAAPI5//86fgAA8jkAADp+AACmqf//KiQAAAAAAADidAAAAAD//+J0AACmqQAAKiQAAPmQ//8AAAAA+ZAAAAAAAAA=")
+}, {
+"aabb": AABB(10902.5, 651.996, -6484.52, 401.662, 1e-05, 369.503),
+"format": 34896613377,
+"index_count": 18,
+"index_data": PackedByteArray("AAABAAIAAwAAAAIABAAAAAMABQABAAAABgABAAUABwABAAYA"),
+"name": "Stone - Marble Black",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("8jkAADp+AADqXgAA//8AAAAAAADidAAA+ZAAAAAAAACmqQAAKiQAAIJnAAAAwQAAUecAAPVZAAD//wAAIH4AAA==")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_a3iak"]
+resource_name = "untitled_SLA - 034_011"
+_surfaces = [{
+"aabb": AABB(10902.5, 572, -6484.52, 401.662, 79.9957, 369.503),
+"attribute_data": PackedByteArray("2/xXbv//Jmn//1du2/wmaVJvV274byZp+G9XblJvJmn//1dugf0maYH9V27//yZp+G9XbipxJmkqcVdu+G8maYH9V26u/yZprv9XboH9JmkqcVdu0HEmadBxV24qcSZprv9Xbtv8Jmnb/Fdurv8madBxV25SbyZpUm9XbtBxJmnb/P//gf3889v8xO+u/8Tvrv/884H9xvv//8b7/////w=="),
+"format": 34896613399,
+"index_count": 66,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAAFAAYABAAHAAUACAAJAAoACAALAAkADAANAA4ADAAPAA0AEAARABIAEAATABEAFAAVABYAFAAXABUAGAAZABoAGAAbABkAHAAdAB4AHAAfAB0AIAAhACIAIQAjACIAJAAjACEAIAAlACEAIAAmACUAJwAmACAA"),
+"material": SubResource("StandardMaterial3D_ihw4t"),
+"name": "Wood - Pine Grained Horizontal",
+"primitive": 3,
+"uv_scale": Vector4(85.5594, 13.1465, 0, 0),
+"vertex_count": 40,
+"vertex_data": PackedByteArray("6l4AAP//AaD/////IH4bu///AAAgfhu76l7/////AaD//wAAIH7IxlHn///1WRD0UecAAPVZEPT/////IH7IxlHnAAD1Wa0Zgmf//wDBoSyCZwAAAMGhLFHn///1Wa0ZgmcAAADBaevyOf//On4I2PI5AAA6fgjYgmf//wDBaevyOQAAOn41vqap//8qJBu7pqkAACokG7vyOf//On40vqapAAAqJMjG+ZD//wAAEPT5kAAAAAAQ9Kap//8qJMjG+ZAAAAAArRkAAP//4nT/HwAAAADidP8f+ZD//wAArRkAAAAA4nTtBOpe/////xAW6l4AAP//EBYAAP//4nTtBOpeAAD///1f8jkAADp+yUEAAAAA4nT/H/mQAAAAAK0ZpqkAACok40SCZwAAAMGhLFHnAAD1Wa0Z//8AACB+40QwN4p9U7W6NEZLUjWJ/c5I9XgMM6avjhdwaKcvDLMJB/MZNGeg41ZVqCqhYzPnDGafZMJBecOBEH1veUPCwV8bLTmuUlO1ujRGS1I1rdLRRvV4DDOmr44XcGinLwyzCQfzGTRnkP/8SQM2kX8z5wxm605HY7LlBQ76cbNlRuMTMTA3in0tOa5SAzaRf/MZNGdGS1I1qCqgY/MZNGdGS1I1")
+}, {
+"aabb": AABB(10902.5, 651.996, -6484.52, 401.662, 1e-05, 369.503),
+"attribute_data": PackedByteArray("gf3889v8///b/MTvrv/E767//POB/cb7///G+/////8="),
+"format": 34896613399,
+"index_count": 18,
+"index_data": PackedByteArray("AAABAAIAAwAAAAIABAAAAAMABQABAAAABgABAAUABwABAAYA"),
+"material": SubResource("StandardMaterial3D_uoyh5"),
+"name": "Stone - Marble Black",
+"primitive": 3,
+"uv_scale": Vector4(85.5594, 13.1465, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("8jkAADp+NL7qXgAA//8BoAAAAADidP/f+ZAAAAAAUeamqQAAKiQbu4JnAAAAwV3TUecAAPVZUeb//wAAIH4bu63S0UaJ/c5IkP/8STPnDGZTtbo0oONWVTPnDGZTtbo0")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_1ljkr")
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_wsak2"]
+data = PackedVector3Array(11051.4, 572, -6115.02, 11304.1, 651.996, -6302.47, 11304.1, 572, -6302.47, 11051.4, 572, -6115.02, 11051.4, 651.996, -6115.02, 11304.1, 651.996, -6302.47, 11304.1, 572, -6302.47, 11265.4, 651.996, -6354.68, 11265.4, 572, -6354.68, 11304.1, 572, -6302.47, 11304.1, 651.996, -6302.47, 11265.4, 651.996, -6354.68, 11265.4, 572, -6354.68, 11064.9, 651.996, -6205.95, 11064.9, 572, -6205.95, 11265.4, 572, -6354.68, 11265.4, 651.996, -6354.68, 11064.9, 651.996, -6205.95, 11064.9, 572, -6205.95, 10993.4, 651.996, -6302.33, 10993.4, 572, -6302.33, 11064.9, 572, -6205.95, 11064.9, 651.996, -6205.95, 10993.4, 651.996, -6302.33, 10993.4, 572, -6302.33, 11168.7, 651.996, -6432.32, 11168.7, 572, -6432.32, 10993.4, 572, -6302.33, 10993.4, 651.996, -6302.33, 11168.7, 651.996, -6432.32, 11168.7, 572, -6432.32, 11129.9, 651.996, -6484.52, 11129.9, 572, -6484.52, 11168.7, 572, -6432.32, 11168.7, 651.996, -6432.32, 11129.9, 651.996, -6484.52, 11129.9, 572, -6484.52, 10902.5, 651.996, -6315.81, 10902.5, 572, -6315.81, 11129.9, 572, -6484.52, 11129.9, 651.996, -6484.52, 10902.5, 651.996, -6315.81, 10902.5, 572, -6315.81, 11051.4, 651.996, -6115.02, 11051.4, 572, -6115.02, 10902.5, 572, -6315.81, 10902.5, 651.996, -6315.81, 11051.4, 651.996, -6115.02, 11051.4, 572, -6115.02, 10993.4, 572, -6302.33, 10902.5, 572, -6315.81, 10993.4, 572, -6302.33, 11129.9, 572, -6484.52, 10902.5, 572, -6315.81, 11168.7, 572, -6432.32, 11129.9, 572, -6484.52, 10993.4, 572, -6302.33, 11051.4, 572, -6115.02, 11064.9, 572, -6205.95, 10993.4, 572, -6302.33, 11051.4, 572, -6115.02, 11265.4, 572, -6354.68, 11064.9, 572, -6205.95, 11304.1, 572, -6302.47, 11265.4, 572, -6354.68, 11051.4, 572, -6115.02, 10993.4, 651.996, -6302.33, 11051.4, 651.996, -6115.02, 10902.5, 651.996, -6315.81, 11129.9, 651.996, -6484.52, 10993.4, 651.996, -6302.33, 10902.5, 651.996, -6315.81, 11168.7, 651.996, -6432.32, 10993.4, 651.996, -6302.33, 11129.9, 651.996, -6484.52, 11064.9, 651.996, -6205.95, 11051.4, 651.996, -6115.02, 10993.4, 651.996, -6302.33, 11265.4, 651.996, -6354.68, 11051.4, 651.996, -6115.02, 11064.9, 651.996, -6205.95, 11304.1, 651.996, -6302.47, 11051.4, 651.996, -6115.02, 11265.4, 651.996, -6354.68)
+
+[node name="SLA - 034_011" type="MeshInstance3D"]
+mesh = SubResource("ArrayMesh_a3iak")
+skeleton = NodePath("")
+
+[node name="SLA - 034_011_col" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="SLA - 034_011_col"]
+shape = SubResource("ConcavePolygonShape3D_wsak2")

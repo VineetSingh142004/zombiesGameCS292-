@@ -1,0 +1,58 @@
+[gd_scene load_steps=6 format=4 uid="uid://utgxvkrngd7p"]
+
+[ext_resource type="Texture2D" uid="uid://dkxthnty8h3kg" path="res://UsingAsset/new models/group buildings/untitled_ac25b4c3149f28010eba61814cfc617e.png" id="1_78c5e"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_fkcx0"]
+resource_name = "Wood - Pine Grained Vertical"
+transparency = 4
+cull_mode = 2
+albedo_texture = ExtResource("1_78c5e")
+metallic = 1.0
+roughness = 0.956411
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_1d61x"]
+_surfaces = [{
+"aabb": AABB(-4.99992, -0.00743866, -5.00031, 9.99985, 150.015, 10.0006),
+"format": 34896613377,
+"index_count": 36,
+"index_data": PackedByteArray("AAAEAAUABQAEAAMAAAABAAQAAQADAAQAAAAFAAIABQADAAIABgABAAAAAAACAAYAAQAHAAMAAgADAAcABgAHAAEAAgAHAAYA"),
+"lods": [5.14737, PackedByteArray("AAAEAAUAAAABAAQAAAAFAAIAAQADAAQAAAADAAEABQAEAAMAAgADAAAABQADAAIA"), 5.77324, PackedByteArray("AAABAAIAAgABAAMAAAADAAEAAgADAAAA")],
+"name": "Wood - Pine Grained Vertical",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("//8GAAAAAAD/////AAAAAAAAAAD//wAAAAD4////AAACAP//BAAAAAIABgAEAAAA//8AAP//AAD///j///8AAA==")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_ys1re"]
+resource_name = "untitled_INNER POST - 001_054"
+_surfaces = [{
+"aabb": AABB(-4.99992, -0.00743866, -5.00031, 9.99985, 150.015, 10.0006),
+"attribute_data": PackedByteArray("/X/M+wAAzPsBgMz7AwDM+wGA//8DAP///X///wAA//8AAP///X///7t7//9DhP//Q4TM+7t7//9DhMz7Q4T//wMAzPsBgMz7u3vM+7t7zPs="),
+"format": 34896613399,
+"index_count": 36,
+"index_data": PackedByteArray("AAAIAAkAAAABAAgACQAIAAMACQADAAIABAAQABEABAAFABAAEQAQAAcAEQAHAAYACgAMABIACgALAAwADQAOAA8ADQATAA4A"),
+"lods": [5.14737, PackedByteArray("AAAIAAkAAAABAAgACQAIAAMACQADAAIABAAFAAYABgAFAAcACgALAAwADQAOAA8A"), 5.77324, PackedByteArray("AAABAAIAAgABAAMABAAFAAYABgAFAAcA")],
+"material": SubResource("StandardMaterial3D_fkcx0"),
+"name": "Wood - Pine Grained Vertical",
+"primitive": 3,
+"uv_scale": Vector4(1.00005, 2.03333, 0, 0),
+"vertex_count": 20,
+"vertex_data": PackedByteArray("//8GAAAA5gT/////AACUJgAAAAD//0rAAAD4////b9EAAAAA//9KwAAA+P///2/R//8GAAAA5gT/////AACUJgIA//8EABz7AgAGAAQAdNn//wYAAAAeFwIABgAEAB4XAAAAAP//eQn/////AADk6AAA+P///4j2AgD//wQA4+j///j///+0P///AAD//4Yu//8AAP//eQn///j///+J9rKo+kocxftKvkhCh7F5ya++SEKHsXnJr7Ko+kocxftKVFcEteo6BbXkiiotKq0a9VvhhOjFUucKgGiVnhh1xdIxt7d4R4YtUHqXXWGWHn8X")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_1d61x")
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_g8f6c"]
+data = PackedVector3Array(4.9999, 0.0063, -5.0003, -4.9996, 150.007, -4.9997, -4.9996, 0.0063, -4.9997, 4.9999, 0.0063, -5.0003, 4.9999, 150.007, -5.0003, -4.9996, 150.007, -4.9997, -4.9996, 0.0063, -4.9997, -4.9996, 150.007, -4.9997, -4.9999, 149.991, 5.0003, -4.9996, 0.0063, -4.9997, -4.9999, 149.991, 5.0003, -4.9999, -0.0074, 5.0003, -4.9999, -0.0074, 5.0003, 4.9999, 149.991, 5.0003, 4.9999, -0.0074, 5.0003, -4.9999, -0.0074, 5.0003, -4.9999, 149.991, 5.0003, 4.9999, 149.991, 5.0003, 4.9999, -0.0074, 5.0003, 4.9999, 149.991, 5.0003, 4.9999, 150.007, -5.0003, 4.9999, -0.0074, 5.0003, 4.9999, 150.007, -5.0003, 4.9999, 0.0063, -5.0003, 4.9999, 0.0063, -5.0003, -4.9999, -0.0074, 5.0003, 4.9999, -0.0074, 5.0003, 4.9999, 0.0063, -5.0003, -4.9996, 0.0063, -4.9997, -4.9999, -0.0074, 5.0003, 4.9999, 150.007, -5.0003, -4.9999, 149.991, 5.0003, -4.9996, 150.007, -4.9997, 4.9999, 150.007, -5.0003, 4.9999, 149.991, 5.0003, -4.9999, 149.991, 5.0003)
+
+[node name="INNER POST - 001_054" type="MeshInstance3D"]
+transform = Transform3D(-0.585289, 0, 0.810825, 0, 1, 0, -0.810825, 0, -0.585289, 0, 0, 0)
+mesh = SubResource("ArrayMesh_ys1re")
+skeleton = NodePath("")
+
+[node name="INNER POST - 001_054_col" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INNER POST - 001_054_col"]
+shape = SubResource("ConcavePolygonShape3D_g8f6c")

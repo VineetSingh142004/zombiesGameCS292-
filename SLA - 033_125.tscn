@@ -1,0 +1,57 @@
+[gd_scene load_steps=6 format=4 uid="uid://y2eriqew1vo1"]
+
+[ext_resource type="Texture2D" uid="uid://b4603ir5bejpi" path="res://UsingAsset/new models/group buildings/untitled_3d789b60c1f5de71daf71d1dc791710d.png" id="1_wjq6a"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_vevmw"]
+resource_name = "Floorboards light"
+transparency = 4
+cull_mode = 2
+albedo_texture = ExtResource("1_wjq6a")
+metallic = 1.0
+roughness = 0.956411
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_05tx0"]
+_surfaces = [{
+"aabb": AABB(9165.43, 220.004, -7228.65, 105.693, 79.9957, 88.3584),
+"format": 34896613377,
+"index_count": 24,
+"index_data": PackedByteArray("AAAEAAUABQAEAAEAAAADAAQAAwABAAQAAAAFAAIAAgADAAAABQABAAIAAgABAAMA"),
+"lods": [33.2367, PackedByteArray("AAABAAIAAgABAAMAAAADAAEAAgADAAAA")],
+"name": "Floorboards light",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 6,
+"vertex_data": PackedByteArray("AAAAAEtWAABEYf//AAAAAERhAAAAAAAAAAD//0tWAAD///////8AAP//AAD//wAA")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_8o3w8"]
+resource_name = "untitled_SLA - 033_125"
+_surfaces = [{
+"aabb": AABB(9165.43, 220.004, -7228.65, 105.693, 79.9957, 88.3584),
+"attribute_data": PackedByteArray("l31Qgbd8UIGXfVCBt3xQgZd9//+3fHj/l314/7d8//+3fHmCl315gnL/UIH//3mC//9QgXL/UIH//1CB//95gg=="),
+"format": 34896613399,
+"index_count": 24,
+"index_data": PackedByteArray("AAAIAAkAAAADAAgACQAIAAEACQABAAIABAAFAAYABAAHAAUACgALAAwADQAOAA8A"),
+"lods": [33.2367, PackedByteArray("AAABAAIAAAADAAEABAAFAAYABAAHAAUA")],
+"material": SubResource("StandardMaterial3D_vevmw"),
+"name": "Floorboards light",
+"primitive": 3,
+"uv_scale": Vector4(117.001, 54.3397, 0, 0),
+"vertex_count": 16,
+"vertex_data": PackedByteArray("AAAAAEtWCjhEYf//AABM6kRhAAAAAJLyAAD//0tWYR1EYQAAAACS8gAA//9LVp3iAAAAAEtW9MdEYf//AABM6v///////8zA//8AAP//6tEAAAAAS1ZNJP//AAD//4lXRGEAAAAArRkAAP//S1ax20Rh//8AAFHm////////daiUQjifS8hgOsY2ustsZk6yxja6y2xmTrKUQjifS8hgOt61bnQOiiZRYjzXgsBOwDzzGTRnJv1ivDPnDGa/vD4x")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_05tx0")
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_e8kie"]
+data = PackedVector3Array(9165.43, 220.004, -7198.86, 9271.13, 300, -7140.29, 9271.13, 220.004, -7140.29, 9165.43, 220.004, -7198.86, 9165.43, 300, -7198.86, 9271.13, 300, -7140.29, 9271.13, 220.004, -7140.29, 9271.13, 300, -7140.29, 9205.59, 300, -7228.65, 9271.13, 220.004, -7140.29, 9205.59, 300, -7228.65, 9205.59, 220.004, -7228.65, 9205.59, 220.004, -7228.65, 9165.43, 300, -7198.86, 9165.43, 220.004, -7198.86, 9205.59, 220.004, -7228.65, 9205.59, 300, -7228.65, 9165.43, 300, -7198.86, 9165.43, 220.004, -7198.86, 9271.13, 220.004, -7140.29, 9205.59, 220.004, -7228.65, 9165.43, 300, -7198.86, 9205.59, 300, -7228.65, 9271.13, 300, -7140.29)
+
+[node name="SLA - 033_125" type="MeshInstance3D"]
+mesh = SubResource("ArrayMesh_8o3w8")
+skeleton = NodePath("")
+
+[node name="SLA - 033_125_col" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="SLA - 033_125_col"]
+shape = SubResource("ConcavePolygonShape3D_e8kie")

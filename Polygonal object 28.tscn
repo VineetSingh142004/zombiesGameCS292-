@@ -1,0 +1,86 @@
+[gd_scene load_steps=7 format=4 uid="uid://b7lj0aryg0lp0"]
+
+[ext_resource type="Texture2D" uid="uid://c4nhhcm5oas8u" path="res://UsingAsset/new models/group buildings/untitled_040153eeeffef7d1f6d477e53330bf9f.png" id="1_kwtt8"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ke3mx"]
+resource_name = "Paint - Anthracite"
+cull_mode = 2
+albedo_color = Color(0.461825, 0.461825, 0.461825, 1)
+metallic = 1.0
+roughness = 0.968377
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_hpvdn"]
+resource_name = "Stone - Marble Carrara White"
+transparency = 4
+cull_mode = 2
+albedo_texture = ExtResource("1_kwtt8")
+metallic = 1.0
+roughness = 0.968377
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_vq63k"]
+_surfaces = [{
+"aabb": AABB(10021.2, 814, -6298.51, 12.2881, 409.619, 18.582),
+"format": 34359742465,
+"index_count": 84,
+"index_data": PackedByteArray("AAABAAIAAAAQAAEAAwAQAAAAAQAQAAcAAwARABAABwAQABEABAARAAMABAASABEABQASAAQABwARABMAEwARABIABQATABIABgAHABMABgATAAUACAAUAAoACAALABQACgAUABUAFAALABUACgAVAAwADAAVABYAFQALABYADAAWAA0AFgALABcADQAWABcAFwALAAkADQAXAA4ADgAXAAkADgAJAA8A"),
+"lods": [4.97573, PackedByteArray("AAABAAIAAwABAAAABAABAAMABQABAAQABgABAAUABgAHAAEACAAJAAoACAALAAkACgAJAAwADAAJAA0ADQAJAA4ADgAJAA8A")],
+"name": "Paint - Anthracite",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("Z7kcRl7kmETfdcTFHcYcRgGAS0SYU8TFHcYcRl7kmESYU8TFXrQcRhXsmERed8TFB6wcRhXsmETbjcTFIqkcRszzmESRicTFn8QcRszzmERzP8TFn8QcRgGAS0RzP8TFdZYcRl7kmEQb1MTF9pQcRgGAS0T2v8TF+LIcRl7kmEQ5h8TFdZYcRgGAS0Qb1MTFTrIcRjrrmEREfsTFHKwcRjrrmET6jsTF5agcRszzmEQ2isTF9pQcRszzmET2v8TFZ7kcRgGAS0TfdcTFXrQcRgGAS0Red8TFB6wcRgGAS0TbjcTFIqkcRgGAS0SRicTF+LIcRgGAS0Q5h8TFTrIcRgGAS0REfsTFHKwcRgGAS0T6jsTF5agcRgGAS0Q2isTF")
+}, {
+"aabb": AABB(10021.2, 814, -6298.51, 12.2881, 409.619, 18.582),
+"format": 34896613377,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAADAAAABQAEAAAABAAGAAMABAAHAAYACAAJAAoACwAMAAkADQALAAkADQAJAAgACAAOAA0ACAAPAA4A"),
+"name": "Stone - Marble Carrara White",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 16,
+"vertex_data": PackedByteArray("kqPY/7OfAAAPaf//XIAAACJ42P/5eAAAOfj/////AAD//7H/Tt0AAMu9sf9HogAAOfgAAP//AAD//wAATt0AAAAA//+wIgAAj3jU/wt3AADRZ///QH8AAEmcsf9lhAAA1JjU/9KTAADKB7H/AAAAAMoHAAAAAAAAAAAAALAiAAA=")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_hb8ex"]
+resource_name = "untitled_Polygonal object 28"
+_surfaces = [{
+"aabb": AABB(10021.2, 814, -6298.51, 12.2881, 409.619, 18.582),
+"attribute_data": PackedByteArray("pptEO+omcT+mm0Q76iZxP6abRDvqJnE/pptEO+omcT+mm0Q76iZxP6abRDvqJnE/pptEO+omcT+mm0Q76iZxP6abRDvqJnE/pptEO+omcT+mm0Q76iZxP6abRDvqJnE/pptEO+omcT+mm0Q76iZxP6abRDvqJnE/pptEO+omcT+mm0Q76iZxP6abRDvqJnE/pptEO+omcT+mm0Q76iZxP6abRDvqJnE/pptEO+omcT+mm0Q76iZxP6abRDvqJnE/"),
+"format": 34359742487,
+"index_count": 84,
+"index_data": PackedByteArray("AAABAAIAAAAQAAEAAwAQAAAAAQAQAAcAAwARABAABwAQABEABAARAAMABAASABEABQASAAQABwARABMAEwARABIABQATABIABgAHABMABgATAAUACAAUAAoACAALABQACgAUABUAFAALABUACgAVAAwADAAVABYAFQALABYADAAWAA0AFgALABcADQAWABcAFwALAAkADQAXAA4ADgAXAAkADgAJAA8A"),
+"lods": [4.97573, PackedByteArray("AAABAAIAAwABAAAABAABAAMABQABAAQABgABAAUABgAHAAEACAAJAAoACAALAAkACgAJAAwADAAJAA0ADQAJAA4ADgAJAA8A")],
+"material": SubResource("StandardMaterial3D_ke3mx"),
+"name": "Paint - Anthracite",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("Z7kcRl7kmETfdcTFHcYcRgGAS0SYU8TFHcYcRl7kmESYU8TFXrQcRhXsmERed8TFB6wcRhXsmETbjcTFIqkcRszzmESRicTFn8QcRszzmERzP8TFn8QcRgGAS0RzP8TFdZYcRl7kmEQb1MTF9pQcRgGAS0T2v8TF+LIcRl7kmEQ5h8TFdZYcRgGAS0Qb1MTFTrIcRjrrmEREfsTFHKwcRjrrmET6jsTF5agcRszzmEQ2isTF9pQcRszzmET2v8TFZ7kcRgGAS0TfdcTFXrQcRgGAS0Red8TFB6wcRgGAS0TbjcTFIqkcRgGAS0SRicTF+LIcRgGAS0Q5h8TFTrIcRgGAS0REfsTFHKwcRgGAS0T6jsTF5agcRgGAS0Q2isTFYtjS3P///7+tzFA9////v17VOb7///+/2cmJ3////79d1ljy////vxQ23sL///+/+ZAXsP///z+skDNT////P08pdO////+/qUKtTP///z9a1TK+////v80sphD///+/8JAOsP///z+yjr3S////Py5607j///8/ikaKvP///z9p0CUe////v3DAKBj///+/3s4wCv///78ZMbdE////v7HMTj3///+/rpArU////z8/eqEs////P8p15E7///8/")
+}, {
+"aabb": AABB(10021.2, 814, -6298.51, 12.2881, 409.619, 18.582),
+"attribute_data": PackedByteArray("R4CJ9/9/DvZHgA72/3/v+o+ALPqPgOr32P8i/k+A5f7//+X+T4Ai/v9/W/tPgOX+/3/l/o+AmPqPgKj/T4D/////5f5PgCL+2P8i/k+A5f4="),
+"format": 34896613399,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAADAAAABQAEAAAABgAHAAgABgAJAAcACgALAAwADQALAAoADQAOAAsADgAPAAsAEAARABIAEAATABEA"),
+"material": SubResource("StandardMaterial3D_hpvdn"),
+"name": "Stone - Marble Carrara White",
+"primitive": 3,
+"uv_scale": Vector4(2.73746, 2.01733, 0, 0),
+"vertex_count": 20,
+"vertex_data": PackedByteArray("kqPY/7Ofr9cPaf//XIBC4iJ42P/5eOjpOfj/////+pv//7H/Tt07y8u9sf9Hohvh//+x/07dqRQ5+AAA///hPjn4/////0E4//8AAE7dETQAAP//sCLf1I941P8Ld9Kz0Wf//0B/KJ/KB7H/AAB57Umcsf9lhDTL1JjU/9KT75sAAP//sCJ/w8oHAAAAAGn2ygex/wAAl+oAAAAAsCI/4LDR/VMc9pJEId+mXmneJlMNuapFXc5HVzYzQCFODmndR93HDigmYUM9+zZDtuK1TAT9JVw36WxZCrmlRXHeLlMY6US6EE0vSWC9sLnKzMns")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_vq63k")
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_ufev2"]
+data = PackedVector3Array(10030.4, 1223.14, -6286.73, 10033.5, 814, -6282.45, 10033.5, 1223.14, -6282.45, 10030.4, 1223.14, -6286.73, 10030.4, 814, -6286.73, 10033.5, 814, -6282.45, 10029.1, 1223.38, -6286.92, 10030.4, 814, -6286.73, 10030.4, 1223.14, -6286.73, 10033.5, 814, -6282.45, 10030.4, 814, -6286.73, 10033.2, 814, -6279.93, 10029.1, 1223.38, -6286.92, 10029.1, 814, -6286.92, 10030.4, 814, -6286.73, 10033.2, 814, -6279.93, 10030.4, 814, -6286.73, 10029.1, 814, -6286.92, 10027, 1223.38, -6289.73, 10029.1, 814, -6286.92, 10029.1, 1223.38, -6286.92, 10027, 1223.38, -6289.73, 10027, 814, -6289.73, 10029.1, 814, -6286.92, 10026.3, 1223.62, -6289.2, 10027, 814, -6289.73, 10027, 1223.38, -6289.73, 10033.2, 814, -6279.93, 10029.1, 814, -6286.92, 10026.3, 814, -6289.2, 10026.3, 814, -6289.2, 10029.1, 814, -6286.92, 10027, 814, -6289.73, 10026.3, 1223.62, -6289.2, 10026.3, 814, -6289.2, 10027, 814, -6289.73, 10033.2, 1223.62, -6279.93, 10033.2, 814, -6279.93, 10026.3, 814, -6289.2, 10033.2, 1223.62, -6279.93, 10026.3, 814, -6289.2, 10026.3, 1223.62, -6289.2, 10021.6, 1223.14, -6298.51, 10028.7, 814, -6288.9, 10028.7, 1223.14, -6288.9, 10021.6, 1223.14, -6298.51, 10021.6, 814, -6298.51, 10028.7, 814, -6288.9, 10028.7, 1223.14, -6288.9, 10028.7, 814, -6288.9, 10028.6, 814, -6287.78, 10028.7, 814, -6288.9, 10021.6, 814, -6298.51, 10028.6, 814, -6287.78, 10028.7, 1223.14, -6288.9, 10028.6, 814, -6287.78, 10028.6, 1223.35, -6287.78, 10028.6, 1223.35, -6287.78, 10028.6, 814, -6287.78, 10027, 814, -6289.87, 10028.6, 814, -6287.78, 10021.6, 814, -6298.51, 10027, 814, -6289.87, 10028.6, 1223.35, -6287.78, 10027, 814, -6289.87, 10027, 1223.35, -6289.87, 10027, 814, -6289.87, 10021.6, 814, -6298.51, 10026.2, 814, -6289.28, 10027, 1223.35, -6289.87, 10027, 814, -6289.87, 10026.2, 814, -6289.28, 10026.2, 814, -6289.28, 10021.6, 814, -6298.51, 10021.2, 814, -6296, 10027, 1223.35, -6289.87, 10026.2, 814, -6289.28, 10026.2, 1223.62, -6289.28, 10026.2, 1223.62, -6289.28, 10026.2, 814, -6289.28, 10021.2, 814, -6296, 10026.2, 1223.62, -6289.28, 10021.2, 814, -6296, 10021.2, 1223.62, -6296, 10029.1, 1223.37, -6286.92, 10026.3, 1223.62, -6289.2, 10027, 1223.37, -6289.73, 10029.1, 1223.37, -6286.92, 10033.2, 1223.62, -6279.93, 10026.3, 1223.62, -6289.2, 10033.5, 1223.13, -6282.45, 10033.2, 1223.62, -6279.93, 10029.1, 1223.37, -6286.92, 10030.4, 1223.13, -6286.73, 10033.5, 1223.13, -6282.45, 10029.1, 1223.37, -6286.92, 10033.5, 1223.13, -6282.45, 10033.2, 814, -6279.93, 10033.2, 1223.62, -6279.93, 10033.5, 1223.13, -6282.45, 10033.5, 814, -6282.45, 10033.2, 814, -6279.93, 10021.2, 1223.62, -6296, 10027, 1223.35, -6289.87, 10026.2, 1223.62, -6289.28, 10021.6, 1223.13, -6298.51, 10027, 1223.35, -6289.87, 10021.2, 1223.62, -6296, 10021.6, 1223.13, -6298.51, 10028.7, 1223.13, -6288.9, 10027, 1223.35, -6289.87, 10028.7, 1223.13, -6288.9, 10028.6, 1223.35, -6287.78, 10027, 1223.35, -6289.87, 10021.2, 1223.62, -6296, 10021.6, 814, -6298.51, 10021.6, 1223.13, -6298.51, 10021.2, 1223.62, -6296, 10021.2, 814, -6296, 10021.6, 814, -6298.51)
+
+[node name="Polygonal object 28" type="MeshInstance3D"]
+mesh = SubResource("ArrayMesh_hb8ex")
+skeleton = NodePath("")
+
+[node name="Polygonal object 28_col" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Polygonal object 28_col"]
+shape = SubResource("ConcavePolygonShape3D_ufev2")

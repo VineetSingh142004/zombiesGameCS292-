@@ -1,0 +1,55 @@
+[gd_scene load_steps=6 format=4 uid="uid://cjjftik6qc5nj"]
+
+[ext_resource type="Texture2D" uid="uid://dkxthnty8h3kg" path="res://UsingAsset/new models/group buildings/untitled_ac25b4c3149f28010eba61814cfc617e.png" id="1_qsvjo"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_fkcx0"]
+resource_name = "Wood - Pine Grained Vertical"
+transparency = 4
+cull_mode = 2
+albedo_texture = ExtResource("1_qsvjo")
+metallic = 1.0
+roughness = 0.956411
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_n8u62"]
+_surfaces = [{
+"aabb": AABB(-647.169, 10.0011, -1.24283, 647.55, 27.1583, 136.242),
+"format": 34896613377,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgABAAMAAAAEAAEABAADAAEAAAACAAUAAgADAAUABgAEAAAAAAAFAAYABAAHAAMABQADAAcABgAHAAQABQAHAAYA"),
+"name": "Wood - Pine Grained Vertical",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("xv89XgAAAAAAALyhhPsAALH/AAAWAAAAUgC8of//AAAMAP//b/sAAOn/AACrBAAA//89XpQEAABfAP//6v8AAA==")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_uuktc"]
+resource_name = "untitled_RAIL - 001_063"
+_surfaces = [{
+"aabb": AABB(-647.169, 10.0011, -1.24283, 647.55, 27.1583, 136.242),
+"attribute_data": PackedByteArray("6X/+/wYA/vvsf/77AAD+/+x/f/cWAH/47n9/+AYAf/fuf/77DwD//+x//v8WAP/77H9++AAAfvfpf373DwB++N6DfvfugX/43oN++O6Bf/feg37374F/+O6Bf/feg374"),
+"format": 34896613399,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAAFAAYABAAHAAUACAAJAAoACAALAAkADAANAA4ADAAPAA0AEAARABIAEAATABEAFAAVABYAFAAXABUA"),
+"material": SubResource("StandardMaterial3D_fkcx0"),
+"name": "Wood - Pine Grained Vertical",
+"primitive": 3,
+"uv_scale": Vector4(4.40818, 2.13333, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("xv89XgAAPeMAALyhhPvp37H/AAAWAHfiDAD//2/72t+x/wAAFgCHHVIAvKH//5Fd6f8AAKsEWVIAALyhhPsVIOn/AACrBFlSXwD//+r/wF3//z1elATDUVIAvKH//5Fd//89XpQEO64MAP//b/va38b/PV4AAD3jXwD//+r/PqLG/z1eAADLAOn/AACrBDk///89XpQEXCqx/wAAFgBQIQwA//9v+z7TUgC8of//hssAALyhhPvV8l8A///q/7+/QtyQb2QvxYmPDolePfierY4OiV7zPdagyjlvO2QvxYnJOW87T995uvy47UbzPdWg/LjsRj34nq1C3JBvT995uvqsKrXaDjs60TBvDZE6n0cY0pC8qytp/A3Md9uH+l0w")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_n8u62")
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_3opxw"]
+data = PackedVector3Array(-0.1818, 19.9987, -1.2428, -647.169, 27.1593, 132.614, -0.3892, 10.0011, -1.1971, -0.1818, 19.9987, -1.2428, -647.05, 37.1594, 132.57, -647.169, 27.1593, 132.614, -0.3892, 10.0011, -1.1971, -646.358, 27.1593, 134.999, 0.1641, 10.0011, 1.2415, -0.3892, 10.0011, -1.1971, -647.169, 27.1593, 132.614, -646.358, 27.1593, 134.999, 0.1641, 10.0011, 1.2415, -646.23, 37.1594, 134.955, 0.3815, 19.9987, 1.1937, 0.1641, 10.0011, 1.2415, -646.358, 27.1593, 134.999, -646.23, 37.1594, 134.955, 0.3815, 19.9987, 1.1937, -647.05, 37.1594, 132.57, -0.1818, 19.9987, -1.2428, 0.3815, 19.9987, 1.1937, -646.23, 37.1594, 134.955, -647.05, 37.1594, 132.57, -0.1818, 19.9987, -1.2428, 0.1641, 10.0011, 1.2415, 0.3815, 19.9987, 1.1937, -0.1818, 19.9987, -1.2428, -0.3892, 10.0011, -1.1971, 0.1641, 10.0011, 1.2415, -647.05, 37.1594, 132.57, -646.358, 27.1593, 134.999, -647.169, 27.1593, 132.614, -647.05, 37.1594, 132.57, -646.23, 37.1594, 134.955, -646.358, 27.1593, 134.999)
+
+[node name="RAIL - 001_063" type="MeshInstance3D"]
+mesh = SubResource("ArrayMesh_uuktc")
+skeleton = NodePath("")
+
+[node name="RAIL - 001_063_col" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RAIL - 001_063_col"]
+shape = SubResource("ConcavePolygonShape3D_3opxw")

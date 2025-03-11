@@ -1,0 +1,53 @@
+[gd_scene load_steps=5 format=4 uid="uid://8ue1308pqamc"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_n76rh"]
+resource_name = "Metal - Aluminium"
+cull_mode = 2
+albedo_color = Color(0.96289, 0.94639, 0.94639, 1)
+metallic = 1.0
+roughness = 0.92254
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_sqx4p"]
+_surfaces = [{
+"aabb": AABB(-2.00806, 95, -1.48926, 69.5496, 4.99997, 91.3364),
+"format": 34896613377,
+"index_count": 36,
+"index_data": PackedByteArray("BgACAAAAAAACAAQABgABAAIAAQAEAAIABgAAAAcAAAAEAAcAAwABAAYABgAHAAMAAQAFAAQABwAEAAUAAwAFAAEABwAFAAMA"),
+"lods": [2.70116, PackedByteArray("AAABAAIAAwABAAAAAAACAAQAAAAEAAMAAQAEAAIAAwAEAAUAAQAFAAQAAwAFAAEA")],
+"name": "Metal - Aluminium",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("AAAAAFkIAAA38f////8AADfxAAD//wAAyA7//wAAAAD//wAApfcAAP////+l9wAAAAD//1kIAADIDgAAAAAAAA==")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_x2iye"]
+resource_name = "untitled_TOPRAIL - 001_016"
+_surfaces = [{
+"aabb": AABB(-2.00806, 95, -1.48926, 69.5496, 4.99997, 91.3364),
+"format": 34896613383,
+"index_count": 36,
+"index_data": PackedByteArray("BgACAAAAAAACAAQABgABAAIAAQAEAAIABgAAAAcAAAAEAAcAAwABAAYABgAHAAMAAQAFAAQABwAEAAUAAwAFAAEABwAFAAMA"),
+"lods": [2.70116, PackedByteArray("AAABAAIAAwABAAAAAAACAAQAAAAEAAMAAQAEAAIAAwAEAAUAAQAFAAQAAwAFAAEA")],
+"material": SubResource("StandardMaterial3D_n76rh"),
+"name": "Metal - Aluminium",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("AAAAAFkIJdM38f////+AzDfxAAD//xPRyA7//wAAde3//wAApfel+f////+l92/9AAD//1kIpdXIDgAAAACb9GOvnPxaj4ieSmihaRS/Wi3SpYBeHR/gJxl4fMseOxvR")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_sqx4p")
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_munid"]
+data = PackedVector3Array(-2.0081, 100, 1.4891, 63.5257, 95, 89.8472, -2.0081, 95, 1.4891, -2.0081, 95, 1.4891, 63.5257, 95, 89.8472, 67.5415, 95, 86.8674, -2.0081, 100, 1.4891, 63.5257, 100, 89.8472, 63.5257, 95, 89.8472, 63.5257, 100, 89.8472, 67.5415, 95, 86.8674, 63.5257, 95, 89.8472, -2.0081, 100, 1.4891, -2.0081, 95, 1.4891, 2.0077, 95, -1.4893, -2.0081, 95, 1.4891, 67.5415, 95, 86.8674, 2.0077, 95, -1.4893, 2.0077, 100, -1.4893, 63.5257, 100, 89.8472, -2.0081, 100, 1.4891, -2.0081, 100, 1.4891, 2.0077, 95, -1.4893, 2.0077, 100, -1.4893, 63.5257, 100, 89.8472, 67.5415, 100, 86.8674, 67.5415, 95, 86.8674, 2.0077, 95, -1.4893, 67.5415, 95, 86.8674, 67.5415, 100, 86.8674, 2.0077, 100, -1.4893, 67.5415, 100, 86.8674, 63.5257, 100, 89.8472, 2.0077, 95, -1.4893, 67.5415, 100, 86.8674, 2.0077, 100, -1.4893)
+
+[node name="TOPRAIL - 001_016" type="MeshInstance3D"]
+mesh = SubResource("ArrayMesh_x2iye")
+skeleton = NodePath("")
+
+[node name="TOPRAIL - 001_016_col" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="TOPRAIL - 001_016_col"]
+shape = SubResource("ConcavePolygonShape3D_munid")

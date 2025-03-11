@@ -1,0 +1,56 @@
+[gd_scene load_steps=6 format=4 uid="uid://cdxegxv2eyo53"]
+
+[ext_resource type="Texture2D" uid="uid://bgs0junbo38al" path="res://UsingAsset/new models/group buildings/untitled_102a7375c65de841fa8165c45d545d26.png" id="1_ph4qj"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ym5e0"]
+resource_name = "Timber Fence Plank 3"
+transparency = 4
+cull_mode = 2
+albedo_texture = ExtResource("1_ph4qj")
+metallic = 1.0
+roughness = 0.956411
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_dewib"]
+_surfaces = [{
+"aabb": AABB(-1.25046, 0, -5.99899, 2.50053, 129, 12.0003),
+"format": 34896613377,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgABAAMAAAAEAAEABAADAAEAAAACAAUAAgADAAUABgAEAAAAAAAFAAYABAAHAAMABQADAAcABgAHAAQABQAHAAYA"),
+"name": "Timber Fence Plank 3",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("9f8AAAAAAAAAAP//AAAAAAAAAAAAAAAACQD/////AAD1////AAAAAAkAAAD//wAA//8AAPr/AAD/////+v8AAA==")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_gqglo"]
+resource_name = "untitled_BALUSTER - 001_073"
+_surfaces = [{
+"aabb": AABB(-1.25046, 0, -5.99899, 2.50053, 129, 12.0003),
+"attribute_data": PackedByteArray("VGXFyKqa//+qmsXIVGX/////xcgAAP//AADFyP////+qmsXIVGX//1Rlxciqmv//AADFyP///////8XIAAD/////TskAADzIAABOyf//PMj//07JAAA8yP//PMgAAE7J"),
+"format": 34896613399,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAAFAAYABAAHAAUACAAJAAoACAALAAkADAANAA4ADAAPAA0AEAARABIAEAATABEAFAAVABYAFAAXABUA"),
+"material": SubResource("StandardMaterial3D_ym5e0"),
+"name": "Timber Fence Plank 3",
+"primitive": 3,
+"uv_scale": Vector4(1.50407, 3.51765, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("9f8AAAAAHBcAAP//AAAdFwAAAAAAAB0X9f///wAAHRcAAAAAAACW8QkA/////73jCQAAAP//veMAAP//AACW8QkAAAD//4X2//////r/ifb//wAA+v+J9gkA/////4X2//8AAPr/Z071////AAC9I/X/AAAAAL0j//////r/Z071/wAAAAC9IwkAAAD//0Ec//8AAPr/Z04AAAAAAABoDvX///8AAEHcCQD/////veMAAP//AACW8f/////6/5ex5YoxLRh1zNIyrRj1zVLmCr09jmQn8D8mv1kncI3kQUJj4YPonB5+F32XYmGDaJueDmgxRmaxjSBxX2cxMMbxF3FfZzG/WSdwDmgxRr09jmRmsY0gJ/A/Jo3kQUIwxvEX")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_dewib")
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_0rryc"]
+data = PackedVector3Array(1.2497, 0, -5.999, -1.2505, 129, -5.999, -1.2505, 0, -5.999, 1.2497, 0, -5.999, 1.2497, 129, -5.999, -1.2505, 129, -5.999, -1.2505, 0, -5.999, -1.2501, 129, 6.0013, -1.2501, 0, 6.0013, -1.2505, 0, -5.999, -1.2505, 129, -5.999, -1.2501, 129, 6.0013, -1.2501, 0, 6.0013, 1.2501, 129, 6.0004, 1.2501, 0, 6.0004, -1.2501, 0, 6.0013, -1.2501, 129, 6.0013, 1.2501, 129, 6.0004, 1.2501, 0, 6.0004, 1.2497, 129, -5.999, 1.2497, 0, -5.999, 1.2501, 0, 6.0004, 1.2501, 129, 6.0004, 1.2497, 129, -5.999, 1.2497, 0, -5.999, -1.2501, 0, 6.0013, 1.2501, 0, 6.0004, 1.2497, 0, -5.999, -1.2505, 0, -5.999, -1.2501, 0, 6.0013, 1.2497, 129, -5.999, -1.2501, 129, 6.0013, -1.2505, 129, -5.999, 1.2497, 129, -5.999, 1.2501, 129, 6.0004, -1.2501, 129, 6.0013)
+
+[node name="BALUSTER - 001_073" type="MeshInstance3D"]
+transform = Transform3D(-0.439882, 0, 0.898055, 0, 1, 0, -0.898055, 0, -0.439882, 0, 0, 0)
+mesh = SubResource("ArrayMesh_gqglo")
+skeleton = NodePath("")
+
+[node name="BALUSTER - 001_073_col" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="BALUSTER - 001_073_col"]
+shape = SubResource("ConcavePolygonShape3D_0rryc")

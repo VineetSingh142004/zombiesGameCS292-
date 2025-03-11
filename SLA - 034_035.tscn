@@ -1,0 +1,53 @@
+[gd_scene load_steps=5 format=4 uid="uid://doccq0vr77mk1"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ke3mx"]
+resource_name = "Paint - Anthracite"
+cull_mode = 2
+albedo_color = Color(0.461825, 0.461825, 0.461825, 1)
+metallic = 1.0
+roughness = 0.968377
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_1kotk"]
+_surfaces = [{
+"aabb": AABB(10812.6, 935.962, -6916.28, 70.4697, 115.795, 54.4336),
+"format": 34896613377,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAYABgABAAQAAAAHAAEABwAEAAEAAAAGAAIABgAEAAIABQAHAAAAAAACAAUABwADAAQAAgAEAAMABQADAAcAAgADAAUA"),
+"lods": [4.51646, PackedByteArray("AAABAAIAAgABAAQAAAACAAUAAwAEAAEAAAADAAEAAgAEAAMABQADAAAAAgADAAUA"), 4.51664, PackedByteArray("AAABAAIAAgABAAMAAAADAAEAAgADAAAA")],
+"name": "Paint - Anthracite",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("/AwAAP//AAD/////qRYAAAPzAAAAAAAAAAD//1bpAAAD8///AAAAAAAAAABW6QAA//8AAKkWAAD8DP////8AAA==")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_g8w08"]
+resource_name = "untitled_SLA - 034_035"
+_surfaces = [{
+"aabb": AABB(10812.6, 935.962, -6916.28, 70.4697, 115.795, 54.4336),
+"format": 34896613383,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAYABgABAAQAAAAHAAEABwAEAAEAAAAGAAIABgAEAAIABQAHAAAAAAACAAUABwADAAQAAgAEAAMABQADAAcAAgADAAUA"),
+"lods": [4.51646, PackedByteArray("AAABAAIAAgABAAQAAAACAAUAAwAEAAEAAAADAAEAAgAEAAMABQADAAAAAgADAAUA"), 4.51664, PackedByteArray("AAABAAIAAgABAAMAAAADAAEAAgADAAAA")],
+"material": SubResource("StandardMaterial3D_ke3mx"),
+"name": "Paint - Anthracite",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("/AwAAP//FNH/////qRZv/QPzAAAAAJv0AAD//1bppdUD8///AAB27QAAAABW6STT//8AAKkWpfn8DP////+AzEton2keH+EnHzsd0Rl4fMsUv1otY6+c/NKlgF5aj4me")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_1kotk")
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_k3s2k"]
+data = PackedVector3Array(10816.2, 935.962, -6861.85, 10883.1, 1051.76, -6911.46, 10883.1, 935.962, -6911.46, 10883.1, 935.962, -6911.46, 10883.1, 1051.76, -6911.46, 10879.5, 1051.76, -6916.28, 10816.2, 935.962, -6861.85, 10816.2, 1051.76, -6861.85, 10883.1, 1051.76, -6911.46, 10816.2, 1051.76, -6861.85, 10879.5, 1051.76, -6916.28, 10883.1, 1051.76, -6911.46, 10816.2, 935.962, -6861.85, 10883.1, 935.962, -6911.46, 10879.5, 935.962, -6916.28, 10883.1, 935.962, -6911.46, 10879.5, 1051.76, -6916.28, 10879.5, 935.962, -6916.28, 10812.6, 935.962, -6866.66, 10816.2, 1051.76, -6861.85, 10816.2, 935.962, -6861.85, 10816.2, 935.962, -6861.85, 10879.5, 935.962, -6916.28, 10812.6, 935.962, -6866.66, 10816.2, 1051.76, -6861.85, 10812.6, 1051.76, -6866.66, 10879.5, 1051.76, -6916.28, 10879.5, 935.962, -6916.28, 10879.5, 1051.76, -6916.28, 10812.6, 1051.76, -6866.66, 10812.6, 935.962, -6866.66, 10812.6, 1051.76, -6866.66, 10816.2, 1051.76, -6861.85, 10879.5, 935.962, -6916.28, 10812.6, 1051.76, -6866.66, 10812.6, 935.962, -6866.66)
+
+[node name="SLA - 034_035" type="MeshInstance3D"]
+mesh = SubResource("ArrayMesh_g8w08")
+skeleton = NodePath("")
+
+[node name="SLA - 034_035_col" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="SLA - 034_035_col"]
+shape = SubResource("ConcavePolygonShape3D_k3s2k")

@@ -1,0 +1,87 @@
+[gd_scene load_steps=7 format=4 uid="uid://du4oyym25bcrb"]
+
+[ext_resource type="Texture2D" uid="uid://c4nhhcm5oas8u" path="res://UsingAsset/new models/group buildings/untitled_040153eeeffef7d1f6d477e53330bf9f.png" id="1_x0ugh"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ke3mx"]
+resource_name = "Paint - Anthracite"
+cull_mode = 2
+albedo_color = Color(0.461825, 0.461825, 0.461825, 1)
+metallic = 1.0
+roughness = 0.968377
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_hpvdn"]
+resource_name = "Stone - Marble Carrara White"
+transparency = 4
+cull_mode = 2
+albedo_texture = ExtResource("1_x0ugh")
+metallic = 1.0
+roughness = 0.968377
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_s26e4"]
+_surfaces = [{
+"aabb": AABB(-3.79944, -5, -3.79982, 34.5596, 247, 1.80054),
+"format": 34359742465,
+"index_count": 168,
+"index_data": PackedByteArray("CgABAAsACgADAAEAAgALAAEAGAADAAoAGAAKAAsAGAAAAAMAAgAZAAsAGAALABkAAAAZAAIAAAAYABkADAAaAA4ADwAMAA4ADwAOABAADgAaABAADAAPABsADAAbABoAGwAPABEAEQAPABAAEAAaABQAEQAQABQAFAAaAA0AGwANABoAGwARABwAGwAcAA0AHAARAB0AHQARABQAFAANAB4AHQAUAB4AHgANABMAHAATAA0AHwAdAB4AHAAdABIAEgAdAB8AHAASABMAHwAeACAAEgAfACAAHgATACAAEgAgABMACAAVAAQACAAWABUAFQAhAAQAIQAVABYABwAIAAQABwAEAAYABAAhAAYAIgAIAAcAFgAIACIAIQAWACIAIgAHAAkABgAhAAUAFwAhACIABQAhABcAIgAJACMABQAjAAkAFwAiACMABQAXACMA"),
+"lods": [6.32064, PackedByteArray("CgABAAsAAgALAAEACgADAAEAAAALAAIAAAADAAoAAAAKAAsADAANAA4ADwAMAA4ADwAOABAADgANABAADAAPABEAEQAPABAADAASAA0ADAARABIAEgATAA0AEQAQABQAEgARABQAEAANABQAEgAUABMAFAANABMACAAVAAQABwAIAAQACAAWABUAFgAIAAcABwAEAAYAFgAHAAkAFQAXAAQAFwAVABYABAAXAAYAFwAWAAkABgAXAAUABQAXAAkA"), 65.2797, PackedByteArray("AAABAAIAAAADAAEABAAFAAYABwAEAAYABQAEAAgABwAIAAQABQAIAAkACAAHAAkA")],
+"name": "Paint - Anthracite",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 36,
+"vertex_data": PackedByteArray("sOLuQfb/n8DAAADA4BT2Qf//cUNAkjnAsOLuQf//cUPAAADA4BT2Qfb/n8BAkjnAABALQf//cUNAMHPAAPX/v///cUPAAADAACpzwP//cUMAKnPAACpzwPb/n8AAKnPAABALQfb/n8BAMHPAAPX/v/b/n8DAAADAkO7fQfb/n8CAmDnAkO7fQf//cUOAmDnAUO3zQfb/n8AA/j/A4CHfQf//cUOA6P+/UO3zQf//cUMA/j/A0IftQfb/n8BAMHPA0IftQf//cUNAMHPAgEY2Qfb/n8AAKnPAQMHfQPb/n8CA6P+/QMHfQP//cUOA6P+/gEY2Qf//cUMAKnPAIN4XQf//cUMA/j/AIN4XQfb/n8AA/j/AQIjcQP//cUMA9f+/IPDfQfb/n8AA9f+/IPDfQf//cUMA9f+/cCPfQf//cUMA/j/AcCPfQfb/n8AA/j/A4CHfQfb/n8CA6P+/AN8nQfb/n8CAmDnAAN8nQf//cUOAmDnAALvfQPb/n8BAkjnAALvfQP//cUNAkjnAQIjcQP//cUPA9z/AQIjcQPb/n8DA9z/AQIjcQPb/n8AA9f+/")
+}, {
+"aabb": AABB(-3.79944, -5, -3.79944, 34.5596, 247, 1.79939),
+"format": 34896613377,
+"index_count": 12,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAAFAAYABAAHAAUA"),
+"name": "Stone - Marble Carrara White",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("VfkAAP//AAD/////BoAAAP//AAAGgAAAVfn/////AAAAAAAAAAAAAFQN/////wAAVA0AAP//AAAAAP//AAAAAA==")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_8iauy"]
+resource_name = "untitled_CI Tools Wall Covering - _046"
+_surfaces = [{
+"aabb": AABB(-3.79944, -5, -3.79982, 34.5596, 247, 1.80054),
+"attribute_data": PackedByteArray("DnRaO4/Cbz8OdFo7j8JvPw50WjuPwm8/DnRaO4/Cbz8OdFo7j8JvPw50WjuPwm8/DnRaO4/Cbz8OdFo7j8JvPw50WjuPwm8/DnRaO4/Cbz8OdFo7j8JvPw50WjuPwm8/DnRaO4/Cbz8OdFo7j8JvPw50WjuPwm8/DnRaO4/Cbz8OdFo7j8JvPw50WjuPwm8/DnRaO4/Cbz8OdFo7j8JvPw50WjuPwm8/DnRaO4/Cbz8OdFo7j8JvPw50WjuPwm8/DnRaO4/Cbz8OdFo7j8JvPw50WjuPwm8/DnRaO4/Cbz8OdFo7j8JvPw50WjuPwm8/DnRaO4/Cbz8OdFo7j8JvPw50WjuPwm8/DnRaO4/Cbz8OdFo7j8JvPw50WjuPwm8/"),
+"format": 34359742487,
+"index_count": 168,
+"index_data": PackedByteArray("CgABAAsACgADAAEAAgALAAEAGAADAAoAGAAKAAsAGAAAAAMAAgAZAAsAGAALABkAAAAZAAIAAAAYABkADAAaAA4ADwAMAA4ADwAOABAADgAaABAADAAPABsADAAbABoAGwAPABEAEQAPABAAEAAaABQAEQAQABQAFAAaAA0AGwANABoAGwARABwAGwAcAA0AHAARAB0AHQARABQAFAANAB4AHQAUAB4AHgANABMAHAATAA0AHwAdAB4AHAAdABIAEgAdAB8AHAASABMAHwAeACAAEgAfACAAHgATACAAEgAgABMACAAVAAQACAAWABUAFQAhAAQAIQAVABYABwAIAAQABwAEAAYABAAhAAYAIgAIAAcAFgAIACIAIQAWACIAIgAHAAkABgAhAAUAFwAhACIABQAhABcAIgAJACMABQAjAAkAFwAiACMABQAXACMA"),
+"lods": [6.32064, PackedByteArray("CgABAAsAAgALAAEACgADAAEAAAALAAIAAAADAAoAAAAKAAsADAANAA4ADwAMAA4ADwAOABAADgANABAADAAPABEAEQAPABAADAASAA0ADAARABIAEgATAA0AEQAQABQAEgARABQAEAANABQAEgAUABMAFAANABMACAAVAAQABwAIAAQACAAWABUAFgAIAAcABwAEAAYAFgAHAAkAFQAXAAQAFwAVABYABAAXAAYAFwAWAAkABgAXAAUABQAXAAkA"), 65.2797, PackedByteArray("AAABAAIAAAADAAEABAAFAAYABwAEAAYABQAEAAgABwAIAAQABQAIAAkACAAHAAkA")],
+"material": SubResource("StandardMaterial3D_ke3mx"),
+"name": "Paint - Anthracite",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 36,
+"vertex_data": PackedByteArray("sOLuQfb/n8DAAADA4BT2Qf//cUNAkjnAsOLuQf//cUPAAADA4BT2Qfb/n8BAkjnAABALQf//cUNAMHPAAPX/v///cUPAAADAACpzwP//cUMAKnPAACpzwPb/n8AAKnPAABALQfb/n8BAMHPAAPX/v/b/n8DAAADAkO7fQfb/n8CAmDnAkO7fQf//cUOAmDnAUO3zQfb/n8AA/j/A4CHfQf//cUOA6P+/UO3zQf//cUMA/j/A0IftQfb/n8BAMHPA0IftQf//cUNAMHPAgEY2Qfb/n8AAKnPAQMHfQPb/n8CA6P+/QMHfQP//cUOA6P+/gEY2Qf//cUMAKnPAIN4XQf//cUMA/j/AIN4XQfb/n8AA/j/AQIjcQP//cUMA9f+/IPDfQfb/n8AA9f+/IPDfQf//cUMA9f+/cCPfQf//cUMA/j/AcCPfQfb/n8AA/j/A4CHfQfb/n8CA6P+/AN8nQfb/n8CAmDnAAN8nQf//cUOAmDnAALvfQPb/n8BAkjnAALvfQP//cUNAkjnAQIjcQP//cUPA9z/AQIjcQPb/n8DA9z/AQIjcQPb/n8AA9f+/IJfxTv///z9U1abD////vyCXDbH///8/VNVYPP///7/wzuHo////v+BoDbH///8/qiqmw////7+qKlg8////v/DOHRf///+/4GjxTv///z+pKq4q////v6kqUNX///+/VLxVVf///z+lqquq////P1S8qar///8/884hF////7/zzt3o////vw4xHRf///+/WlVUVf///z9aVaqq////Pw4x4ej///+/WLyqqv///z9YvFRV////P6mqqar///8/W1VTVf///z9bVauq////P5iZx8z///8/mJk3M////z+kqlRV////PxtBaRL///+/G0GV7f///7+pKq8q////v6kqT9X///+/mpnKzP///z+amTQz////P6mqVVX///8/")
+}, {
+"aabb": AABB(-3.79944, -5, -3.79944, 34.5596, 247, 1.79939),
+"attribute_data": PackedByteArray("2gDB75/ThvDaAIbwn9PB79oA3/af02j42gBo+J/T3/Y="),
+"format": 34896613399,
+"index_count": 12,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAAFAAYABAAHAAUA"),
+"material": SubResource("StandardMaterial3D_hpvdn"),
+"name": "Stone - Marble Carrara White",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("VfkAAP//18D/////BoDa7v//AAAGgBnRVfn/////zMoAAAAAAADa7lQN/////9fAVA0AAP//y8oAAP//AAAZ0SsMv9S9M5IiQCu8QC3YNAtBzGzd0vM9K9AnyfS+1EK/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_s26e4")
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_dclj8"]
+data = PackedVector3Array(27.9915, -5, -2.8999, 30.7602, 242, -2.8996, 27.9915, 242, -2.8999, 27.9915, -5, -2.8999, 30.7602, -5, -2.8996, 30.7602, 242, -2.8996, 29.8607, 242, -2, 27.9915, 242, -2.8999, 30.7602, 242, -2.8996, 27.9922, -5, -1.9997, 30.7602, -5, -2.8996, 27.9915, -5, -2.8999, 27.9922, -5, -1.9997, 27.9915, -5, -2.8999, 27.9915, 242, -2.8999, 27.9922, -5, -1.9997, 29.8607, -5, -2, 30.7602, -5, -2.8996, 29.8607, 242, -2, 27.9922, 242, -1.9997, 27.9915, 242, -2.8999, 27.9922, -5, -1.9997, 27.9915, 242, -2.8999, 27.9922, 242, -1.9997, 29.8607, -5, -2, 27.9922, 242, -1.9997, 29.8607, 242, -2, 29.8607, -5, -2, 27.9922, -5, -1.9997, 27.9922, 242, -1.9997, 30.4909, -5, -2.9999, 27.8923, 242, -2.9999, 30.4909, 242, -2.9999, 29.6913, -5, -3.7998, 30.4909, -5, -2.9999, 30.4909, 242, -2.9999, 29.6913, -5, -3.7998, 30.4909, 242, -2.9999, 29.6913, 242, -3.7998, 30.4909, 242, -2.9999, 27.8923, 242, -2.9999, 29.6913, 242, -3.7998, 30.4909, -5, -2.9999, 29.6913, -5, -3.7998, 27.8923, -5, -2.9999, 30.4909, -5, -2.9999, 27.8923, -5, -2.9999, 27.8923, 242, -2.9999, 27.8923, -5, -2.9999, 29.6913, -5, -3.7998, 11.3922, -5, -3.7994, 11.3922, -5, -3.7994, 29.6913, -5, -3.7998, 29.6913, 242, -3.7998, 29.6913, 242, -3.7998, 27.8923, 242, -2.9999, 11.3922, 242, -3.7994, 11.3922, -5, -3.7994, 29.6913, 242, -3.7998, 11.3922, 242, -3.7994, 11.3922, 242, -3.7994, 27.8923, 242, -2.9999, 27.8915, 242, -1.9993, 27.8923, -5, -2.9999, 27.8915, 242, -1.9993, 27.8923, 242, -2.9999, 27.8923, -5, -2.9999, 11.3922, -5, -3.7994, 27.8915, -5, -1.9993, 27.8923, -5, -2.9999, 27.8915, -5, -1.9993, 27.8915, 242, -1.9993, 27.8915, -5, -1.9993, 11.3922, -5, -3.7994, 10.4919, -5, -2.8999, 10.4919, -5, -2.8999, 11.3922, -5, -3.7994, 11.3922, 242, -3.7994, 11.3922, 242, -3.7994, 27.8915, 242, -1.9993, 10.4919, 242, -2.8999, 10.4919, -5, -2.8999, 11.3922, 242, -3.7994, 10.4919, 242, -2.8999, 10.4919, 242, -2.8999, 27.8915, 242, -1.9993, 6.9923, 242, -1.9993, 27.8915, -5, -1.9993, 6.9923, 242, -1.9993, 27.8915, 242, -1.9993, 6.9916, -5, -2.8996, 10.4919, -5, -2.8999, 10.4919, 242, -2.8999, 27.8915, -5, -1.9993, 10.4919, -5, -2.8999, 6.9923, -5, -1.9993, 6.9923, -5, -1.9993, 10.4919, -5, -2.8999, 6.9916, -5, -2.8996, 27.8915, -5, -1.9993, 6.9923, -5, -1.9993, 6.9923, 242, -1.9993, 6.9916, -5, -2.8996, 10.4919, 242, -2.8999, 6.9916, 242, -2.8996, 6.9923, -5, -1.9993, 6.9916, -5, -2.8996, 6.9916, 242, -2.8996, 10.4919, 242, -2.8999, 6.9923, 242, -1.9993, 6.9916, 242, -2.8996, 6.9923, -5, -1.9993, 6.9916, 242, -2.8996, 6.9923, 242, -1.9993, 8.6914, -5, -3.7998, 9.4917, 242, -2.9999, 8.6914, 242, -3.7998, 8.6914, -5, -3.7998, 9.4917, -5, -2.9999, 9.4917, 242, -2.9999, 9.4917, 242, -2.9999, 6.8916, 242, -2.9995, 8.6914, 242, -3.7998, 6.8916, 242, -2.9995, 9.4917, 242, -2.9999, 9.4917, -5, -2.9999, -3.7994, -5, -3.7994, 8.6914, -5, -3.7998, 8.6914, 242, -3.7998, -3.7994, -5, -3.7994, 8.6914, 242, -3.7998, -3.7994, 242, -3.7994, 8.6914, 242, -3.7998, 6.8916, 242, -2.9995, -3.7994, 242, -3.7994, 6.8916, -5, -2.9995, 8.6914, -5, -3.7998, -3.7994, -5, -3.7994, 9.4917, -5, -2.9999, 8.6914, -5, -3.7998, 6.8916, -5, -2.9995, 6.8916, 242, -2.9995, 9.4917, -5, -2.9999, 6.8916, -5, -2.9995, 6.8916, -5, -2.9995, -3.7994, -5, -3.7994, -1.9997, -5, -2, -3.7994, 242, -3.7994, 6.8916, 242, -2.9995, -1.9997, 242, -2, 6.8916, 242, -1.9997, 6.8916, 242, -2.9995, 6.8916, -5, -2.9995, -1.9997, 242, -2, 6.8916, 242, -2.9995, 6.8916, 242, -1.9997, 6.8916, -5, -2.9995, -1.9997, -5, -2, 6.8916, -5, -1.9997, -1.9997, 242, -2, 6.8916, -5, -1.9997, -1.9997, -5, -2, 6.8916, 242, -1.9997, 6.8916, -5, -2.9995, 6.8916, -5, -1.9997, -1.9997, 242, -2, 6.8916, 242, -1.9997, 6.8916, -5, -1.9997, 29.8605, -5, -2, 30.7602, 242, -2.8996, 30.7602, -5, -2.8996, 29.8605, -5, -2, 29.8605, 242, -2, 30.7602, 242, -2.8996, -3.7994, -5, -3.7994, -2.0001, 242, -2, -2.0001, -5, -2, -3.7994, -5, -3.7994, -3.7994, 242, -3.7994, -2.0001, 242, -2)
+
+[node name="CI Tools Wall Covering - _046" type="MeshInstance3D"]
+transform = Transform3D(0.803193, 0, 0.595718, 0, 1, 0, -0.595718, 0, 0.803193, 0, 0, 0)
+mesh = SubResource("ArrayMesh_8iauy")
+skeleton = NodePath("")
+
+[node name="CI Tools Wall Covering - _046_col" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CI Tools Wall Covering - _046_col"]
+shape = SubResource("ConcavePolygonShape3D_dclj8")
