@@ -1,10 +1,15 @@
-[gd_scene load_steps=13 format=3 uid="uid://db2h3t17k37pe"]
+[gd_scene load_steps=18 format=3 uid="uid://db2h3t17k37pe"]
 
 [ext_resource type="Script" uid="uid://cp8ddmcbhue8d" path="res://Scripts/World.gd" id="1_yrgup"]
 [ext_resource type="PackedScene" uid="uid://clwvialu5iyb2" path="res://Assets/map/new city.glb" id="2_gjpho"]
 [ext_resource type="PackedScene" uid="uid://bir6o1slvvhkr" path="res://UsingAsset/free city/freeCity.glb" id="2_p70al"]
 [ext_resource type="Texture2D" uid="uid://bo6sns01ykkyg" path="res://Assets/AllSky/Screenshots/_0003_AllSkyFree_Screen_06.jpg" id="3_qdyvj"]
-[ext_resource type="PackedScene" uid="uid://crgofpjfiqni7" path="res://Models/Old Main/Old_Main.glb" id="7_y7y61"]
+[ext_resource type="PackedScene" uid="uid://b4u8tp0k5hwj5" path="res://UsingAsset/buildings and houses/buildings/asian buildings/AureedBuilding.tscn" id="6_45d1s"]
+[ext_resource type="PackedScene" uid="uid://boql77ksygj1i" path="res://UsingAsset/buildings and houses/buildings/front building/BuildBlend.glb" id="7_q2d71"]
+[ext_resource type="PackedScene" uid="uid://dkubc8tfkl1xn" path="res://UsingAsset/buildings and houses/houses/house 1.tscn" id="8_q2d71"]
+[ext_resource type="PackedScene" uid="uid://c8xqp34mjosvw" path="res://Old_Main.tscn" id="9_kn06e"]
+[ext_resource type="PackedScene" uid="uid://cxxciaksw5f4k" path="res://UsingAsset/buildings and houses/houses/house 2.tscn" id="10_7yo87"]
+[ext_resource type="PackedScene" uid="uid://cltbefj8tviju" path="res://UsingAsset/buildings and houses/buildings/appartment 2/Townhouse.tscn" id="11_7yo87"]
 [ext_resource type="PackedScene" uid="uid://5iurrb07epis" path="res://Scenes/Player.tscn" id="31_jumwc"]
 
 [sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_6lu03"]
@@ -53,16 +58,13 @@ environment = SubResource("Environment_rlw24")
 navigation_mesh = SubResource("NavigationMesh_o2f1v")
 
 [node name="Player" parent="Map/NavigationRegion3D" instance=ExtResource("31_jumwc")]
-transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, -86.5896, 2.29769, 11.9504)
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 75.7356, 2.29769, 142.592)
 
 [node name="StaticBody3D" type="StaticBody3D" parent="Map/NavigationRegion3D"]
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Map/NavigationRegion3D/StaticBody3D"]
 transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, 0.800186, -4.7037, -1.22216)
 shape = SubResource("BoxShape3D_5nsto")
-
-[node name="Old_Main" parent="Map" instance=ExtResource("7_y7y61")]
-transform = Transform3D(-2.18557e-06, 0, 50, 0, 50, 0, -50, 0, -2.18557e-06, -128.63, 28.1793, -19.0102)
 
 [node name="Moon" type="CSGSphere3D" parent="Map"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 937, 717, -683)
@@ -192,6 +194,57 @@ color = Color(0.803922, 0.0313726, 0.117647, 0.266667)
 
 [node name="ZombieSpawnTimer" type="Timer" parent="."]
 autostart = true
+
+[node name="AureedBuilding" parent="." instance=ExtResource("6_45d1s")]
+transform = Transform3D(2.5, 0, 0, 0, 2.5, 0, 0, 0, 2.5, 120.482, -0.384558, 142.166)
+
+[node name="BuildBlend" parent="." instance=ExtResource("7_q2d71")]
+transform = Transform3D(-6.55671e-08, 0, 1.5, 0, 1.5, 0, -1.5, 0, -6.55671e-08, -62.8162, 0.629426, -167.087)
+
+[node name="house 1" parent="." instance=ExtResource("8_q2d71")]
+transform = Transform3D(-20, 0, -3.01992e-06, 0, 20, 0, 3.01992e-06, 0, -20, -123.633, 11.8377, 86.5082)
+
+[node name="house 3" parent="." instance=ExtResource("8_q2d71")]
+transform = Transform3D(-0.0157055, 0, -20, 0, 20, 0, 20, 0, -0.0157055, 184.529, 12.2471, 35.2808)
+
+[node name="house 4" parent="." instance=ExtResource("8_q2d71")]
+transform = Transform3D(19.9988, 0, -0.220952, 0, 20, 0, 0.220952, 0, 19.9988, 26.6585, 12.6817, 127.606)
+
+[node name="Old_Main" parent="." instance=ExtResource("9_kn06e")]
+transform = Transform3D(-0.287451, 0, -29.9986, 0, 30, 0, 29.9986, 0, -0.287451, 94.1181, 17.4532, -16.8768)
+
+[node name="house 2" parent="." instance=ExtResource("10_7yo87")]
+transform = Transform3D(0.482365, 0, -19.9942, 0, 20, 0, 19.9942, 0, 0.482365, 186.435, 12.677, -114.4)
+
+[node name="Townhouse" parent="." instance=ExtResource("11_7yo87")]
+transform = Transform3D(-0.00178039, 0, 3, 0, 3, 0, -3, 0, -0.00178039, 74.2612, 0.306805, 196.05)
+
+[node name="Townhouse2" parent="Townhouse" instance=ExtResource("11_7yo87")]
+transform = Transform3D(1, 0, 5.82077e-11, 0, 1, 0, -5.82077e-11, 0, 1, 0.00530243, 0, -8.94078)
+
+[node name="Townhouse3" parent="Townhouse/Townhouse2" instance=ExtResource("11_7yo87")]
+transform = Transform3D(1, 0, 5.82077e-11, 0, 1, 0, -5.82077e-11, 0, 1, 0.00481415, 0, -8.10701)
+
+[node name="Townhouse4" parent="Townhouse/Townhouse2/Townhouse3" instance=ExtResource("11_7yo87")]
+transform = Transform3D(1, 0, 1.74623e-10, 0, 1, 0, -1.74623e-10, 0, 1, 0.00498199, 0, -8.38963)
+
+[node name="Townhouse5" parent="Townhouse/Townhouse2/Townhouse3/Townhouse4" instance=ExtResource("11_7yo87")]
+transform = Transform3D(1, 0, -5.82077e-11, 0, 1, 0, 5.82077e-11, 0, 1, 0.00520325, 0, -8.78413)
+
+[node name="Townhouse2" parent="." instance=ExtResource("11_7yo87")]
+transform = Transform3D(-1.31134e-07, 0, -3, 0, 3, 0, 3, 0, -1.31134e-07, -32.8116, 0.306805, 236.593)
+
+[node name="Townhouse2" parent="Townhouse2" instance=ExtResource("11_7yo87")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00382996, 0, -6.78977)
+
+[node name="Townhouse3" parent="Townhouse2/Townhouse2" instance=ExtResource("11_7yo87")]
+transform = Transform3D(0.999359, 0.0358065, 2.80345e-11, -0.0358065, 0.999359, 1.56515e-09, 2.80309e-11, -1.56515e-09, 1, 0.00378418, 0, -7.31304)
+
+[node name="Townhouse4" parent="Townhouse2/Townhouse2/Townhouse3" instance=ExtResource("11_7yo87")]
+transform = Transform3D(1, 0, 5.81935e-11, 7.45058e-09, 1, -5.55112e-16, -5.82077e-11, 0, 1, 0.00365448, -4.76837e-07, -7.96574)
+
+[node name="Townhouse5" parent="Townhouse2/Townhouse2/Townhouse3/Townhouse4" instance=ExtResource("11_7yo87")]
+transform = Transform3D(1, 3.72529e-09, -5.82041e-11, 0, 1, 1.11022e-16, 5.8197e-11, 0, 1, 0.00370789, 2.38419e-07, -8.03299)
 
 [connection signal="player_hit" from="Map/NavigationRegion3D/Player" to="." method="_on_player_player_hit"]
 [connection signal="timeout" from="ZombieSpawnTimer" to="." method="_on_zombie_spawn_timer_timeout"]

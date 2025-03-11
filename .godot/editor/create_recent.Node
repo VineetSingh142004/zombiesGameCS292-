@@ -1,8 +1,8 @@
+MeshInstance3D
 CollisionShape3D
 StaticBody3D
 NavigationAgent3D
 AudioStreamPlayer
-MeshInstance3D
 CharacterBody3D
 CollisionPolygon3D
 NavigationRegion3D
