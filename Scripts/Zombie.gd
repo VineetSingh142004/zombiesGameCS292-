@@ -8,7 +8,8 @@ var health = 5
 const SPEED = 4.0
 const ATTACK_RANGE = 2.0
 
-@export var player_path := "/root/World/Map/NavigationRegion3D/Player"
+@export var player_path := "/root/World/Map/Player"
+
 
 @onready var nav_agent = $NavigationAgent3D
 @onready var anim_tree = $AnimationTree
