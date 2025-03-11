@@ -3,7 +3,7 @@
 [ext_resource type="Script" uid="uid://cp8ddmcbhue8d" path="res://Scripts/World.gd" id="1_yrgup"]
 [ext_resource type="PackedScene" uid="uid://clwvialu5iyb2" path="res://Assets/map/new city.glb" id="2_gjpho"]
 [ext_resource type="PackedScene" uid="uid://bir6o1slvvhkr" path="res://UsingAsset/free city/freeCity.glb" id="2_p70al"]
-[ext_resource type="Texture2D" uid="uid://dhb67txqh0kvj" path="res://Models/sky/sky23123.jpg" id="3_kwl8l"]
+[ext_resource type="Texture2D" uid="uid://dua0qt7gkt0ai" path="res://Models/sky/sky.jpg" id="3_0ao37"]
 [ext_resource type="PackedScene" uid="uid://b4u8tp0k5hwj5" path="res://UsingAsset/buildings and houses/buildings/asian buildings/AureedBuilding.tscn" id="6_45d1s"]
 [ext_resource type="PackedScene" uid="uid://dkubc8tfkl1xn" path="res://UsingAsset/buildings and houses/houses/house 1.tscn" id="8_q2d71"]
 [ext_resource type="PackedScene" uid="uid://c8xqp34mjosvw" path="res://Old_Main.tscn" id="9_kn06e"]
@@ -25,7 +25,7 @@
 [ext_resource type="PackedScene" uid="uid://5iurrb07epis" path="res://Scenes/Player.tscn" id="31_jumwc"]
 
 [sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_6lu03"]
-panorama = ExtResource("3_kwl8l")
+panorama = ExtResource("3_0ao37")
 
 [sub_resource type="Sky" id="Sky_3auab"]
 sky_material = SubResource("PanoramaSkyMaterial_6lu03")
@@ -33,6 +33,7 @@ sky_material = SubResource("PanoramaSkyMaterial_6lu03")
 [sub_resource type="Environment" id="Environment_rlw24"]
 background_mode = 2
 sky = SubResource("Sky_3auab")
+sky_rotation = Vector3(0, 0, 3.14159)
 fog_light_color = Color(0, 0.63747, 0.572864, 1)
 fog_light_energy = 0.06
 fog_sun_scatter = 0.03
@@ -46,7 +47,7 @@ polygons = [PackedInt32Array(1, 0, 2), PackedInt32Array(2, 0, 3), PackedInt32Arr
 agent_max_slope = 60.0
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_5nsto"]
-size = Vector3(50.4445, 1, 50.4049)
+size = Vector3(50.4445, 1, 50.7488)
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_yfips"]
 albedo_color = Color(1, 0.419608, 0.262745, 1)
@@ -74,6 +75,9 @@ environment = SubResource("Environment_rlw24")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="Map"]
 navigation_mesh = SubResource("NavigationMesh_0ao37")
+
+[node name="Player" parent="Map/NavigationRegion3D" instance=ExtResource("31_jumwc")]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 93.4082, 2.29769, 164.762)
 
 [node name="Asian buildings" parent="Map/NavigationRegion3D" instance=ExtResource("6_45d1s")]
 transform = Transform3D(2.5, 0, 0, 0, 2.5, 0, 0, 0, 2.5, 120.482, -0.384558, 142.166)
@@ -205,8 +209,584 @@ transform = Transform3D(1, 0, 3.55271e-15, 0, 1, 0, -3.55271e-15, 0, 1, 0, 0, -3
 transform = Transform3D(1, 0, -3.55271e-15, 0, 1, 0, 3.55271e-15, 0, 1, 0, 0, -3.59364)
 
 [node name="Tree" parent="Map/NavigationRegion3D" instance=ExtResource("21_b5aes")]
-transform = Transform3D(7, 0, 0, 0, 7, 0, 0, 0, 7, 247.16, -0.0561562, 138.369)
+transform = Transform3D(7, 0, 0, 0, 7, 0, 0, 0, 7, 249.518, -0.0561562, 245.226)
 skeleton = NodePath("../../..")
+
+[node name="Tree2" parent="Map/NavigationRegion3D/Tree" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.438564, 0, -0.893051)
+skeleton = NodePath("../../../..")
+
+[node name="Tree3" parent="Map/NavigationRegion3D/Tree/Tree2" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.341091, 0, -0.9174)
+skeleton = NodePath("../../../../..")
+
+[node name="Tree4" parent="Map/NavigationRegion3D/Tree/Tree2/Tree3" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.493427, 0, -1.05591)
+skeleton = NodePath("../../../../../..")
+
+[node name="Tree5" parent="Map/NavigationRegion3D/Tree/Tree2/Tree3/Tree4" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.456974, 0, -1.34927)
+skeleton = NodePath("../../../../../../..")
+
+[node name="Tree6" parent="Map/NavigationRegion3D/Tree/Tree2/Tree3/Tree4/Tree5" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.30262, 0, 3.75106)
+skeleton = NodePath("../../../../../../../..")
+
+[node name="Tree5" parent="Map/NavigationRegion3D/Tree/Tree2" instance=ExtResource("21_b5aes")]
+transform = Transform3D(0.688215, 0, 0.725507, 0, 1, 0, -0.725507, 0, 0.688215, -4.50512, 0, -54.2933)
+skeleton = NodePath("../../../../..")
+
+[node name="Tree4" parent="Map/NavigationRegion3D/Tree/Tree2/Tree5" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.493427, 0, -1.05591)
+skeleton = NodePath("../../../../../..")
+
+[node name="Tree5" parent="Map/NavigationRegion3D/Tree/Tree2/Tree5/Tree4" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.456974, 0, -1.34927)
+skeleton = NodePath("../../../../../../..")
+
+[node name="Tree6" parent="Map/NavigationRegion3D/Tree/Tree2/Tree5/Tree4/Tree5" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.30262, 0, 3.75106)
+skeleton = NodePath("../../../../../../../..")
+
+[node name="Tree6" parent="Map/NavigationRegion3D/Tree/Tree2/Tree5/Tree4" instance=ExtResource("21_b5aes")]
+transform = Transform3D(0.884987, 0, -0.465614, 0, 1, 0, 0.465614, 0, 0.884987, -11.4762, 0, -7.48666)
+skeleton = NodePath("../../../../../../..")
+
+[node name="Tree6" parent="Map/NavigationRegion3D/Tree/Tree2/Tree5/Tree4/Tree6" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.30262, 0, 3.75106)
+skeleton = NodePath("../../../../../../../..")
+
+[node name="Tree4" parent="Map/NavigationRegion3D/Tree/Tree2" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.812336, 0, -35.2616)
+skeleton = NodePath("../../../../..")
+
+[node name="Tree4" parent="Map/NavigationRegion3D/Tree/Tree2/Tree4" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.493427, 0, -1.05591)
+skeleton = NodePath("../../../../../..")
+
+[node name="Tree5" parent="Map/NavigationRegion3D/Tree/Tree2/Tree4/Tree4" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.456974, 0, -1.34927)
+skeleton = NodePath("../../../../../../..")
+
+[node name="Tree6" parent="Map/NavigationRegion3D/Tree/Tree2/Tree4/Tree4/Tree5" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.30262, 0, 3.75106)
+skeleton = NodePath("../../../../../../../..")
+
+[node name="Tree7" parent="Map/NavigationRegion3D" instance=ExtResource("21_b5aes")]
+transform = Transform3D(7, 0, 0, 0, 7, 0, 0, 0, 7, 247.16, -0.0561562, 195.941)
+skeleton = NodePath("../../..")
+
+[node name="Tree8" parent="Map/NavigationRegion3D/Tree7" instance=ExtResource("21_b5aes")]
+transform = Transform3D(0.714286, 0, 0, 0, 0.714286, 0, 0, 0, 0.714286, -0.514, 0, -0.550646)
+skeleton = NodePath("../../../..")
+
+[node name="Tree9" parent="Map/NavigationRegion3D/Tree7/Tree8" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.46351, 0, 1.986)
+skeleton = NodePath("../../../../..")
+
+[node name="Tree9" parent="Map/NavigationRegion3D/Tree7/Tree8/Tree9" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1.4, 0, 0, 0, 1.4, 0, 0, 0, 1.4, -0.570339, 0, -3.77783)
+skeleton = NodePath("../../../../../..")
+
+[node name="Tree10" parent="Map/NavigationRegion3D/Tree7/Tree8/Tree9/Tree9" instance=ExtResource("21_b5aes")]
+transform = Transform3D(0.476847, 0, 0.531809, 0, 0.714286, 0, -0.531809, 0, 0.476847, 0.00413513, 0, -1.31832)
+skeleton = NodePath("../../../../../../..")
+
+[node name="Tree11" parent="Map/NavigationRegion3D/Tree7/Tree8/Tree9/Tree9/Tree10" instance=ExtResource("21_b5aes")]
+transform = Transform3D(0.93462, 0, -1.04235, 0, 1.4, 0, 1.04235, 0, 0.93462, -1.46817, 0, -0.572247)
+skeleton = NodePath("../../../../../../../..")
+
+[node name="Tree10" parent="Map/NavigationRegion3D/Tree7/Tree8/Tree9" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1.4, 0, 0, 0, 1.39999, 0.00618194, 0, -0.00618194, 1.39999, -2.83536, -0.002211, -85.8224)
+skeleton = NodePath("../../../../../..")
+
+[node name="Tree10" parent="Map/NavigationRegion3D/Tree7/Tree8/Tree9/Tree10" instance=ExtResource("21_b5aes")]
+transform = Transform3D(0.476847, 0, 0.531809, 0, 0.714286, 0, -0.531809, 0, 0.476847, 0.00413513, 0, -1.31832)
+skeleton = NodePath("../../../../../../..")
+
+[node name="Tree11" parent="Map/NavigationRegion3D/Tree7/Tree8/Tree9/Tree10/Tree10" instance=ExtResource("21_b5aes")]
+transform = Transform3D(0.93462, 0, -1.04235, 0, 1.4, 0, 1.04235, 0, 0.93462, -1.46817, 0, -0.572247)
+skeleton = NodePath("../../../../../../../..")
+
+[node name="Tree11" parent="Map/NavigationRegion3D/Tree7/Tree8/Tree9" instance=ExtResource("21_b5aes")]
+transform = Transform3D(-1.12428, -0.00368383, 0.834256, 3.28726e-10, 1.39999, 0.00618194, -0.834264, 0.00496445, -1.12427, -19.3827, -0.002211, -83.5255)
+skeleton = NodePath("../../../../../..")
+
+[node name="Tree10" parent="Map/NavigationRegion3D/Tree7/Tree8/Tree9/Tree11" instance=ExtResource("21_b5aes")]
+transform = Transform3D(0.476847, 0, 0.531809, 0, 0.714286, 0, -0.531809, 0, 0.476847, 0.00413513, 0, -1.31832)
+skeleton = NodePath("../../../../../../..")
+
+[node name="Tree11" parent="Map/NavigationRegion3D/Tree7/Tree8/Tree9/Tree11/Tree10" instance=ExtResource("21_b5aes")]
+transform = Transform3D(0.93462, 0, -1.04235, 0, 1.4, 0, 1.04235, 0, 0.93462, -1.46817, 0, -0.572247)
+skeleton = NodePath("../../../../../../../..")
+
+[node name="Tree10" parent="Map/NavigationRegion3D" instance=ExtResource("21_b5aes")]
+transform = Transform3D(7, 0, 0, 0, 7, 0, 0, 0, 7, 235.868, -0.0561562, -192.414)
+skeleton = NodePath("../../..")
+
+[node name="Tree8" parent="Map/NavigationRegion3D/Tree10" instance=ExtResource("21_b5aes")]
+transform = Transform3D(0.714286, 0, 0, 0, 0.714286, 0, 0, 0, 0.714286, -0.514, 0, -0.550646)
+skeleton = NodePath("../../../..")
+
+[node name="Tree9" parent="Map/NavigationRegion3D/Tree10/Tree8" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.46351, 0, 1.986)
+skeleton = NodePath("../../../../..")
+
+[node name="Tree9" parent="Map/NavigationRegion3D/Tree10/Tree8/Tree9" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1.4, 0, 0, 0, 1.4, 0, 0, 0, 1.4, -0.570339, 0, -3.77783)
+skeleton = NodePath("../../../../../..")
+
+[node name="Tree10" parent="Map/NavigationRegion3D/Tree10/Tree8/Tree9/Tree9" instance=ExtResource("21_b5aes")]
+transform = Transform3D(0.476847, 0, 0.531809, 0, 0.714286, 0, -0.531809, 0, 0.476847, 0.00413513, 0, -1.31832)
+skeleton = NodePath("../../../../../../..")
+
+[node name="Tree11" parent="Map/NavigationRegion3D/Tree10/Tree8/Tree9/Tree9/Tree10" instance=ExtResource("21_b5aes")]
+transform = Transform3D(0.93462, 0, -1.04235, 0, 1.4, 0, 1.04235, 0, 0.93462, -1.46817, 0, -0.572247)
+skeleton = NodePath("../../../../../../../..")
+
+[node name="Tree10" parent="Map/NavigationRegion3D/Tree10/Tree8/Tree9" instance=ExtResource("21_b5aes")]
+transform = Transform3D(-1.12428, 0, 0.834264, 0, 1.4, 0, -0.834264, 0, -1.12428, -14.5233, 0, -9.37039)
+skeleton = NodePath("../../../../../..")
+
+[node name="Tree10" parent="Map/NavigationRegion3D/Tree10/Tree8/Tree9/Tree10" instance=ExtResource("21_b5aes")]
+transform = Transform3D(0.476847, 0, 0.531809, 0, 0.714286, 0, -0.531809, 0, 0.476847, 0.00413513, 0, -1.31832)
+skeleton = NodePath("../../../../../../..")
+
+[node name="Tree11" parent="Map/NavigationRegion3D/Tree10/Tree8/Tree9/Tree10/Tree10" instance=ExtResource("21_b5aes")]
+transform = Transform3D(0.93462, 0, -1.04235, 0, 1.4, 0, 1.04235, 0, 0.93462, -1.46817, 0, -0.572247)
+skeleton = NodePath("../../../../../../../..")
+
+[node name="Tree11" parent="Map/NavigationRegion3D" instance=ExtResource("21_b5aes")]
+transform = Transform3D(2.9904, 0, 6.3291, 0, 7, 0, -6.3291, 0, 2.9904, 223.857, -0.0561562, -174.736)
+skeleton = NodePath("../../..")
+
+[node name="Tree8" parent="Map/NavigationRegion3D/Tree11" instance=ExtResource("21_b5aes")]
+transform = Transform3D(0.714286, 0, 0, 0, 0.714286, 0, 0, 0, 0.714286, -0.514, 0, -0.550646)
+skeleton = NodePath("../../../..")
+
+[node name="Tree9" parent="Map/NavigationRegion3D/Tree11/Tree8" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.46351, 0, 1.986)
+skeleton = NodePath("../../../../..")
+
+[node name="Tree9" parent="Map/NavigationRegion3D/Tree11/Tree8/Tree9" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1.4, 0, 0, 0, 1.4, 0, 0, 0, 1.4, -0.570339, 0, -3.77783)
+skeleton = NodePath("../../../../../..")
+
+[node name="Tree10" parent="Map/NavigationRegion3D/Tree11/Tree8/Tree9/Tree9" instance=ExtResource("21_b5aes")]
+transform = Transform3D(0.476847, 0, 0.531809, 0, 0.714286, 0, -0.531809, 0, 0.476847, 0.00413513, 0, -1.31832)
+skeleton = NodePath("../../../../../../..")
+
+[node name="Tree11" parent="Map/NavigationRegion3D/Tree11/Tree8/Tree9/Tree9/Tree10" instance=ExtResource("21_b5aes")]
+transform = Transform3D(0.93462, 0, -1.04235, 0, 1.4, 0, 1.04235, 0, 0.93462, -1.46817, 0, -0.572247)
+skeleton = NodePath("../../../../../../../..")
+
+[node name="Tree15" parent="Map/NavigationRegion3D" instance=ExtResource("21_b5aes")]
+transform = Transform3D(-6.17299, 0, -3.30064, 0, 7, 0, 3.30064, 0, -6.17299, 195.483, -0.0561562, -250.004)
+skeleton = NodePath("../../..")
+
+[node name="Tree8" parent="Map/NavigationRegion3D/Tree15" instance=ExtResource("21_b5aes")]
+transform = Transform3D(0.714286, 0, 0, 0, 0.714286, 0, 0, 0, 0.714286, -0.514, 0, -0.550646)
+skeleton = NodePath("../../../..")
+
+[node name="Tree9" parent="Map/NavigationRegion3D/Tree15/Tree8" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.46351, 0, 1.986)
+skeleton = NodePath("../../../../..")
+
+[node name="Tree9" parent="Map/NavigationRegion3D/Tree15/Tree8/Tree9" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1.4, 0, 0, 0, 1.4, 0, 0, 0, 1.4, -0.570339, 0, -3.77783)
+skeleton = NodePath("../../../../../..")
+
+[node name="Tree10" parent="Map/NavigationRegion3D/Tree15/Tree8/Tree9/Tree9" instance=ExtResource("21_b5aes")]
+transform = Transform3D(0.476847, 0, 0.531809, 0, 0.714286, 0, -0.531809, 0, 0.476847, 0.00413513, 0, -1.31832)
+skeleton = NodePath("../../../../../../..")
+
+[node name="Tree11" parent="Map/NavigationRegion3D/Tree15/Tree8/Tree9/Tree9/Tree10" instance=ExtResource("21_b5aes")]
+transform = Transform3D(0.93462, 0, -1.04235, 0, 1.4, 0, 1.04235, 0, 0.93462, -1.46817, 0, -0.572247)
+skeleton = NodePath("../../../../../../../..")
+
+[node name="Tree9" parent="Map/NavigationRegion3D" instance=ExtResource("21_b5aes")]
+transform = Transform3D(7, 0, 0, 0, 7, 0, 0, 0, 7, 215.579, -0.0561562, -1.33587)
+skeleton = NodePath("../../..")
+
+[node name="Tree8" parent="Map/NavigationRegion3D/Tree9" instance=ExtResource("21_b5aes")]
+transform = Transform3D(0.714286, 0, 0, 0, 0.714286, 0, 0, 0, 0.714286, -0.514, 0, -0.550646)
+skeleton = NodePath("../../../..")
+
+[node name="Tree9" parent="Map/NavigationRegion3D/Tree9/Tree8" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.46351, 0, 1.986)
+skeleton = NodePath("../../../../..")
+
+[node name="Tree9" parent="Map/NavigationRegion3D/Tree9/Tree8/Tree9" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1.4, 0, 0, 0, 1.4, 0, 0, 0, 1.4, -0.570339, 0, -3.77783)
+skeleton = NodePath("../../../../../..")
+
+[node name="Tree10" parent="Map/NavigationRegion3D/Tree9/Tree8/Tree9/Tree9" instance=ExtResource("21_b5aes")]
+transform = Transform3D(0.476847, 0, 0.531809, 0, 0.714286, 0, -0.531809, 0, 0.476847, 0.00413513, 0, -1.31832)
+skeleton = NodePath("../../../../../../..")
+
+[node name="Tree11" parent="Map/NavigationRegion3D/Tree9/Tree8/Tree9/Tree9/Tree10" instance=ExtResource("21_b5aes")]
+transform = Transform3D(0.93462, 0, -1.04235, 0, 1.4, 0, 1.04235, 0, 0.93462, -1.46817, 0, -0.572247)
+skeleton = NodePath("../../../../../../../..")
+
+[node name="Tree8" parent="Map/NavigationRegion3D" instance=ExtResource("21_b5aes")]
+transform = Transform3D(6.93034, 0, -0.985099, 0, 7, 0, 0.985099, 0, 6.93034, 241.512, -0.0561562, 22.4428)
+skeleton = NodePath("../../..")
+
+[node name="Tree8" parent="Map/NavigationRegion3D/Tree8" instance=ExtResource("21_b5aes")]
+transform = Transform3D(0.714286, 0, 0, 0, 0.714286, 0, 0, 0, 0.714286, -0.514, 0, -0.550646)
+skeleton = NodePath("../../../..")
+
+[node name="Tree9" parent="Map/NavigationRegion3D/Tree8/Tree8" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.50334, 0, 2.26623)
+skeleton = NodePath("../../../../..")
+
+[node name="Tree9" parent="Map/NavigationRegion3D/Tree8/Tree8/Tree9" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1.4, 0, 0, 0, 1.4, 0, 0, 0, 1.4, -0.570339, 0, -3.77783)
+skeleton = NodePath("../../../../../..")
+
+[node name="Tree10" parent="Map/NavigationRegion3D/Tree8/Tree8/Tree9/Tree9" instance=ExtResource("21_b5aes")]
+transform = Transform3D(0.476847, 0, 0.531809, 0, 0.714286, 0, -0.531809, 0, 0.476847, 0.00413513, 0, -1.31832)
+skeleton = NodePath("../../../../../../..")
+
+[node name="Tree11" parent="Map/NavigationRegion3D/Tree8/Tree8/Tree9/Tree9/Tree10" instance=ExtResource("21_b5aes")]
+transform = Transform3D(0.93462, 0, -1.04235, 0, 1.4, 0, 1.04235, 0, 0.93462, -1.46817, 0, -0.572247)
+skeleton = NodePath("../../../../../../../..")
+
+[node name="Tree12" parent="Map/NavigationRegion3D" instance=ExtResource("21_b5aes")]
+transform = Transform3D(7, 0, 0, 0, 7, 0, 0, 0, 7, 217.941, -0.0561562, 96.6357)
+skeleton = NodePath("../../..")
+
+[node name="Tree13" parent="Map/NavigationRegion3D/Tree12" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.83965, 0, -1.06529)
+skeleton = NodePath("../../../..")
+
+[node name="Tree14" parent="Map/NavigationRegion3D/Tree12/Tree13" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.251488, 0, 1.65722)
+skeleton = NodePath("../../../../..")
+
+[node name="Tree15" parent="Map/NavigationRegion3D/Tree12/Tree13/Tree14" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.66223, 0, -4.04926)
+skeleton = NodePath("../../../../../..")
+
+[node name="Tree16" parent="Map/NavigationRegion3D/Tree12/Tree13/Tree14/Tree15" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.84019, 0, -0.932975)
+skeleton = NodePath("../../../../../../..")
+
+[node name="Tree17" parent="Map/NavigationRegion3D/Tree12/Tree13/Tree14/Tree15/Tree16" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.47604, 0, 0.947492)
+skeleton = NodePath("../../../../../../../..")
+
+[node name="Tree18" parent="Map/NavigationRegion3D/Tree12/Tree13/Tree14/Tree15/Tree16/Tree17" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.833595, 0, -1.77922)
+skeleton = NodePath("../../../../../../../../..")
+
+[node name="Tree19" parent="Map/NavigationRegion3D/Tree12/Tree13/Tree14/Tree15/Tree16/Tree17/Tree18" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.8261, 0, 8.5983)
+skeleton = NodePath("../../../../../../../../../..")
+
+[node name="Tree20" parent="Map/NavigationRegion3D/Tree12/Tree13/Tree14/Tree15/Tree16/Tree17/Tree18/Tree19" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.57354, 0, 1.26155)
+skeleton = NodePath("../../../../../../../../../../..")
+
+[node name="Tree21" parent="Map/NavigationRegion3D/Tree12/Tree13/Tree14/Tree15/Tree16/Tree17/Tree18/Tree19/Tree20" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.02714, 0, -2.29083)
+skeleton = NodePath("../../../../../../../../../../../..")
+
+[node name="Tree22" parent="Map/NavigationRegion3D/Tree12/Tree13/Tree14/Tree15/Tree16/Tree17/Tree18/Tree19/Tree20/Tree21" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.72713, 0, 1.26585)
+skeleton = NodePath("../../../../../../../../../../../../..")
+
+[node name="Tree23" parent="Map/NavigationRegion3D/Tree12/Tree13/Tree14/Tree15/Tree16/Tree17/Tree18/Tree19/Tree20/Tree21/Tree22" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.11084, 0, 1.37916)
+skeleton = NodePath("../../../../../../../../../../../../../..")
+
+[node name="Tree26" parent="Map/NavigationRegion3D/Tree12/Tree13/Tree14/Tree15/Tree16/Tree17/Tree18/Tree19/Tree20/Tree21/Tree22" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.35152, 0, -8.39232)
+skeleton = NodePath("../../../../../../../../../../../../../..")
+
+[node name="Tree14" parent="Map/NavigationRegion3D" instance=ExtResource("21_b5aes")]
+transform = Transform3D(6, 0, 0, 0, 6, 0, 0, 0, 6, 231.547, -0.0561562, -138.616)
+skeleton = NodePath("../../..")
+
+[node name="Tree13" parent="Map/NavigationRegion3D/Tree14" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.83965, 0, -1.06529)
+skeleton = NodePath("../../../..")
+
+[node name="Tree14" parent="Map/NavigationRegion3D/Tree14/Tree13" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.251488, 0, 1.65722)
+skeleton = NodePath("../../../../..")
+
+[node name="Tree15" parent="Map/NavigationRegion3D/Tree14/Tree13/Tree14" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.66223, 0, -4.04926)
+skeleton = NodePath("../../../../../..")
+
+[node name="Tree16" parent="Map/NavigationRegion3D/Tree14/Tree13/Tree14/Tree15" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.84019, 0, -0.932975)
+skeleton = NodePath("../../../../../../..")
+
+[node name="Tree17" parent="Map/NavigationRegion3D/Tree14/Tree13/Tree14/Tree15/Tree16" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.29564, 0, 1.30105)
+skeleton = NodePath("../../../../../../../..")
+
+[node name="Tree18" parent="Map/NavigationRegion3D/Tree14/Tree13/Tree14/Tree15/Tree16/Tree17" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.833595, 0, -1.77922)
+skeleton = NodePath("../../../../../../../../..")
+
+[node name="Tree19" parent="Map/NavigationRegion3D/Tree14/Tree13/Tree14/Tree15/Tree16/Tree17/Tree18" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.8261, 0, 8.5983)
+skeleton = NodePath("../../../../../../../../../..")
+
+[node name="Tree20" parent="Map/NavigationRegion3D/Tree14/Tree13/Tree14/Tree15/Tree16/Tree17/Tree18/Tree19" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.57354, 0, 1.26155)
+skeleton = NodePath("../../../../../../../../../../..")
+
+[node name="Tree21" parent="Map/NavigationRegion3D/Tree14/Tree13/Tree14/Tree15/Tree16/Tree17/Tree18/Tree19/Tree20" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.02714, 0, -2.29083)
+skeleton = NodePath("../../../../../../../../../../../..")
+
+[node name="Tree22" parent="Map/NavigationRegion3D/Tree14/Tree13/Tree14/Tree15/Tree16/Tree17/Tree18/Tree19/Tree20/Tree21" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.72713, 0, 1.26585)
+skeleton = NodePath("../../../../../../../../../../../../..")
+
+[node name="Tree23" parent="Map/NavigationRegion3D/Tree14/Tree13/Tree14/Tree15/Tree16/Tree17/Tree18/Tree19/Tree20/Tree21/Tree22" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.11084, 0, 1.37916)
+skeleton = NodePath("../../../../../../../../../../../../../..")
+
+[node name="Tree26" parent="Map/NavigationRegion3D/Tree14/Tree13/Tree14/Tree15/Tree16/Tree17/Tree18/Tree19/Tree20/Tree21/Tree22" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.35152, 0, -8.39232)
+skeleton = NodePath("../../../../../../../../../../../../../..")
+
+[node name="Tree13" parent="Map/NavigationRegion3D" instance=ExtResource("21_b5aes")]
+transform = Transform3D(6.87424, 0, 1.32091, 0, 7, 0, -1.32091, 0, 6.87424, 232.842, -0.0561562, -63.4007)
+skeleton = NodePath("../../..")
+
+[node name="Tree13" parent="Map/NavigationRegion3D/Tree13" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.83965, 0, -1.06529)
+skeleton = NodePath("../../../..")
+
+[node name="Tree14" parent="Map/NavigationRegion3D/Tree13/Tree13" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.251488, 0, 1.65722)
+skeleton = NodePath("../../../../..")
+
+[node name="Tree15" parent="Map/NavigationRegion3D/Tree13/Tree13/Tree14" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.66223, 0, -4.04926)
+skeleton = NodePath("../../../../../..")
+
+[node name="Tree16" parent="Map/NavigationRegion3D/Tree13/Tree13/Tree14/Tree15" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.84019, 0, -0.932975)
+skeleton = NodePath("../../../../../../..")
+
+[node name="Tree17" parent="Map/NavigationRegion3D/Tree13/Tree13/Tree14/Tree15/Tree16" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.47604, 0, 0.947492)
+skeleton = NodePath("../../../../../../../..")
+
+[node name="Tree18" parent="Map/NavigationRegion3D/Tree13/Tree13/Tree14/Tree15/Tree16/Tree17" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.833595, 0, -1.77922)
+skeleton = NodePath("../../../../../../../../..")
+
+[node name="Tree19" parent="Map/NavigationRegion3D/Tree13/Tree13/Tree14/Tree15/Tree16/Tree17/Tree18" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.8261, 0, 8.5983)
+skeleton = NodePath("../../../../../../../../../..")
+
+[node name="Tree20" parent="Map/NavigationRegion3D/Tree13/Tree13/Tree14/Tree15/Tree16/Tree17/Tree18/Tree19" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.57354, 0, 1.26155)
+skeleton = NodePath("../../../../../../../../../../..")
+
+[node name="Tree21" parent="Map/NavigationRegion3D/Tree13/Tree13/Tree14/Tree15/Tree16/Tree17/Tree18/Tree19/Tree20" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.02714, 0, -2.29083)
+skeleton = NodePath("../../../../../../../../../../../..")
+
+[node name="Tree22" parent="Map/NavigationRegion3D/Tree13/Tree13/Tree14/Tree15/Tree16/Tree17/Tree18/Tree19/Tree20/Tree21" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.72713, 0, 1.26585)
+skeleton = NodePath("../../../../../../../../../../../../..")
+
+[node name="Tree23" parent="Map/NavigationRegion3D/Tree13/Tree13/Tree14/Tree15/Tree16/Tree17/Tree18/Tree19/Tree20/Tree21/Tree22" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.11084, 0, 1.37916)
+skeleton = NodePath("../../../../../../../../../../../../../..")
+
+[node name="Tree26" parent="Map/NavigationRegion3D/Tree13/Tree13/Tree14/Tree15/Tree16/Tree17/Tree18/Tree19/Tree20/Tree21/Tree22" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.35152, 0, -8.39232)
+skeleton = NodePath("../../../../../../../../../../../../../..")
+
+[node name="Tree16" parent="Map/NavigationRegion3D" instance=ExtResource("21_b5aes")]
+transform = Transform3D(-0.0410501, 0, -6.99988, 0, 7, 0, 6.99988, 0, -0.0410501, -212.169, -0.0561562, -171.564)
+skeleton = NodePath("../../..")
+
+[node name="Tree13" parent="Map/NavigationRegion3D/Tree16" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 4.65661e-10, 0, 1, 0, -4.65661e-10, 0, 1, 0.275642, 0, -1.05612)
+skeleton = NodePath("../../../..")
+
+[node name="Tree14" parent="Map/NavigationRegion3D/Tree16/Tree13" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.251488, 0, 1.65722)
+skeleton = NodePath("../../../../..")
+
+[node name="Tree15" parent="Map/NavigationRegion3D/Tree16/Tree13/Tree14" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 9.31323e-10, 0, 1, 0, -9.31323e-10, 0, 1, -4.66355, 0, -4.27507)
+skeleton = NodePath("../../../../../..")
+
+[node name="Tree16" parent="Map/NavigationRegion3D/Tree16/Tree13/Tree14/Tree15" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, -4.65661e-10, 0, 1, 0, 4.65661e-10, 0, 1, 1.84871, 0, 0.519667)
+skeleton = NodePath("../../../../../../..")
+
+[node name="Tree17" parent="Map/NavigationRegion3D/Tree16/Tree13/Tree14/Tree15/Tree16" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.47604, 0, 0.947492)
+skeleton = NodePath("../../../../../../../..")
+
+[node name="Tree18" parent="Map/NavigationRegion3D/Tree16/Tree13/Tree14/Tree15/Tree16/Tree17" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.833595, 0, -1.77922)
+skeleton = NodePath("../../../../../../../../..")
+
+[node name="Tree19" parent="Map/NavigationRegion3D/Tree16/Tree13/Tree14/Tree15/Tree16/Tree17/Tree18" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.83805, 0, 6.56155)
+skeleton = NodePath("../../../../../../../../../..")
+
+[node name="Tree20" parent="Map/NavigationRegion3D/Tree16/Tree13/Tree14/Tree15/Tree16/Tree17/Tree18/Tree19" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.57354, 0, 1.26155)
+skeleton = NodePath("../../../../../../../../../../..")
+
+[node name="Tree21" parent="Map/NavigationRegion3D/Tree16/Tree13/Tree14/Tree15/Tree16/Tree17/Tree18/Tree19/Tree20" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.689711, 0, -2.3009)
+skeleton = NodePath("../../../../../../../../../../../..")
+
+[node name="Tree22" parent="Map/NavigationRegion3D/Tree16/Tree13/Tree14/Tree15/Tree16/Tree17/Tree18/Tree19/Tree20/Tree21" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.72713, 0, 1.26585)
+skeleton = NodePath("../../../../../../../../../../../../..")
+
+[node name="Tree23" parent="Map/NavigationRegion3D/Tree16/Tree13/Tree14/Tree15/Tree16/Tree17/Tree18/Tree19/Tree20/Tree21/Tree22" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.11084, 0, 1.37916)
+skeleton = NodePath("../../../../../../../../../../../../../..")
+
+[node name="Tree26" parent="Map/NavigationRegion3D/Tree16/Tree13/Tree14/Tree15/Tree16/Tree17/Tree18/Tree19/Tree20/Tree21/Tree22" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 9.31323e-10, 0, 1, 0, -9.31323e-10, 0, 1, -6.05313, 0, -5.84852)
+skeleton = NodePath("../../../../../../../../../../../../../..")
+
+[node name="Tree28" parent="Map/NavigationRegion3D/Tree16/Tree13/Tree14/Tree15/Tree16/Tree17/Tree18/Tree19/Tree20/Tree21/Tree22" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 4.65661e-10, 0, 1, 0, -4.65661e-10, 0, 1, -6.03899, 0, -3.43821)
+skeleton = NodePath("../../../../../../../../../../../../../..")
+
+[node name="Tree29" parent="Map/NavigationRegion3D/Tree16/Tree13/Tree14/Tree15/Tree16/Tree17/Tree18/Tree19/Tree20/Tree21/Tree22" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, -9.31323e-10, 0, 1, 0, 9.31323e-10, 0, 1, -2.83017, 0, -1.17687)
+skeleton = NodePath("../../../../../../../../../../../../../..")
+
+[node name="Tree27" parent="Map/NavigationRegion3D/Tree16/Tree13/Tree14/Tree15/Tree16/Tree17/Tree18/Tree19/Tree20/Tree21/Tree22" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.60839, 0, -3.64516)
+skeleton = NodePath("../../../../../../../../../../../../../..")
+
+[node name="Tree17" parent="Map/NavigationRegion3D" instance=ExtResource("21_b5aes")]
+transform = Transform3D(-6.99961, 0, 0.0744019, 0, 7, 0, -0.0744019, 0, -6.99961, -146.896, -0.0561562, -207.635)
+skeleton = NodePath("../../..")
+
+[node name="Tree13" parent="Map/NavigationRegion3D/Tree17" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 4.65661e-10, 0, 1, 0, -4.65661e-10, 0, 1, 0.275642, 0, -1.05612)
+skeleton = NodePath("../../../..")
+
+[node name="Tree14" parent="Map/NavigationRegion3D/Tree17/Tree13" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.251488, 0, 1.65722)
+skeleton = NodePath("../../../../..")
+
+[node name="Tree15" parent="Map/NavigationRegion3D/Tree17/Tree13/Tree14" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 9.31323e-10, 0, 1, 0, -9.31323e-10, 0, 1, -4.66355, 0, -4.27507)
+skeleton = NodePath("../../../../../..")
+
+[node name="Tree16" parent="Map/NavigationRegion3D/Tree17/Tree13/Tree14/Tree15" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, -4.65661e-10, 0, 1, 0, 4.65661e-10, 0, 1, 1.84871, 0, 0.519667)
+skeleton = NodePath("../../../../../../..")
+
+[node name="Tree17" parent="Map/NavigationRegion3D/Tree17/Tree13/Tree14/Tree15/Tree16" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.47604, 0, 0.947492)
+skeleton = NodePath("../../../../../../../..")
+
+[node name="Tree18" parent="Map/NavigationRegion3D/Tree17/Tree13/Tree14/Tree15/Tree16/Tree17" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.833595, 0, -1.77922)
+skeleton = NodePath("../../../../../../../../..")
+
+[node name="Tree19" parent="Map/NavigationRegion3D/Tree17/Tree13/Tree14/Tree15/Tree16/Tree17/Tree18" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.83805, 0, 6.56155)
+skeleton = NodePath("../../../../../../../../../..")
+
+[node name="Tree20" parent="Map/NavigationRegion3D/Tree17/Tree13/Tree14/Tree15/Tree16/Tree17/Tree18/Tree19" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.57354, 0, 1.26155)
+skeleton = NodePath("../../../../../../../../../../..")
+
+[node name="Tree21" parent="Map/NavigationRegion3D/Tree17/Tree13/Tree14/Tree15/Tree16/Tree17/Tree18/Tree19/Tree20" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.689711, 0, -2.3009)
+skeleton = NodePath("../../../../../../../../../../../..")
+
+[node name="Tree22" parent="Map/NavigationRegion3D/Tree17/Tree13/Tree14/Tree15/Tree16/Tree17/Tree18/Tree19/Tree20/Tree21" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.72713, 0, 1.26585)
+skeleton = NodePath("../../../../../../../../../../../../..")
+
+[node name="Tree23" parent="Map/NavigationRegion3D/Tree17/Tree13/Tree14/Tree15/Tree16/Tree17/Tree18/Tree19/Tree20/Tree21/Tree22" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.11084, 0, 1.37916)
+skeleton = NodePath("../../../../../../../../../../../../../..")
+
+[node name="Tree26" parent="Map/NavigationRegion3D/Tree17/Tree13/Tree14/Tree15/Tree16/Tree17/Tree18/Tree19/Tree20/Tree21/Tree22" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 9.31323e-10, 0, 1, 0, -9.31323e-10, 0, 1, -6.05313, 0, -5.84852)
+skeleton = NodePath("../../../../../../../../../../../../../..")
+
+[node name="Tree28" parent="Map/NavigationRegion3D/Tree17/Tree13/Tree14/Tree15/Tree16/Tree17/Tree18/Tree19/Tree20/Tree21/Tree22" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 4.65661e-10, 0, 1, 0, -4.65661e-10, 0, 1, -6.03899, 0, -3.43821)
+skeleton = NodePath("../../../../../../../../../../../../../..")
+
+[node name="Tree29" parent="Map/NavigationRegion3D/Tree17/Tree13/Tree14/Tree15/Tree16/Tree17/Tree18/Tree19/Tree20/Tree21/Tree22" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, -9.31323e-10, 0, 1, 0, 9.31323e-10, 0, 1, -2.83017, 0, -1.17687)
+skeleton = NodePath("../../../../../../../../../../../../../..")
+
+[node name="Tree27" parent="Map/NavigationRegion3D/Tree17/Tree13/Tree14/Tree15/Tree16/Tree17/Tree18/Tree19/Tree20/Tree21/Tree22" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.60839, 0, -3.64516)
+skeleton = NodePath("../../../../../../../../../../../../../..")
+
+[node name="Tree24" parent="Map/NavigationRegion3D" instance=ExtResource("21_b5aes")]
+transform = Transform3D(7, 0, 0, 0, 7, 0, 0, 0, 7, 103.863, -0.0561562, 92.493)
+skeleton = NodePath("../../..")
+
+[node name="Tree28" parent="Map/NavigationRegion3D/Tree24" instance=ExtResource("21_b5aes")]
+transform = Transform3D(0.714286, 0, 0, 0, 0.714286, 0, 0, 0, 0.714286, 0.62971, 0, 1.6322)
+skeleton = NodePath("../../../..")
+
+[node name="Tree25" parent="Map/NavigationRegion3D/Tree24/Tree28" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1.4, 0, 0, 0, 1.4, 0, 0, 0, 1.4, 20.7438, 0, 1.20433)
+skeleton = NodePath("../../../../..")
+
+[node name="Tree27" parent="Map/NavigationRegion3D/Tree24/Tree28/Tree25" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.39104, 0, 1.48723)
+skeleton = NodePath("../../../../../..")
+
+[node name="Tree29" parent="Map/NavigationRegion3D/Tree24/Tree28/Tree25/Tree27" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.4154, 0, -9.96949)
+skeleton = NodePath("../../../../../../..")
+
+[node name="Tree30" parent="Map/NavigationRegion3D/Tree24/Tree28/Tree25/Tree27/Tree29" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.91558, 0, 3.98565)
+skeleton = NodePath("../../../../../../../..")
+
+[node name="Tree31" parent="Map/NavigationRegion3D/Tree24/Tree28/Tree25/Tree27/Tree29/Tree30" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.91558, 0, 8.72752)
+skeleton = NodePath("../../../../../../../../..")
+
+[node name="Tree32" parent="Map/NavigationRegion3D" instance=ExtResource("21_b5aes")]
+transform = Transform3D(7, 0, 0, 0, 7, 0, 0, 0, 7, 228.222, -0.0561562, 46.2399)
+skeleton = NodePath("../../..")
+
+[node name="Tree33" parent="Map/NavigationRegion3D/Tree32" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.246162, 0, -4.29235)
+skeleton = NodePath("../../../..")
+
+[node name="Tree34" parent="Map/NavigationRegion3D/Tree32/Tree33" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.959824, 0, 1.86957)
+skeleton = NodePath("../../../../..")
+
+[node name="Tree35" parent="Map/NavigationRegion3D/Tree32/Tree33/Tree34" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.09628, 0, -3.66989)
+skeleton = NodePath("../../../../../..")
+
+[node name="Tree36" parent="Map/NavigationRegion3D/Tree32/Tree33/Tree34/Tree35" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.883471, 0, 1.01159)
+skeleton = NodePath("../../../../../../..")
+
+[node name="Tree37" parent="Map/NavigationRegion3D/Tree32/Tree33/Tree34/Tree35/Tree36" instance=ExtResource("21_b5aes")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.10556, 0, -0.210589)
+skeleton = NodePath("../../../../../../../..")
 
 [node name="Cube" parent="Map/NavigationRegion3D" instance=ExtResource("21_0ao37")]
 transform = Transform3D(0.0552533, 0, 1.49898, 0, 2.093, 0, -1.49898, 0, 0.0552533, -66.9151, 2.86466, -133.756)
@@ -217,13 +797,10 @@ transform = Transform3D(-0.067811, -3.56693, -0.0709928, 0.00101624, 0.0594372, 
 [node name="Vert_003_Vert_008" parent="Map/NavigationRegion3D/Cube/Vert_003_Vert_001" instance=ExtResource("23_l11rc")]
 transform = Transform3D(0.999442, 0.002179, -0.000463377, 0.00185675, -0.855865, -0.0198887, 0.000514159, -0.0232307, 0.999728, 0.0617552, -5.79404, -0.0534353)
 
-[node name="Player" parent="Map/NavigationRegion3D" instance=ExtResource("31_jumwc")]
-transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 93.4082, 2.29769, 164.762)
-
 [node name="StaticBody3D" type="StaticBody3D" parent="Map/NavigationRegion3D"]
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Map/NavigationRegion3D/StaticBody3D"]
-transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, 0.800186, -4.7037, -1.22216)
+transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, 0.800186, -4.7037, 0.497525)
 shape = SubResource("BoxShape3D_5nsto")
 
 [node name="Moon" type="CSGSphere3D" parent="Map"]

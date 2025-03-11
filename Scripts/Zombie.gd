@@ -35,7 +35,7 @@ func _process(delta):
 			look_at(Vector3(player.global_position.x, global_position.y, player.global_position.z), Vector3.UP)
 	
 	# Conditions
-	anim_tree.set("parameters/conditions/attack", _target_in_range())
+	anim_tree.set("parameters/conditions/Armature_003|mixamo_com|Layer0", _target_in_range())
 	anim_tree.set("parameters/conditions/run", !_target_in_range())
 	
 	

@@ -1,9 +1,4 @@
-res://Scenes/World.tscn
-res://UsingAsset/new models/group buildings/untitled.tscn
-res://Scenes/smg.tscn
-res://UsingAsset/pine-tree/source/tree.tscn
-res://UsingAsset/buildings and houses/buildings/asian buildings/AureedBuilding.tscn
-res://UsingAsset/new models/basketball/untitled.tscn
-res://UsingAsset/new models/new house/untitled3.tscn
 res://Scenes/Zombie.tscn
+res://Scenes/World.tscn
 res://Scripts/Zombie.gd
+res://Scenes/Zombie1.tscn

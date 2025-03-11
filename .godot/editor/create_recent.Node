@@ -1,4 +1,5 @@
 CollisionShape3D
+AnimationTree
 StaticBody3D
 MeshInstance3D
 Node3D
