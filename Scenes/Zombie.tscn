@@ -324,7 +324,7 @@ transform = Transform3D(-5.07529, 20.3379, 34.0678, 2.45282, 34.4405, -20.195, -
 collision_layer = 2
 collision_mask = 2
 joint_type = 1
-joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.000258502, -0.00116817, 0.0868473)
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.000258503, -0.00116817, 0.0868473)
 body_offset = Transform3D(-30.3882, 18.9681, 17.798, 9.72748e-05, 27.3704, -29.1696, -26.0107, -22.1602, -20.7934, -1.5157, 2.56527, 1.78669)
 bone_name = "mixamorig_LeftHand"
 joint_constraints/bias = 0.3
@@ -484,3 +484,4 @@ transform = Transform3D(1, 0, 0, 0, 0.996356, -0.0852952, 0, 0.0852952, 0.996356
 shape = SubResource("CapsuleShape3D_ot87u")
 
 [node name="NavigationAgent3D" type="NavigationAgent3D" parent="." index="3"]
+path_height_offset = 0.15
