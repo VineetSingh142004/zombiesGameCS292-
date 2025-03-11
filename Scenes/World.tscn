@@ -1,4 +1,4 @@
-[gd_scene load_steps=18 format=3 uid="uid://db2h3t17k37pe"]
+[gd_scene load_steps=22 format=3 uid="uid://db2h3t17k37pe"]
 
 [ext_resource type="Script" uid="uid://cp8ddmcbhue8d" path="res://Scripts/World.gd" id="1_yrgup"]
 [ext_resource type="PackedScene" uid="uid://clwvialu5iyb2" path="res://Assets/map/new city.glb" id="2_gjpho"]
@@ -10,6 +10,10 @@
 [ext_resource type="PackedScene" uid="uid://c8xqp34mjosvw" path="res://Old_Main.tscn" id="9_kn06e"]
 [ext_resource type="PackedScene" uid="uid://cxxciaksw5f4k" path="res://UsingAsset/buildings and houses/houses/house 2.tscn" id="10_7yo87"]
 [ext_resource type="PackedScene" uid="uid://cltbefj8tviju" path="res://UsingAsset/buildings and houses/buildings/appartment 2/Townhouse.tscn" id="11_7yo87"]
+[ext_resource type="PackedScene" uid="uid://cxk4ubacvfi5g" path="res://UsingAsset/buildings and houses/buildings/cafe/Generate_an_high_qual_0311050100_texture.tscn" id="12_ti1bm"]
+[ext_resource type="PackedScene" uid="uid://c53n0qfkfil1q" path="res://UsingAsset/buildings and houses/buildings/town houses/town.tscn" id="13_8l3nt"]
+[ext_resource type="PackedScene" uid="uid://cicx741dlo7ib" path="res://Models/make_a_3_floor_studen_0202232129_texture.blend" id="14_kwl8l"]
+[ext_resource type="PackedScene" uid="uid://bwffmvxshuc17" path="res://Assets/map/SMC support 1.tscn" id="15_kwl8l"]
 [ext_resource type="PackedScene" uid="uid://5iurrb07epis" path="res://Scenes/Player.tscn" id="31_jumwc"]
 
 [sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_6lu03"]
@@ -58,7 +62,7 @@ environment = SubResource("Environment_rlw24")
 navigation_mesh = SubResource("NavigationMesh_o2f1v")
 
 [node name="Player" parent="Map/NavigationRegion3D" instance=ExtResource("31_jumwc")]
-transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 75.7356, 2.29769, 142.592)
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, -233.237, 2.29769, -196.22)
 
 [node name="StaticBody3D" type="StaticBody3D" parent="Map/NavigationRegion3D"]
 
@@ -245,6 +249,33 @@ transform = Transform3D(1, 0, 5.81935e-11, 7.45058e-09, 1, -5.55112e-16, -5.8207
 
 [node name="Townhouse5" parent="Townhouse2/Townhouse2/Townhouse3/Townhouse4" instance=ExtResource("11_7yo87")]
 transform = Transform3D(1, 3.72529e-09, -5.82041e-11, 0, 1, 1.11022e-16, 5.8197e-11, 0, 1, 0.00370789, 2.38419e-07, -8.03299)
+
+[node name="cafe 1" parent="." instance=ExtResource("12_ti1bm")]
+transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, 24.5152, 5.3474, -118.212)
+
+[node name="cafe 2" parent="." instance=ExtResource("12_ti1bm")]
+transform = Transform3D(-9.99141, 0, -0.414397, 0, 10, 0, 0.414397, 0, -9.99141, -63.1785, 5.3474, 201.259)
+
+[node name="town house" parent="." instance=ExtResource("13_8l3nt")]
+transform = Transform3D(40, 0, 0, 0, 40, 0, 0, 0, 40, -60.9498, 14.5403, 129.576)
+
+[node name="town house2" parent="." instance=ExtResource("13_8l3nt")]
+transform = Transform3D(40, 0, 0, 0, 40, 0, 0, 0, 40, -60.9498, 14.5403, 129.576)
+
+[node name="town house3" parent="." instance=ExtResource("13_8l3nt")]
+transform = Transform3D(-0.302986, 0, -39.9989, 0, 40, 0, 39.9989, 0, -0.302986, 188.605, 14.5403, -38.6928)
+
+[node name="make_a_3_floor_studen_0202232129_texture" parent="." instance=ExtResource("14_kwl8l")]
+transform = Transform3D(-8.74228e-07, 0, 20, 0, 20, 0, -20, 0, -8.74228e-07, -126.24, 12.7611, -14.061)
+
+[node name="make_a_3_floor_studen_0202232129_texture2" parent="." instance=ExtResource("14_kwl8l")]
+transform = Transform3D(-8.74228e-07, 0, 20, 0, 20, 0, -20, 0, -8.74228e-07, -126.24, 12.7611, -53.8696)
+
+[node name="SMC support 1" parent="." instance=ExtResource("15_kwl8l")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -53.0028, 17.8875, -186.831)
+
+[node name="SMC support 2" parent="." instance=ExtResource("15_kwl8l")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 84.3719, 17.8875, -186.831)
 
 [connection signal="player_hit" from="Map/NavigationRegion3D/Player" to="." method="_on_player_player_hit"]
 [connection signal="timeout" from="ZombieSpawnTimer" to="." method="_on_zombie_spawn_timer_timeout"]
