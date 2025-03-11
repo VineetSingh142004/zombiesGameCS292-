@@ -1,0 +1,38 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://d4dphyhuxmal"
+path.s3tc="res://.godot/imported/untitled_d02c445a9cfa3371bb652f86f2a59121.png-acb94e17d1a836a63fd377bf952b2f06.s3tc.ctex"
+metadata={
+"imported_formats": ["s3tc_bptc"],
+"vram_texture": true
+}
+generator_parameters={
+"md5": "af629c2258f4c749be080a22478694f4"
+}
+
+[deps]
+
+source_file="res://UsingAsset/new models/group buildings/untitled_d02c445a9cfa3371bb652f86f2a59121.png"
+dest_files=["res://.godot/imported/untitled_d02c445a9cfa3371bb652f86f2a59121.png-acb94e17d1a836a63fd377bf952b2f06.s3tc.ctex"]
+
+[params]
+
+compress/mode=2
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/hdr_compression=1
+compress/normal_map=0
+compress/channel_pack=0
+mipmaps/generate=true
+mipmaps/limit=-1
+roughness/mode=0
+roughness/src_normal=""
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/normal_map_invert_y=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=0

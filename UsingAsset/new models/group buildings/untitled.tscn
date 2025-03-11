@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://c4fl4sbhhmk3f"]
+
+[ext_resource type="PackedScene" uid="uid://cfe1nm7usqm6w" path="res://UsingAsset/new models/group buildings/untitled.glb" id="1_tun72"]
+
+[node name="untitled" instance=ExtResource("1_tun72")]
+
+[node name="Cube" parent="." index="0"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 92.8064, -7.22442, -65.5364)

@@ -1,0 +1,38 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://6bwbcb4y1ulg"
+path.s3tc="res://.godot/imported/untitled_e6e68bbd4eef5e6970ecb77375aea79c.png-b2161cc3eefefe6bbdde86175aedb079.s3tc.ctex"
+metadata={
+"imported_formats": ["s3tc_bptc"],
+"vram_texture": true
+}
+generator_parameters={
+"md5": "ddf7f8ef27e2ecb831056d771f0bb271"
+}
+
+[deps]
+
+source_file="res://UsingAsset/new models/new house/untitled_e6e68bbd4eef5e6970ecb77375aea79c.png"
+dest_files=["res://.godot/imported/untitled_e6e68bbd4eef5e6970ecb77375aea79c.png-b2161cc3eefefe6bbdde86175aedb079.s3tc.ctex"]
+
+[params]
+
+compress/mode=2
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/hdr_compression=1
+compress/normal_map=0
+compress/channel_pack=0
+mipmaps/generate=true
+mipmaps/limit=-1
+roughness/mode=0
+roughness/src_normal=""
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/normal_map_invert_y=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=0

@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://b0qp7hnki30n7"]
+
+[ext_resource type="PackedScene" uid="uid://cfe1nm7usqm6w" path="res://UsingAsset/new models/group buildings/untitled.glb" id="1_dhjsc"]
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_0jxjw"]
+data = PackedVector3Array(1, 1, -1, -1, 1, 1, -1, 1, -1, 1, 1, -1, 1, 1, 1, -1, 1, 1, 1, -1, 1, -1, 1, 1, 1, 1, 1, 1, -1, 1, -1, -1, 1, -1, 1, 1, -1, -1, 1, -1, 1, -1, -1, 1, 1, -1, -1, 1, -1, -1, -1, -1, 1, -1, -1, -1, -1, 1, -1, 1, 1, -1, -1, -1, -1, -1, -1, -1, 1, 1, -1, 1, 1, -1, -1, 1, 1, 1, 1, 1, -1, 1, -1, -1, 1, -1, 1, 1, 1, 1, -1, -1, -1, 1, 1, -1, -1, 1, -1, -1, -1, -1, 1, -1, -1, 1, 1, -1)
+
+[node name="untitled2" instance=ExtResource("1_dhjsc")]
+transform = Transform3D(1.12942, 0, 1.65058, 0, 2, 0, -1.65058, 0, 1.12942, 0, 0, 0)
+
+[node name="Cube" parent="." index="0"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 92.8064, -7.22442, -65.5364)
+
+[node name="Cube_col" type="StaticBody3D" parent="Cube" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Cube/Cube_col" index="0"]
+shape = SubResource("ConcavePolygonShape3D_0jxjw")

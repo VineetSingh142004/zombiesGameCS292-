@@ -1,4 +1,4 @@
-[gd_scene load_steps=24 format=3 uid="uid://db2h3t17k37pe"]
+[gd_scene load_steps=27 format=3 uid="uid://db2h3t17k37pe"]
 
 [ext_resource type="Script" uid="uid://cp8ddmcbhue8d" path="res://Scripts/World.gd" id="1_yrgup"]
 [ext_resource type="PackedScene" uid="uid://clwvialu5iyb2" path="res://Assets/map/new city.glb" id="2_gjpho"]
@@ -14,8 +14,11 @@
 [ext_resource type="PackedScene" uid="uid://c53n0qfkfil1q" path="res://UsingAsset/buildings and houses/buildings/town houses/town.tscn" id="13_8l3nt"]
 [ext_resource type="PackedScene" uid="uid://cicx741dlo7ib" path="res://Models/make_a_3_floor_studen_0202232129_texture.blend" id="14_kwl8l"]
 [ext_resource type="PackedScene" uid="uid://bwffmvxshuc17" path="res://Assets/map/SMC support 1.tscn" id="15_kwl8l"]
-[ext_resource type="PackedScene" uid="uid://c5e46gtbmtm4b" path="res://UsingAsset/buildings and houses/buildings/gass/gasst.glb" id="16_xiqgv"]
 [ext_resource type="PackedScene" uid="uid://dr2c6vub35x8w" path="res://UsingAsset/buildings and houses/buildings/gass/gasst2.tscn" id="17_waglr"]
+[ext_resource type="PackedScene" uid="uid://b0qp7hnki30n7" path="res://UsingAsset/new models/group buildings/untitled2.tscn" id="18_r0dna"]
+[ext_resource type="PackedScene" uid="uid://cnruk1aao20pi" path="res://UsingAsset/new models/basketball/untitled.tscn" id="18_rwt1y"]
+[ext_resource type="PackedScene" uid="uid://ksxi55xo1j17" path="res://UsingAsset/new models/new house/untitled3.tscn" id="19_b5aes"]
+[ext_resource type="PackedScene" uid="uid://w12efmmkcha7" path="res://UsingAsset/new models/now building with coffe and all stuff on it/untitled.glb" id="20_w0bku"]
 [ext_resource type="PackedScene" uid="uid://5iurrb07epis" path="res://Scenes/Player.tscn" id="31_jumwc"]
 
 [sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_6lu03"]
@@ -222,7 +225,7 @@ transform = Transform3D(-0.0157055, 0, -20, 0, 20, 0, 20, 0, -0.0157055, 184.529
 transform = Transform3D(19.9988, 0, -0.220952, 0, 20, 0, 0.220952, 0, 19.9988, 26.6585, 12.6817, 127.606)
 
 [node name="Old_Main" parent="." instance=ExtResource("9_kn06e")]
-transform = Transform3D(-0.287451, 0, -29.9986, 0, 30, 0, 29.9986, 0, -0.287451, 94.1181, 17.4532, -16.8768)
+transform = Transform3D(-0.383268, 0, -39.9982, 0, 40, 0, 39.9982, 0, -0.383268, 94.1181, 17.4532, -16.8768)
 
 [node name="house 2" parent="." instance=ExtResource("10_7yo87")]
 transform = Transform3D(0.482365, 0, -19.9942, 0, 20, 0, 19.9942, 0, 0.482365, 186.435, 12.677, -114.4)
@@ -278,18 +281,38 @@ transform = Transform3D(-8.74228e-07, 0, 20, 0, 20, 0, -20, 0, -8.74228e-07, -12
 [node name="make_a_3_floor_studen_0202232129_texture2" parent="." instance=ExtResource("14_kwl8l")]
 transform = Transform3D(-8.74228e-07, 0, 20, 0, 20, 0, -20, 0, -8.74228e-07, -126.24, 12.7611, -53.8696)
 
+[node name="make_a_3_floor_studen_0202232129_texture3" parent="." instance=ExtResource("14_kwl8l")]
+transform = Transform3D(-8.74228e-07, 0, 20, 0, 20, 0, -20, 0, -8.74228e-07, -203.567, 12.7611, 32.4245)
+
+[node name="make_a_3_floor_studen_0202232129_texture4" parent="." instance=ExtResource("14_kwl8l")]
+transform = Transform3D(-8.74228e-07, 0, 20, 0, 20, 0, -20, 0, -8.74228e-07, -203.567, 12.7611, -7.38409)
+
 [node name="SMC support 1" parent="." instance=ExtResource("15_kwl8l")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -53.0028, 17.8875, -186.831)
 
 [node name="SMC support 2" parent="." instance=ExtResource("15_kwl8l")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 84.3719, 17.8875, -186.831)
 
-[node name="gasst" parent="." instance=ExtResource("16_xiqgv")]
-transform = Transform3D(1.25, 0, 0, 0, 1, 0, 0, 0, 1.4, -20.5074, 7.08503, -12.5716)
-visible = false
-
 [node name="gasst2" parent="." instance=ExtResource("17_waglr")]
 transform = Transform3D(1.25, 0, 0, 0, 1, 0, 0, 0, 1.4, -21.3361, 6.57074, -12.6283)
+
+[node name="basketball" parent="." instance=ExtResource("18_rwt1y")]
+transform = Transform3D(-4.99997, 0, 0.0164933, 0, 5, 0, -0.0164933, 0, -4.99997, 69.9794, 1.42082, 99.1355)
+
+[node name="group building" parent="." instance=ExtResource("18_r0dna")]
+transform = Transform3D(1.12942, 0, 1.65058, 0, 2, 0, -1.65058, 0, 1.12942, -228.293, -2.35277, 383.537)
+
+[node name="untitled3" parent="." instance=ExtResource("19_b5aes")]
+transform = Transform3D(0.0227755, 0, 1.49983, 0, 1.5, 0, -1.49983, 0, 0.0227755, -218.065, 1.5413, 98.955)
+
+[node name="untitled4" parent="." instance=ExtResource("19_b5aes")]
+transform = Transform3D(-1.3, 0, -0.00263193, 0, 1.3, 0, 0.00263193, 0, -1.3, -49.3232, 1.5413, 93.8918)
+
+[node name="untitled" parent="." instance=ExtResource("20_w0bku")]
+transform = Transform3D(3, 0, 0, 0, 3, 0, 0, 0, 3, -204.172, 0.575307, -114.576)
+
+[node name="untitled2" parent="." instance=ExtResource("20_w0bku")]
+transform = Transform3D(1.99999, 0, -0.00628318, 0, 2, 0, 0.00628318, 0, 1.99999, 91.1673, 0.495675, -110.727)
 
 [connection signal="player_hit" from="Map/NavigationRegion3D/Player" to="." method="_on_player_player_hit"]
 [connection signal="timeout" from="ZombieSpawnTimer" to="." method="_on_zombie_spawn_timer_timeout"]
