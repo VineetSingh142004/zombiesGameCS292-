@@ -3,7 +3,7 @@
 [ext_resource type="Script" uid="uid://cp8ddmcbhue8d" path="res://Scripts/World.gd" id="1_yrgup"]
 [ext_resource type="PackedScene" uid="uid://clwvialu5iyb2" path="res://Assets/map/new city.glb" id="2_gjpho"]
 [ext_resource type="PackedScene" uid="uid://bir6o1slvvhkr" path="res://UsingAsset/free city/freeCity.glb" id="2_p70al"]
-[ext_resource type="Texture2D" uid="uid://bo6sns01ykkyg" path="res://Assets/AllSky/Screenshots/_0003_AllSkyFree_Screen_06.jpg" id="3_qdyvj"]
+[ext_resource type="Texture2D" uid="uid://dhb67txqh0kvj" path="res://Models/sky/sky23123.jpg" id="3_kwl8l"]
 [ext_resource type="PackedScene" uid="uid://b4u8tp0k5hwj5" path="res://UsingAsset/buildings and houses/buildings/asian buildings/AureedBuilding.tscn" id="6_45d1s"]
 [ext_resource type="PackedScene" uid="uid://boql77ksygj1i" path="res://UsingAsset/buildings and houses/buildings/front building/BuildBlend.glb" id="7_q2d71"]
 [ext_resource type="PackedScene" uid="uid://dkubc8tfkl1xn" path="res://UsingAsset/buildings and houses/houses/house 1.tscn" id="8_q2d71"]
@@ -17,7 +17,7 @@
 [ext_resource type="PackedScene" uid="uid://5iurrb07epis" path="res://Scenes/Player.tscn" id="31_jumwc"]
 
 [sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_6lu03"]
-panorama = ExtResource("3_qdyvj")
+panorama = ExtResource("3_kwl8l")
 
 [sub_resource type="Sky" id="Sky_3auab"]
 sky_material = SubResource("PanoramaSkyMaterial_6lu03")
@@ -26,6 +26,12 @@ sky_material = SubResource("PanoramaSkyMaterial_6lu03")
 background_mode = 2
 sky = SubResource("Sky_3auab")
 fog_light_color = Color(0, 0.63747, 0.572864, 1)
+fog_light_energy = 0.06
+fog_sun_scatter = 0.03
+volumetric_fog_enabled = true
+volumetric_fog_density = 0.0574
+volumetric_fog_albedo = Color(1, 0.0666667, 0.0941176, 1)
+volumetric_fog_emission = Color(0.345098, 0.2, 0.2, 1)
 
 [sub_resource type="NavigationMesh" id="NavigationMesh_o2f1v"]
 region_min_size = 80.0
