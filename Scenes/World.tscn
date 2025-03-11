@@ -18,7 +18,7 @@
 [ext_resource type="PackedScene" uid="uid://b0qp7hnki30n7" path="res://UsingAsset/new models/group buildings/untitled2.tscn" id="18_r0dna"]
 [ext_resource type="PackedScene" uid="uid://cnruk1aao20pi" path="res://UsingAsset/new models/basketball/untitled.tscn" id="18_rwt1y"]
 [ext_resource type="PackedScene" uid="uid://ksxi55xo1j17" path="res://UsingAsset/new models/new house/untitled3.tscn" id="19_b5aes"]
-[ext_resource type="PackedScene" uid="uid://w12efmmkcha7" path="res://UsingAsset/new models/now building with coffe and all stuff on it/untitled.glb" id="20_w0bku"]
+[ext_resource type="PackedScene" uid="uid://i53l8c1wr0cf" path="res://UsingAsset/new models/now building with coffe and all stuff on it/untitled.tscn" id="20_r0dna"]
 [ext_resource type="PackedScene" uid="uid://5iurrb07epis" path="res://Scenes/Player.tscn" id="31_jumwc"]
 
 [sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_6lu03"]
@@ -218,6 +218,9 @@ transform = Transform3D(-6.55671e-08, 0, 1.5, 0, 1.5, 0, -1.5, 0, -6.55671e-08, 
 [node name="house 1" parent="." instance=ExtResource("8_q2d71")]
 transform = Transform3D(-20, 0, -3.01992e-06, 0, 20, 0, 3.01992e-06, 0, -20, -123.633, 11.8377, 86.5082)
 
+[node name="house 5" parent="." instance=ExtResource("8_q2d71")]
+transform = Transform3D(19.9982, 0, 0.270871, 0, 20, 0, -0.270871, 0, 19.9982, -126.679, 11.8377, 133.432)
+
 [node name="house 3" parent="." instance=ExtResource("8_q2d71")]
 transform = Transform3D(-0.0157055, 0, -20, 0, 20, 0, 20, 0, -0.0157055, 184.529, 12.2471, 35.2808)
 
@@ -276,10 +279,10 @@ transform = Transform3D(40, 0, 0, 0, 40, 0, 0, 0, 40, -60.9498, 14.5403, 129.576
 transform = Transform3D(-0.302986, 0, -39.9989, 0, 40, 0, 39.9989, 0, -0.302986, 188.605, 14.5403, -38.6928)
 
 [node name="make_a_3_floor_studen_0202232129_texture" parent="." instance=ExtResource("14_kwl8l")]
-transform = Transform3D(-8.74228e-07, 0, 20, 0, 20, 0, -20, 0, -8.74228e-07, -126.24, 12.7611, -14.061)
+transform = Transform3D(-8.74228e-07, 0, 20, 0, 20, 0, -20, 0, -8.74228e-07, -128.113, 12.7611, 7.71214)
 
 [node name="make_a_3_floor_studen_0202232129_texture2" parent="." instance=ExtResource("14_kwl8l")]
-transform = Transform3D(-8.74228e-07, 0, 20, 0, 20, 0, -20, 0, -8.74228e-07, -126.24, 12.7611, -53.8696)
+transform = Transform3D(-8.74228e-07, 0, 20, 0, 20, 0, -20, 0, -8.74228e-07, -128.113, 12.7611, -32.0965)
 
 [node name="make_a_3_floor_studen_0202232129_texture3" parent="." instance=ExtResource("14_kwl8l")]
 transform = Transform3D(-8.74228e-07, 0, 20, 0, 20, 0, -20, 0, -8.74228e-07, -203.567, 12.7611, 32.4245)
@@ -300,19 +303,43 @@ transform = Transform3D(1.25, 0, 0, 0, 1, 0, 0, 0, 1.4, -21.3361, 6.57074, -12.6
 transform = Transform3D(-4.99997, 0, 0.0164933, 0, 5, 0, -0.0164933, 0, -4.99997, 69.9794, 1.42082, 99.1355)
 
 [node name="group building" parent="." instance=ExtResource("18_r0dna")]
-transform = Transform3D(1.12942, 0, 1.65058, 0, 2, 0, -1.65058, 0, 1.12942, -228.293, -2.35277, 383.537)
+transform = Transform3D(1.12942, 0, 1.65058, 0, 2, 0, -1.65058, 0, 1.12942, -222.553, -2.35277, 409.565)
+
+[node name="group building2" parent="." instance=ExtResource("18_r0dna")]
+transform = Transform3D(1.12942, 0, 1.65058, 0, 2, 0, -1.65058, 0, 1.12942, 203.25, -2.35277, 418.169)
+
+[node name="group building3" parent="." instance=ExtResource("18_r0dna")]
+transform = Transform3D(-1.88618, 0, -0.665075, 0, 2, 0, 0.665075, 0, -1.88618, 319.589, -2.35277, -366.14)
 
 [node name="untitled3" parent="." instance=ExtResource("19_b5aes")]
 transform = Transform3D(0.0227755, 0, 1.49983, 0, 1.5, 0, -1.49983, 0, 0.0227755, -218.065, 1.5413, 98.955)
 
 [node name="untitled4" parent="." instance=ExtResource("19_b5aes")]
-transform = Transform3D(-1.3, 0, -0.00263193, 0, 1.3, 0, 0.00263193, 0, -1.3, -49.3232, 1.5413, 93.8918)
+transform = Transform3D(-1.3, 0, -0.00263193, 0, 1.3, 0, 0.00263193, 0, -1.3, -66.6193, 1.5413, 93.8918)
 
-[node name="untitled" parent="." instance=ExtResource("20_w0bku")]
-transform = Transform3D(3, 0, 0, 0, 3, 0, 0, 0, 3, -204.172, 0.575307, -114.576)
+[node name="untitled7" parent="." instance=ExtResource("19_b5aes")]
+transform = Transform3D(-1.2991, 0, -0.0484757, 0, 1.3, 0, 0.0484757, 0, -1.2991, -23.6749, 2.22227, 91.9604)
 
-[node name="untitled2" parent="." instance=ExtResource("20_w0bku")]
-transform = Transform3D(1.99999, 0, -0.00628318, 0, 2, 0, 0.00628318, 0, 1.99999, 91.1673, 0.495675, -110.727)
+[node name="untitled6" parent="." instance=ExtResource("19_b5aes")]
+transform = Transform3D(-1.29853, 0, 0.0618503, 0, 1.3, 0, -0.0618503, 0, -1.29853, -66.6193, 1.5413, 93.8918)
+
+[node name="untitled" parent="." instance=ExtResource("20_r0dna")]
+transform = Transform3D(3, 0, 0, 0, 3, 0, 0, 0, 3, -205.37, 0.283677, -117.656)
+
+[node name="untitled2" parent="." instance=ExtResource("20_r0dna")]
+transform = Transform3D(-2.5, 0, -2.18557e-07, 0, 2.5, 0, 2.18557e-07, 0, -2.5, -137.568, 0.283677, -98.072)
+
+[node name="untitled5" parent="." instance=ExtResource("20_r0dna")]
+transform = Transform3D(2.1, 0, 0, 0, 2.1, 0, 0, 0, 2.1, 92.8157, 0.283677, -107.024)
+
+[node name="Townhouse6" parent="." instance=ExtResource("11_7yo87")]
+transform = Transform3D(-1.31134e-07, 0, 3, 0, 3, 0, -3, 0, -1.31134e-07, 28.8209, 0.306805, 74.847)
+
+[node name="Townhouse7" parent="." instance=ExtResource("11_7yo87")]
+transform = Transform3D(-1.31134e-07, 0, 3, 0, 3, 0, -3, 0, -1.31134e-07, 18.1974, 0.306805, 74.847)
+
+[node name="Townhouse8" parent="." instance=ExtResource("11_7yo87")]
+transform = Transform3D(-1.31134e-07, 0, 3, 0, 3, 0, -3, 0, -1.31134e-07, 7.41643, 0.306805, 74.847)
 
 [connection signal="player_hit" from="Map/NavigationRegion3D/Player" to="." method="_on_player_player_hit"]
 [connection signal="timeout" from="ZombieSpawnTimer" to="." method="_on_zombie_spawn_timer_timeout"]
