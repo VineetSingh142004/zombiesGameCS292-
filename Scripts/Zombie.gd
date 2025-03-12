@@ -2,7 +2,7 @@ extends CharacterBody3D
 # References and properties
 var player = null
 var state_machine
-var health = 50
+var health = 72
 var is_dead = false
 var hit_locations = []  # Track where zombie was hit
 const SPEED = 4.0
@@ -10,6 +10,7 @@ const ATTACK_RANGE = 2.0
 @export var player_path: String = "/root/World/Map/Player"
 @onready var nav_agent: NavigationAgent3D = $NavigationAgent3D
 @onready var anim_tree: AnimationTree = $AnimationTree
+@onready var death: AudioStreamPlayer3D = $DeathSound
 
 # Called when the node enters the scene tree.
 func _ready():
@@ -186,6 +187,7 @@ func take_damage(damage: int, hit_location: String) -> void:
 	print("Remaining health: ", health)
 	
 	if health <= 0:
+		death.play()
 		print("Fatal damage! Zombie eliminated.")
 		die()
 	else:

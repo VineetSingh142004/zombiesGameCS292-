@@ -5,6 +5,7 @@ const SPEED = 40.0
 @onready var mesh = $MeshInstance3D
 @onready var ray = $RayCast3D
 @onready var particles = $GPUParticles3D
+@onready var bulletHit = $BulletHit
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -20,6 +21,7 @@ func _process(delta):
 	
 	if ray.is_colliding():
 		var collider = ray.get_collider()
+		bulletHit.play()
 		print("Bullet hit: ", collider.name)
 		
 		# Get damage based on hit location
@@ -44,10 +46,10 @@ func _process(delta):
 func calculate_damage(bone_name: String) -> int:
 	bone_name = bone_name.to_lower()
 	if "spine" in bone_name or "head" in bone_name:
-		return 5
+		return 6
 	elif "leg" in bone_name or "arm" in bone_name:
-		return 2
-	return 2  # Default damage
+		return 3
+	return 3  # Default damage
 
 func _on_timer_timeout():
 	queue_free()

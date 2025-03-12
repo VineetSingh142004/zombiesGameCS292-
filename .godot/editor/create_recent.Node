@@ -1,3 +1,5 @@
+AudioStreamPlayer3D
+AudioListener3D
 CollisionShape3D
 AnimationTree
 StaticBody3D

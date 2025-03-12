@@ -1,6 +1,7 @@
-[gd_scene load_steps=7 format=3 uid="uid://yn400ram7bxt"]
+[gd_scene load_steps=8 format=3 uid="uid://yn400ram7bxt"]
 
 [ext_resource type="Script" path="res://Scripts/Bullet.gd" id="1_lc6tw"]
+[ext_resource type="AudioStream" uid="uid://b6juyphlab86q" path="res://Assets/hitmarker.mp3" id="2_yhr3i"]
 
 [sub_resource type="BoxMesh" id="BoxMesh_m767h"]
 size = Vector3(0.05, 0.05, 1)
@@ -52,5 +53,9 @@ draw_pass_1 = SubResource("BoxMesh_8wylk")
 wait_time = 5.0
 one_shot = true
 autostart = true
+
+[node name="BulletHit" type="AudioStreamPlayer3D" parent="."]
+stream = ExtResource("2_yhr3i")
+volume_db = -20.307
 
 [connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

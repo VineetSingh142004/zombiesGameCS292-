@@ -5,3 +5,8 @@ res://Scenes/Bullet.tscn
 res://Scripts/Bullet.gd
 res://Scripts/Player.gd
 res://Scripts/World.gd
+res://Scripts/BodyPart.gd
+res://Shower Cabin 24 - FlowEq-019_026.tscn
+res://sign_3_001.tscn
+res://Scenes/smg.tscn
+res://Scenes/Rifle.tscn
