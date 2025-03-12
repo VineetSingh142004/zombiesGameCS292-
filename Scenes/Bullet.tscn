@@ -1,6 +1,6 @@
 [gd_scene load_steps=8 format=3 uid="uid://yn400ram7bxt"]
 
-[ext_resource type="Script" path="res://Scripts/Bullet.gd" id="1_lc6tw"]
+[ext_resource type="Script" uid="uid://dlokq2m5ecxti" path="res://Scripts/Bullet.gd" id="1_lc6tw"]
 [ext_resource type="AudioStream" uid="uid://b6juyphlab86q" path="res://Assets/hitmarker.mp3" id="2_yhr3i"]
 
 [sub_resource type="BoxMesh" id="BoxMesh_m767h"]
