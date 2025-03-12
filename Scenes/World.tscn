@@ -1,27 +1,27 @@
 [gd_scene load_steps=30 format=3 uid="uid://db2h3t17k37pe"]
 
-[ext_resource type="Script" uid="uid://cp8ddmcbhue8d" path="res://Scripts/World.gd" id="1_yrgup"]
+[ext_resource type="Script" path="res://Scripts/World.gd" id="1_yrgup"]
 [ext_resource type="PackedScene" uid="uid://clwvialu5iyb2" path="res://Assets/map/new city.glb" id="2_gjpho"]
 [ext_resource type="PackedScene" uid="uid://bir6o1slvvhkr" path="res://UsingAsset/free city/freeCity.glb" id="2_p70al"]
 [ext_resource type="Texture2D" uid="uid://dua0qt7gkt0ai" path="res://Models/sky/sky.jpg" id="3_0ao37"]
 [ext_resource type="PackedScene" uid="uid://b4u8tp0k5hwj5" path="res://UsingAsset/buildings and houses/buildings/asian buildings/AureedBuilding.tscn" id="6_45d1s"]
 [ext_resource type="PackedScene" uid="uid://dkubc8tfkl1xn" path="res://UsingAsset/buildings and houses/houses/house 1.tscn" id="8_q2d71"]
-[ext_resource type="PackedScene" uid="uid://c8xqp34mjosvw" path="res://Old_Main.tscn" id="9_kn06e"]
+[ext_resource type="PackedScene" path="res://Old_Main.tscn" id="9_kn06e"]
 [ext_resource type="PackedScene" uid="uid://cxxciaksw5f4k" path="res://UsingAsset/buildings and houses/houses/house 2.tscn" id="10_7yo87"]
 [ext_resource type="PackedScene" uid="uid://cltbefj8tviju" path="res://UsingAsset/buildings and houses/buildings/appartment 2/Townhouse.tscn" id="11_7yo87"]
-[ext_resource type="PackedScene" uid="uid://cxk4ubacvfi5g" path="res://UsingAsset/buildings and houses/buildings/cafe/Generate_an_high_qual_0311050100_texture.tscn" id="12_ti1bm"]
-[ext_resource type="PackedScene" uid="uid://c53n0qfkfil1q" path="res://UsingAsset/buildings and houses/buildings/town houses/town.tscn" id="13_8l3nt"]
+[ext_resource type="PackedScene" path="res://UsingAsset/buildings and houses/buildings/cafe/Generate_an_high_qual_0311050100_texture.tscn" id="12_ti1bm"]
+[ext_resource type="PackedScene" path="res://UsingAsset/buildings and houses/buildings/town houses/town.tscn" id="13_8l3nt"]
 [ext_resource type="PackedScene" uid="uid://cicx741dlo7ib" path="res://Models/make_a_3_floor_studen_0202232129_texture.blend" id="14_kwl8l"]
-[ext_resource type="PackedScene" uid="uid://bwffmvxshuc17" path="res://Assets/map/SMC support 1.tscn" id="15_kwl8l"]
+[ext_resource type="PackedScene" path="res://Assets/map/SMC support 1.tscn" id="15_kwl8l"]
 [ext_resource type="PackedScene" uid="uid://dr2c6vub35x8w" path="res://UsingAsset/buildings and houses/buildings/gass/gasst2.tscn" id="17_waglr"]
 [ext_resource type="PackedScene" uid="uid://b0qp7hnki30n7" path="res://UsingAsset/new models/group buildings/untitled2.tscn" id="18_r0dna"]
 [ext_resource type="PackedScene" uid="uid://cnruk1aao20pi" path="res://UsingAsset/new models/basketball/untitled.tscn" id="18_rwt1y"]
 [ext_resource type="PackedScene" uid="uid://ksxi55xo1j17" path="res://UsingAsset/new models/new house/untitled3.tscn" id="19_b5aes"]
 [ext_resource type="PackedScene" uid="uid://i53l8c1wr0cf" path="res://UsingAsset/new models/now building with coffe and all stuff on it/untitled.tscn" id="20_r0dna"]
-[ext_resource type="PackedScene" uid="uid://bvlo82k6ep1lm" path="res://UsingAsset/buildings and houses/buildings/front building/Cube.tscn" id="21_0ao37"]
+[ext_resource type="PackedScene" path="res://UsingAsset/buildings and houses/buildings/front building/Cube.tscn" id="21_0ao37"]
 [ext_resource type="PackedScene" uid="uid://cau1gulh6xxds" path="res://UsingAsset/pine-tree/source/tree.tscn" id="21_b5aes"]
-[ext_resource type="PackedScene" uid="uid://cpp7f10k11dy1" path="res://UsingAsset/buildings and houses/buildings/front building/Vert_003_Vert_001.tscn" id="22_d3ars"]
-[ext_resource type="PackedScene" uid="uid://cfb8i6tmppbmd" path="res://UsingAsset/buildings and houses/buildings/front building/Vert_003_Vert_008.tscn" id="23_l11rc"]
+[ext_resource type="PackedScene" path="res://UsingAsset/buildings and houses/buildings/front building/Vert_003_Vert_001.tscn" id="22_d3ars"]
+[ext_resource type="PackedScene" path="res://UsingAsset/buildings and houses/buildings/front building/Vert_003_Vert_008.tscn" id="23_l11rc"]
 [ext_resource type="PackedScene" uid="uid://5iurrb07epis" path="res://Scenes/Player.tscn" id="31_jumwc"]
 
 [sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_6lu03"]
@@ -930,6 +930,7 @@ mouse_filter = 2
 color = Color(0.803922, 0.0313726, 0.117647, 0.266667)
 
 [node name="ZombieSpawnTimer" type="Timer" parent="."]
+wait_time = 4.668
 autostart = true
 
 [connection signal="player_hit" from="Map/Player" to="." method="_on_player_player_hit"]

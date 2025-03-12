@@ -1,4 +1,7 @@
-res://Scenes/Zombie.tscn
 res://Scenes/World.tscn
+res://Scenes/Zombie.tscn
 res://Scripts/Zombie.gd
-res://Scenes/Zombie1.tscn
+res://Scenes/Bullet.tscn
+res://Scripts/Bullet.gd
+res://Scripts/Player.gd
+res://Scripts/World.gd
