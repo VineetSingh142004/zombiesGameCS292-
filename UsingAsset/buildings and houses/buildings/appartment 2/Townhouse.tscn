@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=4 uid="uid://cltbefj8tviju"]
+[gd_scene load_steps=10 format=4 uid="uid://cltbefj8tviju"]
 
 [ext_resource type="Texture2D" uid="uid://e8x4e1n3458l" path="res://UsingAsset/buildings and houses/buildings/appartment 2/Townhouse_Townhouse_Color.png" id="1_n3xcs"]
 [ext_resource type="Texture2D" uid="uid://c8lsmnwm8dbai" path="res://UsingAsset/buildings and houses/buildings/appartment 2/Townhouse_Townhouse_Roughness.png" id="2_tdhhu"]
@@ -55,6 +55,9 @@ size = Vector3(0.701599, 0.930819, 0.700422)
 [sub_resource type="BoxShape3D" id="BoxShape3D_tdhhu"]
 size = Vector3(0.362061, 0.632401, 0.718506)
 
+[sub_resource type="BoxOccluder3D" id="BoxOccluder3D_n3xcs"]
+size = Vector3(1.4793, 1.41063, 0.752383)
+
 [node name="Townhouse" type="Node3D"]
 transform = Transform3D(3, 0, 0, 0, 3, 0, 0, 0, 3, 0, 0, 0)
 
@@ -76,3 +79,7 @@ shape = SubResource("BoxShape3D_tdhhu")
 [node name="CollisionShape3D3" type="CollisionShape3D" parent="Building/Building_col"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.18376, 0.314491, -0.666242)
 shape = SubResource("BoxShape3D_tdhhu")
+
+[node name="OccluderInstance3D" type="OccluderInstance3D" parent="."]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, -1.6812, 3.52193, -0.0997766)
+occluder = SubResource("BoxOccluder3D_n3xcs")

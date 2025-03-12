@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=4 uid="uid://dkubc8tfkl1xn"]
+[gd_scene load_steps=9 format=4 uid="uid://dkubc8tfkl1xn"]
 
 [ext_resource type="Texture2D" uid="uid://bulh843jl8q7y" path="res://UsingAsset/buildings and houses/houses/house 1_Image_0.jpg" id="1_hspvg"]
 
@@ -48,6 +48,12 @@ size = Vector3(1.8461, 1.25977, 1.27466)
 [sub_resource type="BoxShape3D" id="BoxShape3D_33hhp"]
 size = Vector3(1.13977, 1.02295, 1.0748)
 
+[sub_resource type="BoxOccluder3D" id="BoxOccluder3D_hspvg"]
+size = Vector3(1.15569, 1.18159, 2.0041)
+
+[sub_resource type="BoxOccluder3D" id="BoxOccluder3D_33hhp"]
+size = Vector3(0.615379, 0.869557, 1.28472)
+
 [node name="house 1" type="Node3D"]
 transform = Transform3D(-15, 0, -1.31134e-06, 0, 15, 0, 1.31134e-06, 0, -15, 0, 0, 0)
 
@@ -64,3 +70,12 @@ shape = SubResource("BoxShape3D_hspvg")
 [node name="CollisionShape3D2" type="CollisionShape3D" parent="Mesh_0/Mesh_0_col"]
 transform = Transform3D(0.999999, 0, -3.82272e-12, 0, 0.999999, 0, 3.82272e-12, 0, 0.999999, -0.360891, -0.103598, 0.332069)
 shape = SubResource("BoxShape3D_33hhp")
+
+[node name="OccluderInstance3D" type="OccluderInstance3D" parent="."]
+transform = Transform3D(0.999999, 0, -4.9738e-14, 0, 0.999999, 0, 4.9738e-14, 0, 0.999999, -0.301156, -0.0280434, -0.0402773)
+layers = 0
+occluder = SubResource("BoxOccluder3D_hspvg")
+
+[node name="OccluderInstance3D2" type="OccluderInstance3D" parent="."]
+transform = Transform3D(0.999999, 0, -6.39488e-14, 0, 0.999999, 0, 6.39488e-14, 0, 0.999999, 0.594698, -0.160755, -0.341118)
+occluder = SubResource("BoxOccluder3D_33hhp")

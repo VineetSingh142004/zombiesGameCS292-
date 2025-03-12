@@ -1,4 +1,4 @@
-[gd_scene load_steps=152 format=4 uid="uid://i53l8c1wr0cf"]
+[gd_scene load_steps=153 format=4 uid="uid://i53l8c1wr0cf"]
 
 [ext_resource type="Texture2D" uid="uid://btf5j5i8pyvvq" path="res://UsingAsset/new models/now building with coffe and all stuff on it/untitled_Heading.png" id="1_vcm0c"]
 [ext_resource type="Texture2D" uid="uid://i4q6ht4p58dy" path="res://UsingAsset/new models/now building with coffe and all stuff on it/untitled_vector-vintage-shop-sign.jpg" id="2_jdko4"]
@@ -4070,6 +4070,9 @@ shadow_mesh = SubResource("ArrayMesh_tohne")
 [sub_resource type="BoxShape3D" id="BoxShape3D_vcm0c"]
 size = Vector3(0.38612, 0.367188, 0.685425)
 
+[sub_resource type="BoxOccluder3D" id="BoxOccluder3D_vcm0c"]
+size = Vector3(0.682585, 0.587309, 1.27824)
+
 [node name="untitled" type="Node3D"]
 transform = Transform3D(3, 0, 0, 0, 3, 0, 0, 0, 3, 0, 0, 0)
 
@@ -4363,3 +4366,7 @@ skeleton = NodePath("")
 [node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
 transform = Transform3D(50, 0, 0, 0, 50, 0, 0, 0, 50, -3.19839, 8.87555, 5.76919)
 shape = SubResource("BoxShape3D_vcm0c")
+
+[node name="OccluderInstance3D" type="OccluderInstance3D" parent="."]
+transform = Transform3D(30, 0, 0, 0, 30, 0, 0, 0, 30, -3.14575, 8.70732, 6.08952)
+occluder = SubResource("BoxOccluder3D_vcm0c")

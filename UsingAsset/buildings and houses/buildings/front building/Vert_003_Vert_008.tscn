@@ -1,4 +1,4 @@
-[gd_scene load_steps=26 format=4 uid="uid://cfb8i6tmppbmd"]
+[gd_scene load_steps=27 format=4 uid="uid://cfb8i6tmppbmd"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_xd041"]
 resource_name = "stone"
@@ -642,6 +642,9 @@ shadow_mesh = SubResource("ArrayMesh_b63lv")
 [sub_resource type="BoxShape3D" id="BoxShape3D_wlpbj"]
 size = Vector3(1.34979, 0.693787, 0.578125)
 
+[sub_resource type="BoxOccluder3D" id="BoxOccluder3D_wlpbj"]
+size = Vector3(2.73882, 1.3445, 1.23264)
+
 [node name="Vert_003_Vert_008" type="MeshInstance3D"]
 transform = Transform3D(0, 3.05522, -3.64211e-07, 2.73158e-07, -3.64211e-07, -3.05522, -3.05522, -3.2563e-14, -2.73158e-07, 0, 0, 0)
 mesh = SubResource("ArrayMesh_m4hyg")
@@ -652,3 +655,7 @@ skeleton = NodePath("")
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Vert_003_Vert_008_col"]
 transform = Transform3D(10, -4.45201e-18, -1.7053e-13, -3.23905e-18, 10, 9.52913e-21, 1.7053e-13, 9.52874e-21, 10, 1.85638, -2.13165, 0.410156)
 shape = SubResource("BoxShape3D_wlpbj")
+
+[node name="OccluderInstance3D" type="OccluderInstance3D" parent="."]
+transform = Transform3D(5, -5.42101e-20, -8.52651e-14, -3.38813e-20, 5, 4.76457e-21, 8.52651e-14, 4.76456e-21, 5, 2.04955, -2.26725, 0.191759)
+occluder = SubResource("BoxOccluder3D_wlpbj")

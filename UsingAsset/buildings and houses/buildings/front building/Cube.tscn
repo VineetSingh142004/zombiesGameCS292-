@@ -1,4 +1,4 @@
-[gd_scene load_steps=15 format=4 uid="uid://bvlo82k6ep1lm"]
+[gd_scene load_steps=16 format=4 uid="uid://bvlo82k6ep1lm"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_wbosk"]
 resource_name = "b 1 brick"
@@ -348,6 +348,9 @@ shadow_mesh = SubResource("ArrayMesh_o8qa6")
 [sub_resource type="BoxShape3D" id="BoxShape3D_dvcei"]
 size = Vector3(3.03784, 1.62665, 1.12033)
 
+[sub_resource type="BoxOccluder3D" id="BoxOccluder3D_dvcei"]
+size = Vector3(1.44342, 0.825736, 0.532102)
+
 [node name="Cube" type="MeshInstance3D"]
 transform = Transform3D(1, 0, 0, 0, 1.39491, 0, 0, 0, 1, 0, 0, 0)
 mesh = SubResource("ArrayMesh_q170d")
@@ -358,3 +361,7 @@ skeleton = NodePath("")
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Cube_col"]
 transform = Transform3D(10, 0, 0, 0, 10, 0.00349066, 0, -0.00349066, 10, -12.6404, 3.86261, 4.04129)
 shape = SubResource("BoxShape3D_dvcei")
+
+[node name="OccluderInstance3D" type="OccluderInstance3D" parent="Cube_col/CollisionShape3D"]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, -0.0160869, -5.60284e-06)
+occluder = SubResource("BoxOccluder3D_dvcei")
