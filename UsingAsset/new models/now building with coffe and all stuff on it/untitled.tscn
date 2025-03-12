@@ -1,4 +1,4 @@
-[gd_scene load_steps=151 format=4 uid="uid://i53l8c1wr0cf"]
+[gd_scene load_steps=152 format=4 uid="uid://i53l8c1wr0cf"]
 
 [ext_resource type="Texture2D" uid="uid://btf5j5i8pyvvq" path="res://UsingAsset/new models/now building with coffe and all stuff on it/untitled_Heading.png" id="1_vcm0c"]
 [ext_resource type="Texture2D" uid="uid://i4q6ht4p58dy" path="res://UsingAsset/new models/now building with coffe and all stuff on it/untitled_vector-vintage-shop-sign.jpg" id="2_jdko4"]
@@ -4067,6 +4067,9 @@ _surfaces = [{
 blend_shape_mode = 0
 shadow_mesh = SubResource("ArrayMesh_tohne")
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_vcm0c"]
+size = Vector3(0.38612, 0.367188, 0.685425)
+
 [node name="untitled" type="Node3D"]
 transform = Transform3D(3, 0, 0, 0, 3, 0, 0, 0, 3, 0, 0, 0)
 
@@ -4354,3 +4357,9 @@ skeleton = NodePath("")
 transform = Transform3D(0.136648, 0, 0, 0, 0.136648, 0, 0, 0, 0.635597, -4.06537, 10.6074, 4.582)
 mesh = SubResource("ArrayMesh_5ljfa")
 skeleton = NodePath("")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+transform = Transform3D(50, 0, 0, 0, 50, 0, 0, 0, 50, -3.19839, 8.87555, 5.76919)
+shape = SubResource("BoxShape3D_vcm0c")
