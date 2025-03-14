@@ -1,6 +1,8 @@
-OccluderInstance3D
 CollisionShape3D
 StaticBody3D
+DirectionalLight3D
+SpotLight3D
+OccluderInstance3D
 AudioStreamPlayer3D
 AudioListener3D
 AnimationTree
@@ -10,4 +12,3 @@ NavigationAgent3D
 AudioStreamPlayer
 CharacterBody3D
 CollisionPolygon3D
-NavigationRegion3D
