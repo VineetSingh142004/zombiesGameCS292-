@@ -647,6 +647,7 @@ size = Vector3(2.73882, 1.3445, 1.23264)
 
 [node name="Vert_003_Vert_008" type="MeshInstance3D"]
 transform = Transform3D(0, 3.05522, -3.64211e-07, 2.73158e-07, -3.64211e-07, -3.05522, -3.05522, -3.2563e-14, -2.73158e-07, 0, 0, 0)
+lod_bias = 0.1
 mesh = SubResource("ArrayMesh_m4hyg")
 skeleton = NodePath("")
 

@@ -353,6 +353,7 @@ size = Vector3(1.44342, 0.825736, 0.532102)
 
 [node name="Cube" type="MeshInstance3D"]
 transform = Transform3D(1, 0, 0, 0, 1.39491, 0, 0, 0, 1, 0, 0, 0)
+lod_bias = 0.1
 mesh = SubResource("ArrayMesh_q170d")
 skeleton = NodePath("")
 

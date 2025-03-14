@@ -63,6 +63,7 @@ transform = Transform3D(3, 0, 0, 0, 3, 0, 0, 0, 3, 0, 0, 0)
 
 [node name="Building" type="MeshInstance3D" parent="."]
 transform = Transform3D(2.80346, 0, 0, 0, 2.49067, 0, 0, 0, 1.78402, -1.81329, 0, 0)
+lod_bias = 0.3
 mesh = SubResource("ArrayMesh_xhcdv")
 skeleton = NodePath("")
 

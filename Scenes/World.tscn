@@ -1,4 +1,4 @@
-[gd_scene load_steps=31 format=3 uid="uid://db2h3t17k37pe"]
+[gd_scene load_steps=32 format=3 uid="uid://db2h3t17k37pe"]
 
 [ext_resource type="Script" uid="uid://cp8ddmcbhue8d" path="res://Scripts/World.gd" id="1_yrgup"]
 [ext_resource type="PackedScene" uid="uid://bir6o1slvvhkr" path="res://UsingAsset/free city/freeCity.glb" id="2_p70al"]
@@ -23,6 +23,7 @@
 [ext_resource type="PackedScene" uid="uid://blnls7s0ys3u8" path="res://Scenes/nissan_gtr.tscn" id="23_d3ars"]
 [ext_resource type="PackedScene" uid="uid://cfb8i6tmppbmd" path="res://UsingAsset/buildings and houses/buildings/front building/Vert_003_Vert_008.tscn" id="23_l11rc"]
 [ext_resource type="PackedScene" uid="uid://5y8d6vlr0mde" path="res://Scenes/chevrolet_camaro.tscn" id="24_l11rc"]
+[ext_resource type="ArrayOccluder3D" uid="uid://db51u21fhi2x3" path="res://Scenes/World.occ" id="25_l11rc"]
 [ext_resource type="PackedScene" uid="uid://5iurrb07epis" path="res://Scenes/Player.tscn" id="31_jumwc"]
 
 [sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_6lu03"]
@@ -377,6 +378,9 @@ occluder = ExtResource("21_b5aes")
 
 [node name="UFO" parent="." instance=ExtResource("22_w0bku")]
 transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, 60.3316, 65.1557, -11.135)
+
+[node name="OccluderInstance3D" type="OccluderInstance3D" parent="UFO"]
+occluder = ExtResource("25_l11rc")
 
 [connection signal="player_hit" from="Map/Player" to="." method="_on_player_player_hit"]
 [connection signal="timeout" from="ZombieSpawnTimer" to="." method="_on_zombie_spawn_timer_timeout"]

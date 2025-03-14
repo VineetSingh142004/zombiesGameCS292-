@@ -64,6 +64,7 @@ shoot={
 [physics]
 
 common/physics_ticks_per_second=144
+3d/default_gravity=9.85
 
 [rendering]
 
