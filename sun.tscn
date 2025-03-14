@@ -1,0 +1,5 @@
+[gd_scene load_steps=2 format=3 uid="uid://dys8wfht2fr4y"]
+
+[ext_resource type="PackedScene" uid="uid://d0wkvb6pv0fx1" path="res://UsingAsset/effects/uploads_files_4395783_Sun.glb" id="1_iveel"]
+
+[node name="uploads_files_4395783_Sun" instance=ExtResource("1_iveel")]
