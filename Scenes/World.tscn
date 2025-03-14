@@ -76,6 +76,36 @@ environment = SubResource("Environment_rlw24")
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="Map"]
 navigation_mesh = SubResource("NavigationMesh_0ao37")
 
+[node name="NISSAN-GTR" parent="Map/NavigationRegion3D" instance=ExtResource("23_d3ars")]
+transform = Transform3D(0.0262467, 0, 0.999655, 0, 1, 0, -0.999655, 0, 0.0262467, -32.6662, 0.2963, -8.6908)
+
+[node name="NISSAN-GTR2" parent="Map/NavigationRegion3D" instance=ExtResource("23_d3ars")]
+transform = Transform3D(-0.0216754, 0, -0.999765, 0, 1, 0, 0.999765, 0, -0.0216754, -6.47548, 0.2963, -34.9834)
+
+[node name="NISSAN-GTR3" parent="Map/NavigationRegion3D" instance=ExtResource("23_d3ars")]
+transform = Transform3D(-0.999962, 0, 0.00874404, 0, 1, 0, -0.00874404, 0, -0.999962, -84.3434, 0.2963, -29.1189)
+
+[node name="NISSAN-GTR4" parent="Map/NavigationRegion3D" instance=ExtResource("23_d3ars")]
+transform = Transform3D(-0.0175571, 0, 0.999846, 0, 1, 0, -0.999846, 0, -0.0175571, 94.107, 0.2963, 50.6843)
+
+[node name="NISSAN-GTR5" parent="Map/NavigationRegion3D" instance=ExtResource("23_d3ars")]
+transform = Transform3D(-0.0331726, 0, 0.99945, 0, 1, 0, -0.99945, 0, -0.0331726, -48.9347, 0.2963, 51.238)
+
+[node name="Chevrolet Camaro2" parent="Map/NavigationRegion3D" instance=ExtResource("24_l11rc")]
+transform = Transform3D(0.0490105, 0, 2.29948, 0, 2.3, 0, -2.29948, 0, 0.0490105, -37.9112, 0.296536, -36.7936)
+
+[node name="Chevrolet Camaro3" parent="Map/NavigationRegion3D" instance=ExtResource("24_l11rc")]
+transform = Transform3D(2.3, 0, 0, 0, 2.3, 0, 0, 0, 2.3, -83.4246, 0.296536, -108.964)
+
+[node name="Chevrolet Camaro4" parent="Map/NavigationRegion3D" instance=ExtResource("24_l11rc")]
+transform = Transform3D(-0.104696, 0, 2.29762, 0, 2.3, 0, -2.29762, 0, -0.104696, 32.9703, 0.296536, -75.0964)
+
+[node name="Chevrolet Camaro5" parent="Map/NavigationRegion3D" instance=ExtResource("24_l11rc")]
+transform = Transform3D(0.0940278, 0, -2.29808, 0, 2.3, 0, 2.29808, 0, 0.0940278, -130.159, 0.296536, 47.6383)
+
+[node name="Chevrolet Camaro6" parent="Map/NavigationRegion3D" instance=ExtResource("24_l11rc")]
+transform = Transform3D(2.3, 0, 0, 0, 2.3, 0, 0, 0, 2.3, 45.9024, 0.296536, 35.3076)
+
 [node name="Asian buildings" parent="Map/NavigationRegion3D" instance=ExtResource("6_45d1s")]
 transform = Transform3D(2.5, 0, 0, 0, 2.5, 0, 0, 0, 2.5, 120.482, -0.384558, 142.166)
 
@@ -227,19 +257,19 @@ rings = 12
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -23.6352, 0, -44.6866)
 
 [node name="Spawn1" type="Node3D" parent="Map/Spawns"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 78.4543, 46.7333, 33.2789)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 65.8474, 35.8027, 33.2789)
 
 [node name="Spawn2" type="Node3D" parent="Map/Spawns"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 70.2849, 45.4476, 34.0811)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 70.2849, 27.8958, 34.0811)
 
 [node name="Spawn3" type="Node3D" parent="Map/Spawns"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 82.29, 46.0692, 25.3226)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 82.29, 19.2367, 25.3226)
 
 [node name="Spawn4" type="Node3D" parent="Map/Spawns/Spawn3"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.09118, 0, 0.0719795)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.09118, 7.8215, 0.0719795)
 
 [node name="Spawn24" type="Node3D" parent="Map/Spawns"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 68.4834, 52.4365, 29.9584)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 68.4834, 36.6077, 29.9584)
 
 [node name="Spawn25" type="Node3D" parent="Map/Spawns"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 77.3844, 0, 24.7491)
@@ -347,39 +377,6 @@ occluder = ExtResource("21_b5aes")
 
 [node name="UFO" parent="." instance=ExtResource("22_w0bku")]
 transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, 60.3316, 65.1557, -11.135)
-
-[node name="NISSAN-GTR" parent="." instance=ExtResource("23_d3ars")]
-transform = Transform3D(0.0262467, 0, 0.999655, 0, 1, 0, -0.999655, 0, 0.0262467, -32.6662, 0.2963, -8.6908)
-
-[node name="NISSAN-GTR2" parent="." instance=ExtResource("23_d3ars")]
-transform = Transform3D(-0.0216754, 0, -0.999765, 0, 1, 0, 0.999765, 0, -0.0216754, -6.47548, 0.2963, -34.9834)
-
-[node name="NISSAN-GTR3" parent="." instance=ExtResource("23_d3ars")]
-transform = Transform3D(-0.999962, 0, 0.00874404, 0, 1, 0, -0.00874404, 0, -0.999962, -84.3434, 0.2963, -29.1189)
-
-[node name="NISSAN-GTR4" parent="." instance=ExtResource("23_d3ars")]
-transform = Transform3D(-0.0175571, 0, 0.999846, 0, 1, 0, -0.999846, 0, -0.0175571, 94.107, 0.2963, 50.6843)
-
-[node name="NISSAN-GTR5" parent="." instance=ExtResource("23_d3ars")]
-transform = Transform3D(-0.0331726, 0, 0.99945, 0, 1, 0, -0.99945, 0, -0.0331726, -48.9347, 0.2963, 51.238)
-
-[node name="Chevrolet Camaro" parent="." instance=ExtResource("24_l11rc")]
-transform = Transform3D(0.0885728, 0, 2.29829, 0, 2.3, 0, -2.29829, 0, 0.0885728, -34.9094, 0.296536, -15.572)
-
-[node name="Chevrolet Camaro2" parent="." instance=ExtResource("24_l11rc")]
-transform = Transform3D(0.0490105, 0, 2.29948, 0, 2.3, 0, -2.29948, 0, 0.0490105, -37.9112, 0.296536, -36.7936)
-
-[node name="Chevrolet Camaro3" parent="." instance=ExtResource("24_l11rc")]
-transform = Transform3D(2.3, 0, 0, 0, 2.3, 0, 0, 0, 2.3, -83.4246, 0.296536, -108.964)
-
-[node name="Chevrolet Camaro4" parent="." instance=ExtResource("24_l11rc")]
-transform = Transform3D(-0.104696, 0, 2.29762, 0, 2.3, 0, -2.29762, 0, -0.104696, 32.9703, 0.296536, -75.0964)
-
-[node name="Chevrolet Camaro5" parent="." instance=ExtResource("24_l11rc")]
-transform = Transform3D(0.0940278, 0, -2.29808, 0, 2.3, 0, 2.29808, 0, 0.0940278, -130.159, 0.296536, 47.6383)
-
-[node name="Chevrolet Camaro6" parent="." instance=ExtResource("24_l11rc")]
-transform = Transform3D(2.3, 0, 0, 0, 2.3, 0, 0, 0, 2.3, 45.9024, 0.296536, 35.3076)
 
 [connection signal="player_hit" from="Map/Player" to="." method="_on_player_player_hit"]
 [connection signal="timeout" from="ZombieSpawnTimer" to="." method="_on_zombie_spawn_timer_timeout"]
