@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://bc7u4lxg43cun"]
+
+[ext_resource type="PackedScene" uid="uid://b7bccnw6sm48s" path="res://Models/UFO/UFO.glb" id="1_c0rv2"]
+[ext_resource type="ArrayOccluder3D" uid="uid://c1i0bloniqe58" path="res://Scenes/ufo.occ" id="2_lwnds"]
+
+[node name="UFO" instance=ExtResource("1_c0rv2")]
+
+[node name="Sphere" parent="." index="0"]
+lod_bias = 0.1
+
+[node name="OccluderInstance3D" type="OccluderInstance3D" parent="." index="1"]
+occluder = ExtResource("2_lwnds")

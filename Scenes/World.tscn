@@ -1,4 +1,4 @@
-[gd_scene load_steps=32 format=3 uid="uid://db2h3t17k37pe"]
+[gd_scene load_steps=31 format=3 uid="uid://db2h3t17k37pe"]
 
 [ext_resource type="Script" uid="uid://cp8ddmcbhue8d" path="res://Scripts/World.gd" id="1_yrgup"]
 [ext_resource type="PackedScene" uid="uid://bir6o1slvvhkr" path="res://UsingAsset/free city/freeCity.glb" id="2_p70al"]
@@ -19,11 +19,10 @@
 [ext_resource type="PackedScene" uid="uid://bvlo82k6ep1lm" path="res://UsingAsset/buildings and houses/buildings/front building/Cube.tscn" id="21_0ao37"]
 [ext_resource type="ArrayOccluder3D" uid="uid://bvyn6wpta2gnr" path="res://optmize/World.occ" id="21_b5aes"]
 [ext_resource type="PackedScene" uid="uid://cpp7f10k11dy1" path="res://UsingAsset/buildings and houses/buildings/front building/Vert_003_Vert_001.tscn" id="22_d3ars"]
-[ext_resource type="PackedScene" uid="uid://b7bccnw6sm48s" path="res://Models/UFO/UFO.glb" id="22_w0bku"]
 [ext_resource type="PackedScene" uid="uid://blnls7s0ys3u8" path="res://Scenes/nissan_gtr.tscn" id="23_d3ars"]
 [ext_resource type="PackedScene" uid="uid://cfb8i6tmppbmd" path="res://UsingAsset/buildings and houses/buildings/front building/Vert_003_Vert_008.tscn" id="23_l11rc"]
+[ext_resource type="PackedScene" uid="uid://bc7u4lxg43cun" path="res://ufo.tscn" id="24_d3ars"]
 [ext_resource type="PackedScene" uid="uid://5y8d6vlr0mde" path="res://Scenes/chevrolet_camaro.tscn" id="24_l11rc"]
-[ext_resource type="ArrayOccluder3D" uid="uid://db51u21fhi2x3" path="res://Scenes/World.occ" id="25_l11rc"]
 [ext_resource type="PackedScene" uid="uid://5iurrb07epis" path="res://Scenes/Player.tscn" id="31_jumwc"]
 
 [sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_6lu03"]
@@ -376,11 +375,26 @@ autostart = true
 visible = false
 occluder = ExtResource("21_b5aes")
 
-[node name="UFO" parent="." instance=ExtResource("22_w0bku")]
-transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, 60.3316, 65.1557, -11.135)
+[node name="UFO2" parent="." instance=ExtResource("24_d3ars")]
+transform = Transform3D(7, 0, 0, 0, 7, 0, 0, 0, 7, 62.7091, 86.3894, 11.6726)
 
-[node name="OccluderInstance3D" type="OccluderInstance3D" parent="UFO"]
-occluder = ExtResource("25_l11rc")
+[node name="UFO3" parent="." instance=ExtResource("24_d3ars")]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, -185.949, 137.143, 34.9561)
+
+[node name="UFO4" parent="." instance=ExtResource("24_d3ars")]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 128.915, 165.519, 117.064)
+
+[node name="UFO5" parent="." instance=ExtResource("24_d3ars")]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, -79.9069, 138.376, 194.674)
+
+[node name="UFO6" parent="." instance=ExtResource("24_d3ars")]
+transform = Transform3D(-4.74062, 0, -1.5895, 0, 5, 0, 1.5895, 0, -4.74062, 173.338, 137.143, -171.801)
+
+[node name="UFO7" parent="." instance=ExtResource("24_d3ars")]
+transform = Transform3D(-4.74062, 0, -1.5895, 0, 5, 0, 1.5895, 0, -4.74062, -265.199, 139.903, -144.132)
+
+[node name="UFO8" parent="." instance=ExtResource("24_d3ars")]
+transform = Transform3D(-4.74062, 0, -1.5895, 0, 5, 0, 1.5895, 0, -4.74062, -38.3134, 124.257, -232.794)
 
 [connection signal="player_hit" from="Map/Player" to="." method="_on_player_player_hit"]
 [connection signal="timeout" from="ZombieSpawnTimer" to="." method="_on_zombie_spawn_timer_timeout"]

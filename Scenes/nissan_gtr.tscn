@@ -7,6 +7,566 @@ size = Vector3(4.90323, 3.65979, 11.9672)
 
 [node name="NISSAN-GTR" instance=ExtResource("1_hmlfm")]
 
+[node name="Object_8_001" parent="sas_model_001/root_001/GLTF_SceneRootNode_001/Cube_0_001" index="0"]
+visible = false
+lod_bias = 0.1
+
+[node name="Object_7_001" parent="sas_model_001/root_001/GLTF_SceneRootNode_001/Cube_0_001" index="1"]
+visible = false
+lod_bias = 0.1
+
+[node name="Object_6_001" parent="sas_model_001/root_001/GLTF_SceneRootNode_001/Cube_0_001" index="2"]
+visible = false
+lod_bias = 0.1
+
+[node name="Object_5_001" parent="sas_model_001/root_001/GLTF_SceneRootNode_001/Cube_0_001" index="3"]
+visible = false
+lod_bias = 0.1
+
+[node name="Object_4_001" parent="sas_model_001/root_001/GLTF_SceneRootNode_001/Cube_0_001" index="4"]
+visible = false
+lod_bias = 0.1
+
+[node name="Object_11_001" parent="sas_model_001/root_001/GLTF_SceneRootNode_001/Cube_012_1_001" index="0"]
+lod_bias = 0.1
+
+[node name="Object_10_001" parent="sas_model_001/root_001/GLTF_SceneRootNode_001/Cube_012_1_001" index="1"]
+lod_bias = 0.1
+
+[node name="NIS72_black_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS72" index="0"]
+lod_bias = 0.1
+
+[node name="NIS128_mirrorMiddle_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS128" index="0"]
+lod_bias = 0.1
+
+[node name="NIS98_black_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS98" index="0"]
+lod_bias = 0.1
+
+[node name="NIS102_reverse_light_lo_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS102" index="0"]
+lod_bias = 0.1
+
+[node name="NIS20_carbon_fiber_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS20" index="0"]
+lod_bias = 0.1
+
+[node name="NIS107_frame_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS107" index="0"]
+lod_bias = 0.1
+
+[node name="NIS157_gauge_emissive_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS157" index="0"]
+lod_bias = 0.1
+
+[node name="NIS75_chrome_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS75" index="0"]
+lod_bias = 0.1
+
+[node name="NIS49_frame_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS49" index="0"]
+lod_bias = 0.1
+
+[node name="NIS05_black_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS05" index="0"]
+lod_bias = 0.1
+
+[node name="NIS161_reflector_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS161" index="0"]
+lod_bias = 0.1
+
+[node name="NIS182_Material__8_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS182" index="0"]
+lod_bias = 0.1
+
+[node name="NIS62_detail_glass_cle_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS62" index="0"]
+lod_bias = 0.1
+
+[node name="NIS153_bump_leather_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS153" index="0"]
+lod_bias = 0.1
+
+[node name="NIS183_brake_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS183" index="0"]
+lod_bias = 0.1
+
+[node name="NIS119_bump_plastic_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS119" index="0"]
+lod_bias = 0.1
+
+[node name="NIS96_taillight2S_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS96" index="0"]
+lod_bias = 0.1
+
+[node name="NIS35_carbon_fiber_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS35" index="0"]
+lod_bias = 0.1
+
+[node name="NIS169_rim_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS169" index="0"]
+lod_bias = 0.1
+
+[node name="NIS76_detail_glass_cle_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS76" index="0"]
+lod_bias = 0.1
+
+[node name="NIS69_matte_colors_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS69" index="0"]
+lod_bias = 0.1
+
+[node name="NIS00_Material__8_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS00" index="0"]
+lod_bias = 0.1
+
+[node name="NIS104_textured_reflect_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS104" index="0"]
+lod_bias = 0.1
+
+[node name="NIS158_leather_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS158" index="0"]
+lod_bias = 0.1
+
+[node name="NIS16_misc_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS16" index="0"]
+lod_bias = 0.1
+
+[node name="NIS01_Material__8_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS01" index="0"]
+lod_bias = 0.1
+
+[node name="NIS02_window_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS02" index="0"]
+lod_bias = 0.1
+
+[node name="NIS52_matte_colors_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS52" index="0"]
+lod_bias = 0.1
+
+[node name="NIS65_fogred_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS65" index="0"]
+lod_bias = 0.1
+
+[node name="NIS13_detail_glass_cle_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS13" index="0"]
+lod_bias = 0.1
+
+[node name="sub01200_Material__6_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/ruota01200" index="0"]
+lod_bias = 0.1
+
+[node name="sub01200_Material__6_0_001" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/ruota01200" index="1"]
+lod_bias = 0.1
+
+[node name="NIS68_indicator_right_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS68" index="0"]
+lod_bias = 0.1
+
+[node name="NIS97_textured_reflect_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS97" index="0"]
+lod_bias = 0.1
+
+[node name="NIS54_plastic2_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS54" index="0"]
+lod_bias = 0.1
+
+[node name="NIS77_glass_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS77" index="0"]
+lod_bias = 0.1
+
+[node name="NIS17_textured_reflect_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS17" index="0"]
+lod_bias = 0.1
+
+[node name="NIS89_black_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS89" index="0"]
+lod_bias = 0.1
+
+[node name="NIS159_metal_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS159" index="0"]
+lod_bias = 0.1
+
+[node name="NIS177_outer_rim_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS177" index="0"]
+lod_bias = 0.1
+
+[node name="NIS59_body_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS59" index="0"]
+lod_bias = 0.1
+
+[node name="NIS83_glass_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS83" index="0"]
+lod_bias = 0.1
+
+[node name="NIS117_bump_leather_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS117" index="0"]
+lod_bias = 0.1
+
+[node name="NIS66_frame_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS66" index="0"]
+lod_bias = 0.1
+
+[node name="NIS166_gauge_emissive_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS166" index="0"]
+lod_bias = 0.1
+
+[node name="NIS90_misc_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS90" index="0"]
+lod_bias = 0.1
+
+[node name="NIS39_misc_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS39" index="0"]
+lod_bias = 0.1
+
+[node name="NIS168_inner_rim_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS168" index="0"]
+lod_bias = 0.1
+
+[node name="NIS133_stitching_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS133" index="0"]
+lod_bias = 0.1
+
+[node name="NIS172_outer_rim_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS172" index="0"]
+lod_bias = 0.1
+
+[node name="NIS118_bump_leather2_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS118" index="0"]
+lod_bias = 0.1
+
+[node name="NIS179_chrome_rim_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS179" index="0"]
+lod_bias = 0.1
+
+[node name="NIS51_indicator_right_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS51" index="0"]
+lod_bias = 0.1
+
+[node name="NIS147_plastic_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS147" index="0"]
+lod_bias = 0.1
+
+[node name="NIS99_chrome_2_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS99" index="0"]
+lod_bias = 0.1
+
+[node name="NIS78_window_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS78" index="0"]
+lod_bias = 0.1
+
+[node name="NIS14_hidhead_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS14" index="0"]
+lod_bias = 0.1
+
+[node name="NIS48_emblem_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS48" index="0"]
+lod_bias = 0.1
+
+[node name="NIS94_indicator_left_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS94" index="0"]
+lod_bias = 0.1
+
+[node name="NIS115_hub_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS115" index="0"]
+lod_bias = 0.1
+
+[node name="NIS120_carbon_fiber_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS120" index="0"]
+lod_bias = 0.1
+
+[node name="NIS41_rubber_trim_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS41" index="0"]
+lod_bias = 0.1
+
+[node name="NIS47_drlwhite_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS47" index="0"]
+lod_bias = 0.1
+
+[node name="NIS06_detail_glass_cle_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS06" index="0"]
+lod_bias = 0.1
+
+[node name="NIS64_emblem_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS64" index="0"]
+lod_bias = 0.1
+
+[node name="NIS150_gauge_emissive_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS150" index="0"]
+lod_bias = 0.1
+
+[node name="NIS74_black_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS74" index="0"]
+lod_bias = 0.1
+
+[node name="NIS80_detail_glass_red_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS80" index="0"]
+lod_bias = 0.1
+
+[node name="NIS71_numplate_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS71" index="0"]
+lod_bias = 0.1
+
+[node name="NIS178_wheel_black_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS178" index="0"]
+lod_bias = 0.1
+
+[node name="NIS03_window_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS03" index="0"]
+lod_bias = 0.1
+
+[node name="NIS127_metal_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS127" index="0"]
+lod_bias = 0.1
+
+[node name="NIS63_detail_glass_red_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS63" index="0"]
+lod_bias = 0.1
+
+[node name="NIS129_mottled_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS129" index="0"]
+lod_bias = 0.1
+
+[node name="NIS70_misc_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS70" index="0"]
+lod_bias = 0.1
+
+[node name="NIS92_chrome_2_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS92" index="0"]
+lod_bias = 0.1
+
+[node name="NIS34_body_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS34" index="0"]
+lod_bias = 0.1
+
+[node name="NIS45_chrome_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS45" index="0"]
+lod_bias = 0.1
+
+[node name="NIS131_reflector_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS131" index="0"]
+lod_bias = 0.1
+
+[node name="NIS44_carbon_fiber_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS44" index="0"]
+lod_bias = 0.1
+
+[node name="NIS165_plastic_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS165" index="0"]
+lod_bias = 0.1
+
+[node name="NIS160_plastic_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS160" index="0"]
+lod_bias = 0.1
+
+[node name="NIS116_badge_cp_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS116" index="0"]
+lod_bias = 0.1
+
+[node name="NIS24_matte_colors_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS24" index="0"]
+lod_bias = 0.1
+
+[node name="NIS149_plastic_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS149" index="0"]
+lod_bias = 0.1
+
+[node name="NIS114_brake_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS114" index="0"]
+lod_bias = 0.1
+
+[node name="NIS08_indicator_left_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS08" index="0"]
+lod_bias = 0.1
+
+[node name="NIS43_body_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS43" index="0"]
+lod_bias = 0.1
+
+[node name="NIS171_wheel_black_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS171" index="0"]
+lod_bias = 0.1
+
+[node name="NIS112_brake_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS112" index="0"]
+lod_bias = 0.1
+
+[node name="NIS04_window_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS04" index="0"]
+lod_bias = 0.1
+
+[node name="NIS55_carbon_fiber_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS55" index="0"]
+lod_bias = 0.1
+
+[node name="NIS151_plastic_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS151" index="0"]
+lod_bias = 0.1
+
+[node name="NIS152_badge_cp_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS152" index="0"]
+lod_bias = 0.1
+
+[node name="NIS33_black_glass_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS33" index="0"]
+lod_bias = 0.1
+
+[node name="NIS91_black_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS91" index="0"]
+lod_bias = 0.1
+
+[node name="NIS87_black_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS87" index="0"]
+lod_bias = 0.1
+
+[node name="NIS113_hub_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS113" index="0"]
+lod_bias = 0.1
+
+[node name="NIS56_drlwhite_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS56" index="0"]
+lod_bias = 0.1
+
+[node name="NIS198_brake_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS198" index="0"]
+lod_bias = 0.1
+
+[node name="NIS125_headliner_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS125" index="0"]
+lod_bias = 0.1
+
+[node name="NIS109_misc_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS109" index="0"]
+lod_bias = 0.1
+
+[node name="NIS154_bump_leather2_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS154" index="0"]
+lod_bias = 0.1
+
+[node name="NIS123_gauge_emissive_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS123" index="0"]
+lod_bias = 0.1
+
+[node name="NIS123_gauge_emissive_0_001" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS123" index="1"]
+lod_bias = 0.1
+
+[node name="NIS95_reverse_light_lo_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS95" index="0"]
+lod_bias = 0.1
+
+[node name="NIS15_indicator_right_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS15" index="0"]
+lod_bias = 0.1
+
+[node name="NIS124_glass_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS124" index="0"]
+lod_bias = 0.1
+
+[node name="NIS132_solid_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS132" index="0"]
+lod_bias = 0.1
+
+[node name="NIS82_detail_glass_cle_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS82" index="0"]
+lod_bias = 0.1
+
+[node name="NIS60_carbon_fiber_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS60" index="0"]
+lod_bias = 0.1
+
+[node name="NIS37_frame_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS37" index="0"]
+lod_bias = 0.1
+
+[node name="NIS25_mirrorLeft_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS25" index="0"]
+lod_bias = 0.1
+
+[node name="NIS67_indicator_left_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS67" index="0"]
+lod_bias = 0.1
+
+[node name="NIS09_misc_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS09" index="0"]
+lod_bias = 0.1
+
+[node name="NIS88_misc_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS88" index="0"]
+lod_bias = 0.1
+
+[node name="NIS105_body_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS105" index="0"]
+lod_bias = 0.1
+
+[node name="NIS40_plastic2_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS40" index="0"]
+lod_bias = 0.1
+
+[node name="NIS155_bump_plastic_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS155" index="0"]
+lod_bias = 0.1
+
+[node name="NIS84_window_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS84" index="0"]
+lod_bias = 0.1
+
+[node name="NIS61_chrome_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS61" index="0"]
+lod_bias = 0.1
+
+[node name="NIS167_plastic_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS167" index="0"]
+lod_bias = 0.1
+
+[node name="NIS103_taillight2S_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS103" index="0"]
+lod_bias = 0.1
+
+[node name="NIS12_black_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS12" index="0"]
+lod_bias = 0.1
+
+[node name="NIS38_matte_colors_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS38" index="0"]
+lod_bias = 0.1
+
+[node name="NIS130_plastic_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS130" index="0"]
+lod_bias = 0.1
+
+[node name="NIS121_chrome_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS121" index="0"]
+lod_bias = 0.1
+
+[node name="NIS174_rim_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS174" index="0"]
+lod_bias = 0.1
+
+[node name="NIS156_chrome_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS156" index="0"]
+lod_bias = 0.1
+
+[node name="NIS18_xenonhead_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS18" index="0"]
+lod_bias = 0.1
+
+[node name="NIS21_frame_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS21" index="0"]
+lod_bias = 0.1
+
+[node name="NIS11_xenonhead_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS11" index="0"]
+lod_bias = 0.1
+
+[node name="NIS192_Material__8_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS192" index="0"]
+lod_bias = 0.1
+
+[node name="NIS26_plastic2_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS26" index="0"]
+lod_bias = 0.1
+
+[node name="NIS23_body_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS23" index="0"]
+lod_bias = 0.1
+
+[node name="NIS57_indicator_left_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS57" index="0"]
+lod_bias = 0.1
+
+[node name="NIS46_detail_glass_cle_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS46" index="0"]
+lod_bias = 0.1
+
+[node name="NIS111_tail_light_lod0_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS111" index="0"]
+lod_bias = 0.1
+
+[node name="NIS07_hidhead_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS07" index="0"]
+lod_bias = 0.1
+
+[node name="NIS27_body_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS27" index="0"]
+lod_bias = 0.1
+
+[node name="NIS106_emblem_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS106" index="0"]
+lod_bias = 0.1
+
+[node name="NIS163_plastic_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS163" index="0"]
+lod_bias = 0.1
+
+[node name="NIS29_mirrorRight_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS29" index="0"]
+lod_bias = 0.1
+
+[node name="NIS101_indicator_right_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS101" index="0"]
+lod_bias = 0.1
+
+[node name="NIS110_detail_glass_red_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS110" index="0"]
+lod_bias = 0.1
+
+[node name="NIS36_emblem_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS36" index="0"]
+lod_bias = 0.1
+
+[node name="sub01_Material__6_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/ruota" index="0"]
+lod_bias = 0.1
+
+[node name="sub01_Material__6_0_001" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/ruota" index="1"]
+lod_bias = 0.1
+
+[node name="NIS19_body_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS19" index="0"]
+lod_bias = 0.1
+
+[node name="NIS31_badge_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS31" index="0"]
+lod_bias = 0.1
+
+[node name="NIS176_inner_rim_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS176" index="0"]
+lod_bias = 0.1
+
+[node name="NIS122_digital_gauge_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS122" index="0"]
+lod_bias = 0.1
+
+[node name="NIS73_chrome_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS73" index="0"]
+lod_bias = 0.1
+
+[node name="NIS32_black_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS32" index="0"]
+lod_bias = 0.1
+
+[node name="NIS30_plastic2_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS30" index="0"]
+lod_bias = 0.1
+
+[node name="sub02_Material__6_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/ruota02" index="0"]
+lod_bias = 0.1
+
+[node name="sub02_Material__6_0_001" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/ruota02" index="1"]
+lod_bias = 0.1
+
+[node name="sub02201_Material__6_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/ruota3443" index="0"]
+lod_bias = 0.1
+
+[node name="sub02201_Material__6_0_001" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/ruota3443" index="1"]
+lod_bias = 0.1
+
+[node name="NIS86_detail_glass_red_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS86" index="0"]
+lod_bias = 0.1
+
+[node name="NIS42_black_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS42" index="0"]
+lod_bias = 0.1
+
+[node name="NIS108_undercarriage_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS108" index="0"]
+lod_bias = 0.1
+
+[node name="NIS28_matte_colors_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS28" index="0"]
+lod_bias = 0.1
+
+[node name="NIS81_window_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS81" index="0"]
+lod_bias = 0.1
+
+[node name="NIS10_textured_reflect_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS10" index="0"]
+lod_bias = 0.1
+
+[node name="NIS50_indicator_left_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS50" index="0"]
+lod_bias = 0.1
+
+[node name="NIS126_leather_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS126" index="0"]
+lod_bias = 0.1
+
+[node name="NIS53_misc_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS53" index="0"]
+lod_bias = 0.1
+
+[node name="NIS173_chrome_rim_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS173" index="0"]
+lod_bias = 0.1
+
+[node name="NIS22_matte_colors_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS22" index="0"]
+lod_bias = 0.1
+
+[node name="NIS58_black_0" parent="NISSAN-GTR_model/f7e32625de384bd99452329e72b9f914_fbx/RootNode2/NIS58" index="0"]
+lod_bias = 0.1
+
+[node name="Object_4" parent="sas_model/root/GLTF_SceneRootNode/Cube_0" index="0"]
+lod_bias = 0.1
+
+[node name="Object_5" parent="sas_model/root/GLTF_SceneRootNode/Cube_0" index="1"]
+lod_bias = 0.1
+
+[node name="Object_6" parent="sas_model/root/GLTF_SceneRootNode/Cube_0" index="2"]
+lod_bias = 0.1
+
+[node name="Object_7" parent="sas_model/root/GLTF_SceneRootNode/Cube_0" index="3"]
+lod_bias = 0.1
+
+[node name="Object_8" parent="sas_model/root/GLTF_SceneRootNode/Cube_0" index="4"]
+lod_bias = 0.1
+
+[node name="Object_10" parent="sas_model/root/GLTF_SceneRootNode/Cube_012_1" index="0"]
+lod_bias = 0.1
+
+[node name="Object_11" parent="sas_model/root/GLTF_SceneRootNode/Cube_012_1" index="1"]
+lod_bias = 0.1
+
 [node name="StaticBody3D" type="StaticBody3D" parent="." index="3"]
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" index="0"]

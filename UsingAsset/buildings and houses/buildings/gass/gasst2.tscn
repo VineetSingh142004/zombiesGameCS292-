@@ -404,6 +404,7 @@ transform = Transform3D(1.25, 0, 0, 0, 1, 0, 0, 0, 1.4, 0, 0, 0)
 
 [node name="Object039" type="MeshInstance3D" parent="."]
 transform = Transform3D(-3.02792e-09, 0, -0.0254, 0, 0.0254, 0, 0.0254, 0, -3.02792e-09, 195.503, -0.943378, -946.306)
+lod_bias = 0.3
 mesh = SubResource("ArrayMesh_em84c")
 skeleton = NodePath("")
 
@@ -414,6 +415,7 @@ shape = SubResource("ConcavePolygonShape3D_iv2e6")
 
 [node name="Plane001" type="MeshInstance3D" parent="."]
 transform = Transform3D(0.0198119, 0, 0, 0, 0.0254, 0, 0, 0, 0.0206278, 1.98973, -6.20115, 0.0993629)
+lod_bias = 0.3
 mesh = SubResource("ArrayMesh_cqyff")
 skeleton = NodePath("")
 

@@ -7,6 +7,9 @@ size = Vector3(2.00949, 1.37274, 4.6709)
 
 [node name="Chevrolet Camaro" instance=ExtResource("1_4nllp")]
 
+[node name="Camaro" parent="." index="0"]
+lod_bias = 0.1
+
 [node name="StaticBody3D" type="StaticBody3D" parent="." index="1"]
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" index="0"]
